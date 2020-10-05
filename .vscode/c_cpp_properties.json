@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/mpi/intel/openmpi-2.1.2-hfi/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/mpi/intel/openmpi-2.1.2-hfi/bin/mpicc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
