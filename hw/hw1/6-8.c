@@ -1,92 +1,80 @@
 /*
- *   Floyd's all-pairs shortest path
+ *   Circuit Satisfiability, Version 3
  *
- *   Given an NxN matrix of distances between pairs of
- *   vertices, this MPI program computes the shortest path
- *   between every pair of vertices.
- *
- *   This program shows:
- *      how to dynamically allocate multidimensional arrays
- *      how one process can handle I/O for the others
- *      broadcasting of a vector of elements
- *      messages with different tags
+ *   This version of the program prints the total number of
+ *   solutions and the execution time.
  *
  *   Programmed by Michael J. Quinn
  *
- *   Last modification: 4 September 2002
+ *   Last modification: 3 September 2002
  */
 
+#include "mpi.h"
+#include <assert.h>
 #include <stdio.h>
-#include <mpi.h>
-#include "../MyMPI.h"
 
-typedef int dtype;
-#define MPI_TYPE MPI_INT
+#define datatype MPI_LONG_DOUBLE
 
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
-    dtype **a;      /* Doubly-subscripted array */
-    dtype *storage; /* Local portion of array elements */
-    int i, j, k;
+    double elapsed_time; /* Time to find, count solutions */
     int id; /* Process rank */
-    int m;  /* Rows in matrix */
-    int n;  /* Columns in matrix */
-    int p;  /* Number of processes */
-    double time, max_time;
-
-    void compute_shortest_paths(int, int, int **, int);
+    int p; /* Number of processes */
+    MPI_Status status;
 
     MPI_Init(&argc, &argv);
+
     MPI_Comm_rank(MPI_COMM_WORLD, &id);
     MPI_Comm_size(MPI_COMM_WORLD, &p);
-
-    read_row_striped_matrix(argv[1], (void *)&a,
-                            (void *)&storage, MPI_TYPE, &m, &n, MPI_COMM_WORLD);
-
-    if (m != n)
-        terminate(id, "Matrix must be square\n");
-
-    /*
-   print_row_striped_matrix ((void **) a, MPI_TYPE, m, n,
-      MPI_COMM_WORLD);
-*/
     MPI_Barrier(MPI_COMM_WORLD);
-    time = -MPI_Wtime();
-    compute_shortest_paths(id, p, (dtype **)a, n);
-    time += MPI_Wtime();
-    MPI_Reduce(&time, &max_time, 1, MPI_DOUBLE, MPI_MAX, 0,
-               MPI_COMM_WORLD);
-    if (!id)
-        printf("Floyd, matrix size %d, %d processes: %6.2f seconds\n",
-               n, p, max_time);
-    /*
-   print_row_striped_matrix ((void **) a, MPI_TYPE, m, n,
-      MPI_COMM_WORLD);
-*/
-    MPI_Finalize();
-}
-
-void compute_shortest_paths(int id, int p, dtype **a, int n)
-{
-    int i, j, k;
-    int offset; /* Local index of broadcast row */
-    int root;   /* Process controlling row to be bcast */
-    int *tmp;   /* Holds the broadcast row */
-
-    tmp = (dtype *)malloc(n * sizeof(dtype));
-    for (k = 0; k < n; k++)
-    {
-        root = BLOCK_OWNER(k, p, n);
-        if (root == id)
-        {
-            offset = k - BLOCK_LOW(id, p, n);
-            for (j = 0; j < n; j++)
-                tmp[j] = a[offset][j];
-        }
-        MPI_Bcast(tmp, n, MPI_TYPE, root, MPI_COMM_WORLD);
-        for (i = 0; i < BLOCK_SIZE(id, p, n); i++)
-            for (j = 0; j < n; j++)
-                a[i][j] = MIN(a[i][j], a[i][k] + tmp[j]);
+    if (id == 0) {
+        printf("Processer number %d\n\n", p);
+        fflush(stdout);
     }
-    free(tmp);
+    // Start Here
+    assert(p == 2);
+
+    /* Start timer */
+    elapsed_time = -MPI_Wtime();
+
+    int n = 1e2;
+    int tag = 0;
+    int sent;
+    int received;
+
+    for (int i = 0; i < n; i++) {
+        sent = i;
+        if (id == 0) {
+            int destId = 1;
+
+            MPI_Send(&sent, 1, datatype, destId, tag, MPI_COMM_WORLD);
+            MPI_Recv(&received, 1, datatype, destId, tag, MPI_COMM_WORLD, &status);
+        }
+        if (id == 1) {
+            int sourceId = 0;
+
+            MPI_Recv(&received, 1, datatype, sourceId, tag, MPI_COMM_WORLD, &status);
+            // printf("Received %d\n", received);
+            // fflush(stdout);
+            MPI_Send(&received, 1, datatype, sourceId, tag, MPI_COMM_WORLD);
+        }
+    }
+    /* Stop timer */
+    elapsed_time += MPI_Wtime();
+
+    // meta
+    if (id == 0) {
+        printf("n = %d\n", n);
+        fflush(stdout);
+        printf("bandwith = %d\n", sizeof(sent));
+        fflush(stdout);
+        printf("Execution time %8.6f\n", elapsed_time);
+        fflush(stdout);
+        printf("Avg latency + (n / bandwith) = %8.10f\n", elapsed_time / (2 * n));
+        fflush(stdout);
+    }
+
+    MPI_Finalize();
+
+    return 0;
 }

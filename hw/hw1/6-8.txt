@@ -1,0 +1,14 @@
+6.8 Assume that the time needed to send an n-byte message is X + n/f.
+Write a program implementing the "ping pong" test to determine X
+(latency) and f (bandwidth) on your parallel computer.
+ Design the
+program to run on exactly two processes. 
+
+Process 0 records the time and then sends a message to process 1. 
+After process 1 receives the message,it immediately sends it back to process 0. 
+Process 0 receives the message and records the time. 
+
+The elapsed time divided by 2 is the average
+message-passing time. Try sending messages multiple times, and
+experiment with messages of different lengths, to generate enough data
+points that you can estimate X and /?.

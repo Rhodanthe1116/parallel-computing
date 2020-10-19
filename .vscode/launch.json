@@ -8,7 +8,7 @@
             "program": "/usr/mpi/intel/openmpi-2.1.2-hfi/bin/mpirun",
             "args": [
                 "-np",
-                "5",
+                "2",
                 "${fileDirname}/${fileBasenameNoExtension}.out"
             ],
             "stopAtEntry": false,
