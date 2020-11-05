@@ -1,0 +1,52 @@
+/home/hwww1116/parallel-computing/hw/hw1/6-8
+Thu Nov  5 22:11:56 CST 2020
+Processer number 2
+
+t = 10
+n-byte, n = 8
+Execution time 0.000026
+Avg latency + (n / bandwith) = 0.0000012994
+Processer number 2
+
+t = 100
+n-byte, n = 8
+Execution time 0.000147
+Avg latency + (n / bandwith) = 0.0000007355
+Processer number 2
+
+t = 1000
+n-byte, n = 8
+Execution time 0.001428
+Avg latency + (n / bandwith) = 0.0000007139
+Processer number 2
+
+t = 10000
+n-byte, n = 8
+Execution time 0.013116
+Avg latency + (n / bandwith) = 0.0000006558
+Processer number 2
+
+t = 100000
+n-byte, n = 8
+Execution time 0.144008
+Avg latency + (n / bandwith) = 0.0000007200
+Processer number 2
+
+t = 1000000
+n-byte, n = 8
+Execution time 1.303504
+Avg latency + (n / bandwith) = 0.0000006518
+Processer number 2
+
+t = 10000000
+n-byte, n = 8
+Execution time 12.397814
+Avg latency + (n / bandwith) = 0.0000006199
+Processer number 2
+
+t = 10000
+n-byte, n = 8
+Execution time 0.013853
+Avg latency + (n / bandwith) = 0.0000006927
+Processer number 2
+

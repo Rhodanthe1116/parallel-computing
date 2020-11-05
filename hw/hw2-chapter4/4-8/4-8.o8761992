@@ -1,0 +1,14 @@
+/home/hwww1116/parallel-computing/hw/hw2-chapter4/4-8
+Fri Nov  6 00:55:24 CST 2020
+Processer number 1
+
+id 0: Execution time 0.188225
+id 0: count : 8169
+Process number: 1	, Max time: 0.188225	, Answer: 8169
+Processer number 2
+
+id 0: Execution time 0.119552
+id 0: count : 4565
+Process number: 2	, Max time: 0.119562	, Answer: 8169
+id 1: Execution time 0.119562
+id 1: count : 3604

@@ -1,0 +1,494 @@
+/home/hwww1116/parallel-computing/hw/hw2-chapter4/4-9
+Fri Nov  6 01:45:45 CST 2020
+Processer number 1
+
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 199020 RUNNING AT cn0321
+=   EXIT CODE: 14
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 199020 RUNNING AT cn0321
+=   EXIT CODE: 14
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+   Intel(R) MPI Library troubleshooting guide:
+      https://software.intel.com/node/561764
+===================================================================================
+Processer number 2
+
+id 0: local_max_gap : 154
+id 0: Execution time 2.980925
+answer : 154
+Process number: 2	, Max time: 2.980928	, Answer: 154
+id 1: local_max_gap : 152
+id 1: Execution time 2.980928
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 199034 RUNNING AT cn0321
+=   EXIT CODE: 14
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 199034 RUNNING AT cn0321
+=   EXIT CODE: 14
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+   Intel(R) MPI Library troubleshooting guide:
+      https://software.intel.com/node/561764
+===================================================================================
+Processer number 4
+
+id 0: local_max_gap : 148
+id 0: Execution time 1.630326
+answer : 154
+Process number: 4	, Max time: 1.630335	, Answer: 154
+id 1: local_max_gap : 154
+id 1: Execution time 1.117895
+id 3: local_max_gap : 152
+id 3: Execution time 1.630329
+id 2: local_max_gap : 148
+id 2: Execution time 1.630335
+Processer number 8
+
+id 0: local_max_gap : 114
+id 0: Execution time 0.844853
+answer : 154
+Process number: 8	, Max time: 0.844865	, Answer: 154
+id 1: local_max_gap : 148
+id 1: Execution time 0.844862
+id 2: local_max_gap : 122
+id 2: Execution time 0.844864
+id 3: local_max_gap : 154
+id 3: Execution time 0.844865
+id 4: local_max_gap : 146
+id 4: Execution time 0.844862
+id 6: local_max_gap : 152
+id 6: Execution time 0.844861
+id 7: local_max_gap : 140
+id 7: Execution time 0.844861
+id 5: local_max_gap : 148
+id 5: Execution time 0.844861
+Processer number 16
+
+id 7: local_max_gap : 154
+id 7: Execution time 0.525809
+id 10: local_max_gap : 136
+id 10: Execution time 0.525807
+id 11: local_max_gap : 148
+id 11: Execution time 0.525808
+id 14: local_max_gap : 140
+id 14: Execution time 0.525807
+id 15: local_max_gap : 128
+id 15: Execution time 0.525808
+id 13: local_max_gap : 152
+id 13: Execution time 0.525808
+id 0: local_max_gap : 114
+id 0: Execution time 0.525798
+answer : 154
+Process number: 16	, Max time: 0.525809	, Answer: 154
+id 1: local_max_gap : 106
+id 1: Execution time 0.525809
+id 2: local_max_gap : 132
+id 2: Execution time 0.525809
+id 3: local_max_gap : 148
+id 3: Execution time 0.525809
+id 4: local_max_gap : 122
+id 4: Execution time 0.525808
+id 5: local_max_gap : 112
+id 5: Execution time 0.525809
+id 6: local_max_gap : 138
+id 6: Execution time 0.525809
+id 8: local_max_gap : 130
+id 8: Execution time 0.525809
+id 9: local_max_gap : 146
+id 9: Execution time 0.525809
+id 12: local_max_gap : 140
+id 12: Execution time 0.525808
+Processer number 32
+
+id 0: local_max_gap : 86
+id 0: Execution time 0.429794
+answer : 154
+Process number: 32	, Max time: 0.429801	, Answer: 154
+id 2: local_max_gap : 100
+id 2: Execution time 0.092972
+id 3: local_max_gap : 106
+id 3: Execution time 0.092968
+id 5: local_max_gap : 126
+id 5: Execution time 0.215582
+id 7: local_max_gap : 108
+id 7: Execution time 0.126329
+id 9: local_max_gap : 122
+id 9: Execution time 0.139165
+id 10: local_max_gap : 110
+id 10: Execution time 0.293143
+id 11: local_max_gap : 112
+id 11: Execution time 0.293085
+id 12: local_max_gap : 138
+id 12: Execution time 0.321922
+id 15: local_max_gap : 126
+id 15: Execution time 0.170445
+id 16: local_max_gap : 108
+id 16: Execution time 0.429801
+id 17: local_max_gap : 130
+id 17: Execution time 0.358239
+id 19: local_max_gap : 146
+id 19: Execution time 0.187068
+id 22: local_max_gap : 134
+id 21: local_max_gap : 126
+id 21: Execution time 0.195266
+id 22: Execution time 0.202213
+id 23: local_max_gap : 148
+id 23: Execution time 0.202208
+id 25: local_max_gap : 132
+id 25: Execution time 0.414024
+id 26: local_max_gap : 152
+id 26: Execution time 0.425125
+id 28: local_max_gap : 140
+id 28: Execution time 0.228990
+id 30: local_max_gap : 120
+id 30: Execution time 0.228988
+id 31: local_max_gap : 128
+id 31: Execution time 0.228984
+id 29: local_max_gap : 136
+id 29: Execution time 0.222952
+id 27: local_max_gap : 126
+id 27: Execution time 0.425121
+id 6: local_max_gap : 148
+id 6: Execution time 0.222836
+id 18: local_max_gap : 132
+id 18: Execution time 0.365209
+id 24: local_max_gap : 140
+id 24: Execution time 0.429800
+id 1: local_max_gap : 114
+id 1: Execution time 0.131555
+id 8: local_max_gap : 112
+id 8: Execution time 0.321929
+id 13: local_max_gap : 114
+id 14: local_max_gap : 154
+id 13: Execution time 0.304838
+id 14: Execution time 0.321917
+id 20: local_max_gap : 136
+id 20: Execution time 0.372272
+id 4: local_max_gap : 132
+id 4: Execution time 0.229800
+Processer number 50
+
+id 13: local_max_gap : 112
+id 13: Execution time 0.412724
+id 8: local_max_gap : 126
+id 8: Execution time 0.400229
+id 2: local_max_gap : 114
+id 2: Execution time 0.400217
+id 20: local_max_gap : 114
+id 20: Execution time 0.412724
+id 0: local_max_gap : 86
+id 0: Execution time 0.412710
+answer : 154
+Process number: 50	, Max time: 0.415508	, Answer: 154
+id 4: local_max_gap : 100
+id 4: Execution time 0.412724
+id 6: local_max_gap : 132
+id 6: Execution time 0.412724
+id 7: local_max_gap : 132
+id 7: Execution time 0.412732
+id 9: local_max_gap : 126
+id 9: Execution time 0.402222
+id 10: local_max_gap : 148
+id 10: Execution time 0.412724
+id 11: local_max_gap : 108
+id 11: Execution time 0.412726
+id 12: local_max_gap : 110
+id 12: Execution time 0.404997
+id 18: local_max_gap : 96
+id 18: Execution time 0.411996
+id 19: local_max_gap : 138
+id 19: Execution time 0.412724
+id 21: local_max_gap : 114
+id 21: Execution time 0.412724
+id 22: local_max_gap : 104
+id 22: Execution time 0.412724
+id 25: local_max_gap : 108
+id 25: Execution time 0.404212
+id 26: local_max_gap : 102
+id 26: Execution time 0.412724
+id 27: local_max_gap : 130
+id 27: Execution time 0.412722
+id 28: local_max_gap : 108
+id 28: Execution time 0.412724
+id 31: local_max_gap : 136
+id 31: Execution time 0.405209
+id 33: local_max_gap : 126
+id 33: Execution time 0.412724
+id 34: local_max_gap : 134
+id 34: Execution time 0.412724
+id 35: local_max_gap : 126
+id 35: Execution time 0.412724
+id 37: local_max_gap : 112
+id 37: Execution time 0.412724
+id 38: local_max_gap : 140
+id 38: Execution time 0.412725
+id 23: local_max_gap : 154
+id 23: Execution time 0.412725
+id 39: local_max_gap : 120
+id 39: Execution time 0.412724
+id 48: local_max_gap : 124
+id 48: Execution time 0.412724
+id 40: local_max_gap : 132
+id 40: Execution time 0.400223
+id 42: local_max_gap : 152
+id 42: Execution time 0.412737
+id 46: local_max_gap : 136
+id 46: Execution time 0.403224
+id 24: local_max_gap : 110
+id 24: Execution time 0.412725
+id 32: local_max_gap : 100
+id 32: Execution time 0.415508
+id 44: local_max_gap : 140
+id 44: Execution time 0.404232
+id 47: local_max_gap : 120
+id 47: Execution time 0.408219
+id 49: local_max_gap : 128
+id 49: Execution time 0.412734
+id 16: local_max_gap : 110
+id 16: Execution time 0.404212
+id 3: local_max_gap : 98
+id 3: Execution time 0.412724
+id 43: local_max_gap : 120
+id 43: Execution time 0.408232
+id 41: local_max_gap : 120
+id 41: Execution time 0.412733
+id 1: local_max_gap : 112
+id 1: Execution time 0.400211
+id 14: local_max_gap : 120
+id 14: Execution time 0.412522
+id 36: local_max_gap : 148
+id 36: Execution time 0.409991
+id 15: local_max_gap : 122
+id 15: Execution time 0.404211
+id 5: local_max_gap : 106
+id 5: Execution time 0.412724
+id 45: local_max_gap : 116
+id 45: Execution time 0.408228
+id 29: local_max_gap : 132
+id 29: Execution time 0.412725
+id 17: local_max_gap : 112
+id 17: Execution time 0.412724
+id 30: local_max_gap : 146
+id 30: Execution time 0.405209
+Processer number 100
+
+id 14: local_max_gap : 110
+id 14: Execution time 0.260755
+id 59: local_max_gap : 110
+id 59: Execution time 0.262711
+id 5: local_max_gap : 90
+id 5: Execution time 0.262568
+id 15: local_max_gap : 132
+id 15: Execution time 0.262818
+id 22: local_max_gap : 108
+id 22: Execution time 0.280529
+id 23: local_max_gap : 108
+id 23: Execution time 0.280531
+id 25: local_max_gap : 110
+id 25: Execution time 0.267571
+id 42: local_max_gap : 114
+id 42: Execution time 0.271570
+id 46: local_max_gap : 154
+id 46: Execution time 0.262618
+id 48: local_max_gap : 94
+id 48: Execution time 0.280662
+id 0: local_max_gap : 72
+id 0: Execution time 0.280516
+answer : 154
+Process number: 100	, Max time: 0.285028	, Answer: 154
+id 26: local_max_gap : 112
+id 26: Execution time 0.267571
+id 27: local_max_gap : 100
+id 27: Execution time 0.284053
+id 28: local_max_gap : 120
+id 28: Execution time 0.271572
+id 30: local_max_gap : 110
+id 30: Execution time 0.280532
+id 33: local_max_gap : 108
+id 33: Execution time 0.267568
+id 34: local_max_gap : 110
+id 34: Execution time 0.268651
+id 35: local_max_gap : 112
+id 35: Execution time 0.272697
+id 36: local_max_gap : 92
+id 36: Execution time 0.267574
+id 37: local_max_gap : 96
+id 37: Execution time 0.272247
+id 38: local_max_gap : 138
+id 38: Execution time 0.275640
+id 56: local_max_gap : 108
+id 56: Execution time 0.280635
+id 11: local_max_gap : 98
+id 11: Execution time 0.262704
+id 18: local_max_gap : 126
+id 18: Execution time 0.280535
+id 29: local_max_gap : 94
+id 29: Execution time 0.272572
+id 31: local_max_gap : 122
+id 31: Execution time 0.280530
+id 32: local_max_gap : 110
+id 32: Execution time 0.280531
+id 53: local_max_gap : 102
+id 53: Execution time 0.273627
+id 17: local_max_gap : 102
+id 17: Execution time 0.271566
+id 19: local_max_gap : 96
+id 19: Execution time 0.280529
+id 39: local_max_gap : 132
+id 39: Execution time 0.273571
+id 4: local_max_gap : 114
+id 4: Execution time 0.271568
+id 52: local_max_gap : 102
+id 52: Execution time 0.271575
+id 43: local_max_gap : 102
+id 43: Execution time 0.280539
+id 61: local_max_gap : 118
+id 61: Execution time 0.280661
+id 47: local_max_gap : 126
+id 47: Execution time 0.273642
+id 6: local_max_gap : 98
+id 6: Execution time 0.271570
+id 60: local_max_gap : 146
+id 60: Execution time 0.273703
+id 24: local_max_gap : 94
+id 24: Execution time 0.280530
+id 8: local_max_gap : 100
+id 8: Execution time 0.262571
+id 2: local_max_gap : 82
+id 55: local_max_gap : 130
+id 55: Execution time 0.280706
+id 45: local_max_gap : 104
+id 45: Execution time 0.273631
+id 40: local_max_gap : 102
+id 40: Execution time 0.262571
+id 2: Execution time 0.262703
+id 16: local_max_gap : 126
+id 16: Execution time 0.271589
+id 49: local_max_gap : 110
+id 49: Execution time 0.280544
+id 51: local_max_gap : 108
+id 51: Execution time 0.280537
+id 57: local_max_gap : 100
+id 57: Execution time 0.280671
+id 44: local_max_gap : 104
+id 44: Execution time 0.262589
+id 58: local_max_gap : 132
+id 58: Execution time 0.262707
+id 72: local_max_gap : 148
+id 72: Execution time 0.280063
+id 12: local_max_gap : 96
+id 12: Execution time 0.262704
+id 3: local_max_gap : 112
+id 3: Execution time 0.271568
+id 7: local_max_gap : 78
+id 7: Execution time 0.261571
+id 68: local_max_gap : 124
+id 68: Execution time 0.280599
+id 66: local_max_gap : 122
+id 66: Execution time 0.280743
+id 70: local_max_gap : 96
+id 70: Execution time 0.278054
+id 74: local_max_gap : 112
+id 74: Execution time 0.280534
+id 78: local_max_gap : 120
+id 78: Execution time 0.267572
+id 73: local_max_gap : 112
+id 73: Execution time 0.280611
+id 67: local_max_gap : 126
+id 67: Execution time 0.277999
+id 76: local_max_gap : 140
+id 76: Execution time 0.280578
+id 75: local_max_gap : 112
+id 75: Execution time 0.280534
+id 77: local_max_gap : 138
+id 71: local_max_gap : 126
+id 71: Execution time 0.276057
+id 69: local_max_gap : 134
+id 69: Execution time 0.285028
+id 77: Execution time 0.280627
+id 79: local_max_gap : 108
+id 79: Execution time 0.280572
+id 13: local_max_gap : 132
+id 13: Execution time 0.280528
+id 54: local_max_gap : 96
+id 54: Execution time 0.273624
+id 21: local_max_gap : 106
+id 21: Execution time 0.273571
+id 20: local_max_gap : 148
+id 20: Execution time 0.280530
+id 65: local_max_gap : 96
+id 65: Execution time 0.280660
+id 63: local_max_gap : 136
+id 63: Execution time 0.272017
+id 50: local_max_gap : 98
+id 50: Execution time 0.271003
+id 88: local_max_gap : 112
+id 88: Execution time 0.271808
+id 95: local_max_gap : 104
+id 95: Execution time 0.271565
+id 84: local_max_gap : 152
+id 84: Execution time 0.285022
+id 86: local_max_gap : 120
+id 86: Execution time 0.280719
+id 92: local_max_gap : 136
+id 92: Execution time 0.280774
+id 9: local_max_gap : 92
+id 9: Execution time 0.273702
+id 96: local_max_gap : 124
+id 83: local_max_gap : 120
+id 83: Execution time 0.267058
+id 96: Execution time 0.262572
+id 82: local_max_gap : 114
+id 82: Execution time 0.285024
+id 85: local_max_gap : 114
+id 85: Execution time 0.280929
+id 97: local_max_gap : 124
+id 97: Execution time 0.262762
+id 91: local_max_gap : 116
+id 91: Execution time 0.271751
+id 93: local_max_gap : 108
+id 93: Execution time 0.268525
+id 94: local_max_gap : 120
+id 94: Execution time 0.280528
+id 1: local_max_gap : 86
+id 1: Execution time 0.261565
+id 64: local_max_gap : 100
+id 64: Execution time 0.280477
+id 10: local_max_gap : 106
+id 10: Execution time 0.285018
+id 89: local_max_gap : 140
+id 89: Execution time 0.266815
+id 41: local_max_gap : 114
+id 41: Execution time 0.268618
+id 90: local_max_gap : 96
+id 90: Execution time 0.278111
+id 81: local_max_gap : 108
+id 81: Execution time 0.280058
+id 80: local_max_gap : 132
+id 80: Execution time 0.273768
+id 98: local_max_gap : 128
+id 98: Execution time 0.271761
+id 99: local_max_gap : 116
+id 99: Execution time 0.271762
+id 62: local_max_gap : 100
+id 62: Execution time 0.272615
+id 87: local_max_gap : 116
+id 87: Execution time 0.280922

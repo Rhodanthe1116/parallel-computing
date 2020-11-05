@@ -1,0 +1,8 @@
+Process number: 1	, Max time: 0.188479	, Answer: 8169
+Process number: 2	, Max time: 0.116150	, Answer: 8169
+Process number: 4	, Max time: 0.062146	, Answer: 8169
+Process number: 8	, Max time: 0.032981	, Answer: 8169
+Process number: 16	, Max time: 0.027321	, Answer: 8169
+Process number: 32	, Max time: 0.017995	, Answer: 8169
+Process number: 50	, Max time: 0.030970	, Answer: 8169
+Process number: 100	, Max time: 0.017653	, Answer: 8169

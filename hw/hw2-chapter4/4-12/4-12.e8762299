@@ -1,0 +1,9 @@
+./4-12.c: In function ‘assertm’:
+./4-12.c:14:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+         exit(1);
+         ^
+./4-12.c:14:9: warning: incompatible implicit declaration of built-in function ‘exit’ [enabled by default]
+./4-12.c: In function ‘main’:
+./4-12.c:48:5: warning: implicit declaration of function ‘alarm’ [-Wimplicit-function-declaration]
+     alarm(3);
+     ^

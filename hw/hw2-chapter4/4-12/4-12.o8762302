@@ -1,0 +1,106 @@
+/home/hwww1116/parallel-computing/hw/hw2-chapter4/4-12
+Fri Nov  6 02:31:48 CST 2020
+Processer number 1
+
+id 0: Execution time 0.000000
+id 0: Area: 493.23250059706
+Approximation of pi : 3.28821667065
+Process number: 1	, Max time: 0.000019	, Answer: 3.28821667065
+Processer number 2
+
+id 1: Execution time 0.000029
+id 1: Area: 243.60065184858
+id 0: Execution time 0.000000
+id 0: Area: 249.63184874848
+Approximation of pi : 3.28821667065
+Process number: 2	, Max time: 0.000029	, Answer: 3.28821667065
+Processer number 3
+
+id 1: Execution time 0.000022
+id 1: Area: 168.36374152882
+id 2: Execution time 0.000025
+id 2: Area: 152.41278402842
+id 0: Execution time 0.000000
+id 0: Area: 172.45597503982
+Approximation of pi : 3.28821667065
+Process number: 3	, Max time: 0.000025	, Answer: 3.28821667065
+Processer number 4
+
+id 2: Execution time 0.000037
+id 2: Area: 115.78596857005
+id 0: Execution time 0.000000
+id 0: Area: 133.84588017843
+id 1: Execution time 0.000028
+id 1: Area: 130.72718572984
+Approximation of pi : 3.28821667065
+Process number: 4	, Max time: 0.000440	, Answer: 3.28821667065
+id 3: Execution time 0.000033
+id 3: Area: 112.87346611874
+Processer number 5
+
+id 4: Execution time 0.000033
+id 4: Area: 91.46197411101
+id 0: Execution time 0.000000
+id 0: Area: 112.90369541409
+id 1: Execution time 0.000032
+id 1: Area: 98.59994207168
+id 2: Execution time 0.000063
+id 2: Area: 96.32635358908
+Approximation of pi : 3.28821667065
+Process number: 5	, Max time: 0.000448	, Answer: 3.28821667065
+id 3: Execution time 0.000031
+id 3: Area: 93.94053541121
+Processer number 6
+
+id 1: Execution time 0.000027
+id 1: Area: 93.05451869683
+id 2: Execution time 0.000027
+id 2: Area: 79.13121843446
+id 3: Execution time 0.000027
+id 3: Area: 77.26456755780
+id 4: Execution time 0.000027
+id 4: Area: 75.30922283200
+id 5: Execution time 0.000027
+id 5: Area: 73.28156559396
+id 0: Execution time 0.000000
+id 0: Area: 95.19140748202
+Approximation of pi : 3.28821667065
+Process number: 6	, Max time: 0.000027	, Answer: 3.28821667065
+Processer number 7
+
+id 2: Execution time 0.000029
+id 2: Area: 75.72120017537
+id 6: Execution time 0.000030
+id 6: Area: 56.74869933511
+id 0: Execution time 0.000000
+id 0: Area: 79.13427751640
+Approximation of pi : 3.28821667065
+Process number: 7	, Max time: 0.000030	, Answer: 3.28821667065
+id 3: Execution time 0.000029
+id 3: Area: 73.87889181111
+id 4: Execution time 0.000029
+id 4: Area: 71.96452793931
+id 5: Execution time 0.000029
+id 5: Area: 58.30738845966
+id 1: Execution time 0.000029
+id 1: Area: 77.47751536011
+Processer number 8
+
+id 2: Execution time 0.000038
+id 2: Area: 60.77636834950
+id 3: Execution time 0.000038
+id 3: Area: 59.44083110468
+id 1: Execution time 0.000038
+id 1: Area: 74.18225904258
+id 4: Execution time 0.000040
+id 4: Area: 58.02619240870
+id 5: Execution time 0.000040
+id 5: Area: 56.54492668726
+id 6: Execution time 0.000039
+id 6: Area: 55.00960022055
+id 7: Execution time 0.000040
+id 7: Area: 53.43263501406
+id 0: Execution time 0.000000
+id 0: Area: 75.81968776974
+Approximation of pi : 3.28821667065
+Process number: 8	, Max time: 0.000040	, Answer: 3.28821667065

@@ -13,7 +13,7 @@
 const int MAX_HEIGHT = 100;
 const int MAX_WIDTH = 100;
 const int ROOT = 0;
-const int HANDLE_INPUT = 1;
+const int HANDLE_INPUT_TAG = 1;
 void assertm(bool ok, char msg[])
 {
     if (!ok) {
@@ -171,14 +171,14 @@ int main(int argc, char* argv[])
             if (pi == 0) {
                 partition_for_zoot = partition;
             } else {
-                MPI_Send(&(partition[0][0]), BLOCK_SIZE(pi, p, n) * m, MPI_INT, pi, HANDLE_INPUT, MPI_COMM_WORLD);
+                MPI_Send(&(partition[0][0]), BLOCK_SIZE(pi, p, n) * m, MPI_INT, pi, HANDLE_INPUT_TAG, MPI_COMM_WORLD);
             }
             printf("Sended to PID %d!\n", pi);
             fflush(stdout);
         }
     }
     if (id != 0) {
-        MPI_Recv(&(partition[0][0]), BLOCK_SIZE(id, p, n) * m, MPI_INT, ROOT, HANDLE_INPUT, MPI_COMM_WORLD, &status);
+        MPI_Recv(&(partition[0][0]), BLOCK_SIZE(id, p, n) * m, MPI_INT, ROOT, HANDLE_INPUT_TAG, MPI_COMM_WORLD, &status);
     }
     if (id == 0) {
         partition = partition_for_zoot;

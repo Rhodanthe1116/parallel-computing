@@ -1,0 +1,460 @@
+/home/hwww1116/parallel-computing/hw/hw2-chapter4/4-12
+Fri Nov  6 02:20:22 CST 2020
+Processer number 1
+
+id 0: Execution time 0.000000
+id 0: Area: 493.23250059706
+Approximation of pi : 3.28821667065
+Process number: 1	, Max time: 0.000015	, Answer: 3.28821667065
+Processer number 2
+
+id 1: Execution time 0.000022
+id 1: Area: 243.60065184858
+id 0: Execution time 0.000000
+id 0: Area: 249.63184874848
+Approximation of pi : 3.28821667065
+Process number: 2	, Max time: 0.000022	, Answer: 3.28821667065
+Processer number 4
+
+id 3: Execution time 0.000019
+id 3: Area: 112.87346611874
+id 0: Execution time 0.000000
+id 0: Area: 133.84588017843
+Approximation of pi : 3.28821667065
+Process number: 4	, Max time: 0.000024	, Answer: 3.28821667065
+id 1: Execution time 0.000016
+id 1: Area: 130.72718572984
+id 2: Execution time 0.000024
+id 2: Area: 115.78596857005
+Processer number 8
+
+id 6: Execution time 0.000038
+id 6: Area: 55.00960022055
+id 7: Execution time 0.000038
+id 7: Area: 53.43263501406
+id 4: Execution time 0.000038
+id 4: Area: 58.02619240870
+id 0: Execution time 0.000000
+id 0: Area: 75.81968776974
+Approximation of pi : 3.28821667065
+Process number: 8	, Max time: 0.000038	, Answer: 3.28821667065
+id 1: Execution time 0.000037
+id 1: Area: 74.18225904258
+id 2: Execution time 0.000037
+id 2: Area: 60.77636834950
+id 3: Execution time 0.000038
+id 3: Area: 59.44083110468
+id 5: Execution time 0.000038
+id 5: Area: 56.54492668726
+Processer number 16
+
+id 10: Execution time 0.000057
+id 10: Area: 20.87767720474
+id 3: Execution time 0.000056
+id 3: Area: 39.13760218708
+id 11: Execution time 0.000057
+id 11: Area: 20.30322891760
+id 12: Execution time 0.000057
+id 12: Area: 19.70762902691
+id 13: Execution time 0.000057
+id 13: Area: 19.09722921914
+id 14: Execution time 0.000057
+id 14: Area: 18.47787012417
+id 15: Execution time 0.000057
+id 15: Area: 17.85481627551
+id 0: Execution time 0.000000
+id 0: Area: 41.22632482403
+Approximation of pi : 3.28821667065
+Process number: 16	, Max time: 0.000057	, Answer: 3.28821667065
+id 1: Execution time 0.000056
+id 1: Area: 40.59644830920
+id 4: Execution time 0.000057
+id 4: Area: 38.31856338179
+id 2: Execution time 0.000056
+id 2: Area: 39.89869114476
+id 5: Execution time 0.000056
+id 5: Area: 37.44769746812
+id 7: Execution time 0.000056
+id 7: Area: 35.57781873855
+id 8: Execution time 0.000056
+id 8: Area: 34.59336294570
+id 9: Execution time 0.000057
+id 9: Area: 33.58581073338
+id 6: Execution time 0.000056
+id 6: Area: 36.53173009638
+Processer number 32
+
+id 15: Execution time 0.000066
+id 15: Area: 17.85481627551
+id 3: Execution time 0.000073
+id 3: Area: 23.72801948965
+id 6: Execution time 0.000073
+id 6: Area: 22.82564714995
+id 7: Execution time 0.000069
+id 7: Area: 22.40528410045
+id 27: Execution time 0.000043
+id 27: Area: 0.00000000000
+id 28: Execution time 0.000075
+id 28: Area: 0.00000000000
+id 30: Execution time 0.000072
+id 30: Area: 0.00000000000
+id 9: Execution time 0.000061
+id 9: Area: 21.42421105984
+id 10: Execution time 0.000084
+id 10: Area: 20.87767720474
+id 25: Execution time 0.000071
+id 25: Area: 12.16159967354
+id 12: Execution time 0.000081
+id 12: Area: 19.70762902691
+id 13: Execution time 0.000061
+id 13: Area: 19.09722921914
+id 19: Execution time 0.000074
+id 19: Area: 15.40958269744
+id 21: Execution time 0.000075
+id 21: Area: 14.25752073281
+id 24: Execution time 0.000079
+id 24: Area: 12.65756981379
+id 0: Execution time 0.000000
+id 0: Area: 23.99360255898
+Approximation of pi : 3.28821667065
+Process number: 32	, Max time: 0.000098	, Answer: 3.28821667065
+id 26: Execution time 0.000048
+id 26: Area: 0.00000000000
+id 1: Execution time 0.000061
+id 1: Area: 23.98082300626
+id 31: Execution time 0.000067
+id 31: Area: 0.00000000000
+id 8: Execution time 0.000098
+id 8: Area: 21.93579313192
+id 5: Execution time 0.000068
+id 5: Area: 23.19017673531
+id 2: Execution time 0.000077
+id 2: Area: 23.89173221237
+id 4: Execution time 0.000077
+id 4: Area: 23.49274041578
+id 11: Execution time 0.000078
+id 11: Area: 20.30322891760
+id 16: Execution time 0.000083
+id 16: Area: 17.23272226506
+id 17: Execution time 0.000070
+id 17: Area: 16.61562530294
+id 20: Execution time 0.000080
+id 20: Area: 14.82582296601
+id 18: Execution time 0.000079
+id 18: Area: 16.00695893240
+id 22: Execution time 0.000074
+id 22: Area: 13.70608294642
+id 23: Execution time 0.000068
+id 23: Area: 13.17253463811
+id 29: Execution time 0.000070
+id 29: Area: 0.00000000000
+id 14: Execution time 0.000071
+id 14: Area: 18.47787012417
+Processer number 50
+
+id 4: Execution time 0.010973
+id 4: Area: 23.49274041578
+id 11: Execution time 0.010968
+id 11: Area: 20.30322891760
+id 14: Execution time 0.010968
+id 14: Area: 18.47787012417
+id 15: Execution time 0.010969
+id 15: Area: 17.85481627551
+id 20: Execution time 0.018609
+id 20: Area: 14.82582296601
+id 16: Execution time 0.010969
+id 16: Area: 17.23272226506
+id 17: Execution time 0.010973
+id 17: Area: 16.61562530294
+id 19: Execution time 0.010973
+id 19: Area: 15.40958269744
+id 2: Execution time 0.010890
+id 2: Area: 23.89173221237
+id 3: Execution time 0.010836
+id 3: Area: 23.72801948965
+id 5: Execution time 0.015762
+id 5: Area: 23.19017673531
+id 7: Execution time 0.015968
+id 7: Area: 22.40528410045
+id 8: Execution time 0.015964
+id 8: Area: 21.93579313192
+id 9: Execution time 0.010836
+id 9: Area: 21.42421105984
+id 10: Execution time 0.013854
+id 10: Area: 20.87767720474
+id 13: Execution time 0.010969
+id 13: Area: 19.09722921914
+id 0: Execution time 0.000000
+id 0: Area: 23.99360255898
+Approximation of pi : 3.28821667065
+Process number: 50	, Max time: 0.026957	, Answer: 3.28821667065
+id 1: Execution time 0.015758
+id 1: Area: 23.98082300626
+id 6: Execution time 0.015970
+id 6: Area: 22.82564714995
+id 12: Execution time 0.006009
+id 12: Area: 19.70762902691
+id 18: Execution time 0.010974
+id 18: Area: 16.00695893240
+id 26: Execution time 0.018608
+id 26: Area: 0.00000000000
+id 30: Execution time 0.018608
+id 30: Area: 0.00000000000
+id 42: Execution time 0.015969
+id 42: Area: 0.00000000000
+id 44: Execution time 0.015656
+id 44: Area: 0.00000000000
+id 21: Execution time 0.018608
+id 21: Area: 14.25752073281
+id 43: Execution time 0.015968
+id 43: Area: 0.00000000000
+id 22: Execution time 0.018608
+id 22: Area: 13.70608294642
+id 45: Execution time 0.015977
+id 45: Area: 0.00000000000
+id 46: Execution time 0.015777
+id 46: Area: 0.00000000000
+id 47: Execution time 0.015774
+id 47: Area: 0.00000000000
+id 48: Execution time 0.015768
+id 48: Area: 0.00000000000
+id 49: Execution time 0.015972
+id 49: Area: 0.00000000000
+id 27: Execution time 0.023957
+id 27: Area: 0.00000000000
+id 28: Execution time 0.018608
+id 28: Area: 0.00000000000
+id 31: Execution time 0.018608
+id 31: Area: 0.00000000000
+id 33: Execution time 0.026957
+id 33: Area: 0.00000000000
+id 34: Execution time 0.026956
+id 34: Area: 0.00000000000
+id 36: Execution time 0.026957
+id 36: Area: 0.00000000000
+id 38: Execution time 0.018608
+id 38: Area: 0.00000000000
+id 37: Execution time 0.018608
+id 39: Execution time 0.018608
+id 39: Area: 0.00000000000
+id 37: Area: 0.00000000000
+id 35: Execution time 0.026956
+id 35: Area: 0.00000000000
+id 25: Execution time 0.018608
+id 25: Area: 12.16159967354
+id 24: Execution time 0.018609
+id 24: Area: 12.65756981379
+id 23: Execution time 0.026485
+id 23: Area: 13.17253463811
+id 29: Execution time 0.018607
+id 29: Area: 0.00000000000
+id 32: Execution time 0.018312
+id 32: Area: 0.00000000000
+id 41: Execution time 0.015977
+id 41: Area: 0.00000000000
+id 40: Execution time 0.010664
+id 40: Area: 0.00000000000
+Processer number 100
+
+id 5: Execution time 0.000040
+id 5: Area: 23.19017673531
+id 0: Execution time 0.000000
+id 2: Execution time 0.000198
+id 2: Area: 23.89173221237
+id 4: Execution time 0.000143
+id 4: Area: 23.49274041578
+id 21: Execution time 0.000188
+id 21: Area: 14.25752073281
+id 26: Execution time 0.005036
+id 27: Execution time 0.000011
+id 27: Area: 0.00000000000
+id 10: Execution time 0.000047
+id 10: Area: 20.87767720474
+id 15: Execution time 0.000043
+id 15: Area: 17.85481627551
+id 24: Execution time 0.004955
+id 24: Area: 12.65756981379
+id 36: Execution time 0.000536
+id 36: Area: 0.00000000000
+id 8: Execution time 0.003858
+id 8: Area: 21.93579313192
+id 12: Execution time 0.000477
+id 12: Area: 19.70762902691
+id 13: Execution time 0.000024
+id 13: Area: 19.09722921914
+id 20: Execution time 0.000628
+id 20: Area: 14.82582296601
+id 6: Execution time 0.000058
+id 6: Area: 22.82564714995
+id 25: Execution time 0.002033
+id 25: Area: 12.16159967354
+id 17: Execution time 0.000122
+id 17: Area: 16.61562530294
+id 22: Execution time 0.000317
+id 9: Execution time 0.003859
+id 9: Area: 21.42421105984
+id 14: Execution time 0.000179
+id 14: Area: 18.47787012417
+id 16: Execution time 0.005037
+id 16: Area: 17.23272226506
+id 18: Execution time 0.002499
+id 18: Area: 16.00695893240
+id 19: Execution time 0.000047
+id 19: Area: 15.40958269744
+id 11: Execution time 0.000036
+id 11: Area: 20.30322891760
+id 28: Execution time 0.000551
+id 28: Area: 0.00000000000
+id 30: Execution time 0.000176
+id 30: Area: 0.00000000000
+id 35: Execution time 0.000204
+id 35: Area: 0.00000000000
+id 33: Execution time 0.000173
+id 33: Area: 0.00000000000
+id 38: Execution time 0.000062
+id 38: Area: 0.00000000000
+id 34: Execution time 0.000383
+id 34: Area: 0.00000000000
+id 40: Execution time 0.000452
+id 40: Area: 0.00000000000
+id 45: Execution time 0.000123
+id 45: Area: 0.00000000000
+id 0: Area: 23.99360255898
+Approximation of pi : 3.28821667065
+Process number: 100	, Max time: 0.009066	, Answer: 3.28821667065
+id 7: Execution time 0.000024
+id 7: Area: 22.40528410045
+id 29: Execution time 0.000063
+id 29: Area: 0.00000000000
+id 42: Execution time 0.000349
+id 42: Area: 0.00000000000
+id 44: Execution time 0.000600
+id 44: Area: 0.00000000000
+id 50: Execution time 0.000094
+id 50: Area: 0.00000000000
+id 55: Execution time 0.000042
+id 55: Area: 0.00000000000
+id 61: Execution time 0.000055
+id 61: Area: 0.00000000000
+id 62: Execution time 0.000314
+id 62: Area: 0.00000000000
+id 63: Execution time 0.000165
+id 63: Area: 0.00000000000
+id 66: Execution time 0.004896
+id 66: Area: 0.00000000000
+id 77: Execution time 0.000032
+id 77: Area: 0.00000000000
+id 79: Execution time 0.000165
+id 79: Area: 0.00000000000
+id 26: Area: 0.00000000000
+id 48: Execution time 0.004006
+id 48: Area: 0.00000000000
+id 52: Execution time 0.000652
+id 52: Area: 0.00000000000
+id 53: Execution time 0.000048
+id 53: Area: 0.00000000000
+id 76: Execution time 0.000551
+id 76: Area: 0.00000000000
+id 46: Execution time 0.000165
+id 46: Area: 0.00000000000
+id 57: Execution time 0.000040
+id 57: Area: 0.00000000000
+id 37: Execution time 0.000190
+id 37: Area: 0.00000000000
+id 81: Execution time 0.000127
+id 81: Area: 0.00000000000
+id 58: Execution time 0.000048
+id 58: Area: 0.00000000000
+id 56: Execution time 0.000450
+id 56: Area: 0.00000000000
+id 60: Execution time 0.000506
+id 60: Area: 0.00000000000
+id 54: Execution time 0.000045
+id 54: Area: 0.00000000000
+id 59: Execution time 0.000043
+id 31: Execution time 0.000065
+id 31: Area: 0.00000000000
+id 39: Execution time 0.000085
+id 39: Area: 0.00000000000
+id 51: Execution time 0.000062
+id 51: Area: 0.00000000000
+id 65: Execution time 0.001842
+id 65: Area: 0.00000000000
+id 59: Area: 0.00000000000
+id 3: Execution time 0.000057
+id 3: Area: 23.72801948965
+id 22: Area: 13.70608294642
+id 68: Execution time 0.000014
+id 68: Area: 0.00000000000
+id 70: Execution time 0.000140
+id 70: Area: 0.00000000000
+id 75: Execution time 0.000033
+id 75: Area: 0.00000000000
+id 69: Execution time 0.000129
+id 69: Area: 0.00000000000
+id 74: Execution time 0.000163
+id 74: Area: 0.00000000000
+id 78: Execution time 0.000306
+id 78: Area: 0.00000000000
+id 73: Execution time 0.000097
+id 73: Area: 0.00000000000
+id 64: Execution time 0.009066
+id 64: Area: 0.00000000000
+id 47: Execution time 0.000044
+id 47: Area: 0.00000000000
+id 80: Execution time 0.001028
+id 80: Area: 0.00000000000
+id 85: Execution time 0.000247
+id 85: Area: 0.00000000000
+id 23: Execution time 0.000395
+id 23: Area: 13.17253463811
+id 72: Execution time 0.009062
+id 72: Area: 0.00000000000
+id 84: Execution time 0.000699
+id 84: Area: 0.00000000000
+id 32: Execution time 0.008831
+id 32: Area: 0.00000000000
+id 41: Execution time 0.000056
+id 41: Area: 0.00000000000
+id 90: Execution time 0.000318
+id 90: Area: 0.00000000000
+id 95: Execution time 0.000128
+id 95: Area: 0.00000000000
+id 88: Execution time 0.001000
+id 88: Area: 0.00000000000
+id 93: Execution time 0.000131
+id 93: Area: 0.00000000000
+id 97: Execution time 0.000084
+id 97: Area: 0.00000000000
+id 98: Execution time 0.000204
+id 98: Area: 0.00000000000
+id 96: Execution time 0.000620
+id 96: Area: 0.00000000000
+id 91: Execution time 0.000166
+id 91: Area: 0.00000000000
+id 94: Execution time 0.000266
+id 94: Area: 0.00000000000
+id 99: Execution time 0.000049
+id 99: Area: 0.00000000000
+id 86: Execution time 0.000368
+id 86: Area: 0.00000000000
+id 87: Execution time 0.000190
+id 87: Area: 0.00000000000
+id 71: Execution time 0.000198
+id 71: Area: 0.00000000000
+id 1: Execution time 0.000215
+id 1: Area: 23.98082300626
+id 43: Execution time 0.000164
+id 43: Area: 0.00000000000
+id 83: Execution time 0.000328
+id 83: Area: 0.00000000000
+id 49: Execution time 0.003849
+id 49: Area: 0.00000000000
+id 67: Execution time 0.000016
+id 67: Area: 0.00000000000
+id 89: Execution time 0.000048
+id 89: Area: 0.00000000000
+id 82: Execution time 0.000350
+id 82: Area: 0.00000000000
+id 92: Execution time 0.000646
+id 92: Area: 0.00000000000

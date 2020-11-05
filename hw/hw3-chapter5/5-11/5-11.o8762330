@@ -1,0 +1,4149 @@
+/home/hwww1116/parallel-computing/hw/hw3-chapter5/5-11
+Fri Nov  6 03:48:30 CST 2020
+Processer number 1
+
+id 0: Execution time 0.000000
+id 0: Value: 0.00000000000
+Sn: 14.3927267228649888863856176612898707389831542968750000000000000000000000000000000000000000000000000000
+Process number: 1	, Max time: 0.013607	, Answer: 14.3927267228649888863856176612898707389831542968750000000000000000000000000000000000000000000000000000
+Processer number 2
+
+id 1: Execution time 0.006875
+id 1: Value: 6.84979002115
+id 0: Execution time 0.000000
+id 0: Value: 0.00000000000
+Sn: 14.3927267228659836462156818015500903129577636718750000000000000000000000000000000000000000000000000000
+Process number: 2	, Max time: 0.006875	, Answer: 14.3927267228659836462156818015500903129577636718750000000000000000000000000000000000000000000000000000
+Processer number 4
+
+id 3: Execution time 0.003418
+id 3: Value: 3.25160846544
+id 1: Execution time 0.003419
+id 1: Value: 3.59818155572
+id 0: Execution time 0.000000
+id 0: Value: 0.00000000000
+Sn: 14.3927267228659481190788937965407967567443847656250000000000000000000000000000000000000000000000000000
+Process number: 4	, Max time: 0.006583	, Answer: 14.3927267228659481190788937965407967567443847656250000000000000000000000000000000000000000000000000000
+id 2: Execution time 0.004770
+id 2: Value: 3.37876951916
+Processer number 8
+
+id 2: Execution time 0.002197
+id 2: Value: 1.81125838318
+id 3: Execution time 0.002197
+id 3: Value: 1.71244738029
+id 0: Execution time 0.000000
+id 0: Value: 0.00000000000
+Sn: 14.3927267228656319275614805519580841064453125000000000000000000000000000000000000000000000000000000000
+Process number: 8	, Max time: 0.002197	, Answer: 14.3927267228656319275614805519580841064453125000000000000000000000000000000000000000000000000000000000
+id 6: Execution time 0.002187
+id 6: Value: 1.56751113598
+id 7: Execution time 0.002187
+id 7: Value: 1.53916108515
+id 4: Execution time 0.002187
+id 4: Value: 1.64859734761
+id 5: Execution time 0.002171
+id 5: Value: 1.60274148701
+id 1: Execution time 0.002190
+id 1: Value: 1.99544006871
+Processer number 16
+
+id 10: Execution time 0.001236
+id 10: Value: 0.76868033199
+id 12: Execution time 0.001236
+id 12: Value: 0.74872082186
+id 14: Execution time 0.001195
+id 14: Value: 0.73299559439
+id 15: Execution time 0.001235
+id 15: Value: 0.72625909379
+id 11: Execution time 0.001235
+id 11: Value: 0.75804916972
+id 0: Execution time 0.000000
+id 0: Value: 0.00000000000
+Sn: 14.3927267228657456143992021679878234863281250000000000000000000000000000000000000000000000000000000000
+Process number: 16	, Max time: 0.001236	, Answer: 14.3927267228657456143992021679878234863281250000000000000000000000000000000000000000000000000000000000
+id 1: Execution time 0.001234
+id 1: Value: 1.21446303119
+id 2: Execution time 0.001234
+id 2: Value: 1.04257805119
+id 6: Execution time 0.001235
+id 6: Value: 0.83451554159
+id 7: Execution time 0.001234
+id 7: Value: 0.81290199136
+id 8: Execution time 0.001235
+id 8: Value: 0.79545931459
+id 9: Execution time 0.001234
+id 9: Value: 0.78097703752
+id 3: Execution time 0.001234
+id 3: Value: 0.95439821057
+id 5: Execution time 0.001235
+id 5: Value: 0.86230743030
+id 4: Execution time 0.001235
+id 4: Value: 0.89987652575
+id 13: Execution time 0.001236
+id 13: Value: 0.74043405670
+Processer number 32
+
+id 2: Execution time 0.000810
+id 2: Value: 0.67028681010
+id 3: Execution time 0.000749
+id 3: Value: 0.58557047870
+id 7: Execution time 0.010361
+id 7: Value: 0.45553813089
+id 0: Execution time 0.000000
+id 0: Value: 0.00000000000
+Sn: 14.3927267228657154163329323637299239635467529296875000000000000000000000000000000000000000000000000000
+Process number: 32	, Max time: 0.013924	, Answer: 14.3927267228657154163329323637299239635467529296875000000000000000000000000000000000000000000000000000
+id 16: Execution time 0.001851
+id 16: Value: 0.38021324087
+id 5: Execution time 0.005357
+id 5: Value: 0.49962801995
+id 8: Execution time 0.003151
+id 8: Value: 0.44049983415
+id 9: Execution time 0.000741
+id 9: Value: 0.42827731973
+id 10: Execution time 0.000765
+id 10: Value: 0.41811069828
+id 12: Execution time 0.003150
+id 12: Value: 0.40207204462
+id 13: Execution time 0.000753
+id 13: Value: 0.39559689015
+id 15: Execution time 0.003146
+id 15: Value: 0.38479014629
+id 17: Execution time 0.000826
+id 17: Value: 0.37606883915
+id 18: Execution time 0.000827
+id 18: Value: 0.37229124110
+id 21: Execution time 0.000766
+id 21: Value: 0.36267941035
+id 11: Execution time 0.000715
+id 11: Value: 0.40949280326
+id 22: Execution time 0.000890
+id 22: Value: 0.35993031977
+id 23: Execution time 0.000806
+id 23: Value: 0.35736386047
+id 25: Execution time 0.001438
+id 25: Value: 0.35269971779
+id 26: Execution time 0.001487
+id 26: Value: 0.35056963371
+id 27: Execution time 0.001417
+id 27: Value: 0.34855636646
+id 28: Execution time 0.001378
+id 28: Value: 0.34664877724
+id 1: Execution time 0.000748
+id 1: Value: 0.83839419204
+id 29: Execution time 0.001371
+id 29: Value: 0.34483716655
+id 30: Execution time 0.001378
+id 30: Value: 0.34311304510
+id 31: Execution time 0.001374
+id 31: Value: 0.34146894750
+id 20: Execution time 0.000908
+id 20: Value: 0.36563550272
+id 24: Execution time 0.000938
+id 24: Value: 0.35495948044
+id 19: Execution time 0.000767
+id 19: Value: 0.36882773187
+id 14: Execution time 0.000467
+id 14: Value: 0.38988254928
+id 6: Execution time 0.010398
+id 6: Value: 0.47458522182
+id 4: Execution time 0.013915
+id 4: Value: 0.53424102303
+Processer number 64
+
+id 12: Execution time 0.000316
+id 12: Value: 0.23226206158
+id 13: Execution time 0.000314
+id 13: Value: 0.22646204559
+id 16: Execution time 0.002169
+id 16: Value: 0.21297224925
+id 21: Execution time 0.000330
+id 21: Value: 0.19822484632
+id 20: Execution time 0.002160
+id 20: Value: 0.20065610639
+id 1: Execution time 0.000302
+id 1: Value: 0.65911798067
+id 2: Execution time 0.000394
+id 2: Value: 0.49207149589
+id 3: Execution time 0.000260
+id 3: Value: 0.40836645257
+id 7: Execution time 0.003144
+id 7: Value: 0.28195462715
+id 8: Execution time 0.000904
+id 8: Value: 0.26773015772
+id 0: Execution time 0.000000
+id 0: Value: 0.00000000000
+Sn: 14.3927267228657207454034505644813179969787597656250000000000000000000000000000000000000000000000000000
+Process number: 64	, Max time: 0.007508	, Answer: 14.3927267228657207454034505644813179969787597656250000000000000000000000000000000000000000000000000000
+id 17: Execution time 0.000309
+id 17: Value: 0.20941938300
+id 9: Execution time 0.000710
+id 9: Value: 0.25628991494
+id 15: Execution time 0.000311
+id 15: Value: 0.21693851575
+id 19: Execution time 0.000336
+id 19: Value: 0.20330814142
+id 36: Execution time 0.000853
+id 36: Value: 0.17623848823
+id 10: Execution time 0.000912
+id 10: Value: 0.24687609457
+id 27: Execution time 0.000378
+id 27: Value: 0.18696798913
+id 29: Execution time 0.000369
+id 29: Value: 0.18411083432
+id 37: Execution time 0.000741
+id 37: Value: 0.17531524273
+id 34: Execution time 0.001677
+id 34: Value: 0.17821531421
+id 38: Execution time 0.000853
+id 38: Value: 0.17443118173
+id 5: Execution time 0.003172
+id 5: Value: 0.32431277723
+id 39: Execution time 0.000848
+id 39: Value: 0.17358350374
+id 25: Execution time 0.000372
+id 25: Value: 0.19020555074
+id 48: Execution time 0.002506
+id 48: Value: 0.16724099162
+id 26: Execution time 0.000445
+id 26: Value: 0.18853408189
+id 30: Execution time 0.000430
+id 30: Value: 0.18280251547
+id 31: Execution time 0.000378
+id 31: Value: 0.18156464845
+id 42: Execution time 0.001034
+id 42: Value: 0.17123460371
+id 52: Execution time 0.000648
+id 52: Value: 0.16497939633
+id 6: Execution time 0.000246
+id 6: Value: 0.30015404009
+id 14: Execution time 0.000346
+id 14: Value: 0.22140004391
+id 23: Execution time 0.000262
+id 23: Value: 0.19391591444
+id 40: Execution time 0.005106
+id 40: Value: 0.17276967643
+id 41: Execution time 0.000849
+id 41: Value: 0.17198740479
+id 47: Execution time 0.003379
+id 47: Value: 0.16785163054
+id 32: Execution time 0.007008
+id 32: Value: 0.18039103812
+id 49: Execution time 0.000620
+id 49: Value: 0.16664945615
+id 22: Execution time 0.002158
+id 22: Value: 0.19598599932
+id 43: Execution time 0.000841
+id 43: Value: 0.17050937423
+id 56: Execution time 0.002477
+id 56: Value: 0.16296477018
+id 61: Execution time 0.000672
+id 61: Value: 0.16072633223
+id 53: Execution time 0.000643
+id 53: Value: 0.16445456403
+id 60: Execution time 0.002432
+id 60: Value: 0.16115213102
+id 57: Execution time 0.000643
+id 57: Value: 0.16249416705
+id 33: Execution time 0.000743
+id 33: Value: 0.17927621137
+id 18: Execution time 0.000319
+id 18: Value: 0.20621526285
+id 35: Execution time 0.000239
+id 35: Value: 0.17720402613
+id 44: Execution time 0.002285
+id 44: Value: 0.16980998304
+id 63: Execution time 0.000257
+id 63: Value: 0.15990429905
+id 62: Execution time 0.002434
+id 62: Value: 0.16031052963
+id 45: Execution time 0.003462
+id 45: Value: 0.16913484456
+id 50: Execution time 0.000686
+id 50: Value: 0.16607597825
+id 46: Execution time 0.000239
+id 46: Value: 0.16848250537
+id 54: Execution time 0.000615
+id 54: Value: 0.16394432045
+id 11: Execution time 0.000382
+id 11: Value: 0.23898342903
+id 58: Execution time 0.000646
+id 58: Value: 0.16203555182
+id 51: Execution time 0.000669
+id 51: Value: 0.16551959045
+id 28: Execution time 0.000436
+id 28: Value: 0.18549664622
+id 59: Execution time 0.000622
+id 59: Value: 0.16158837733
+id 24: Execution time 0.000434
+id 24: Value: 0.19199471026
+id 55: Execution time 0.000641
+id 55: Value: 0.16344794603
+id 4: Execution time 0.002252
+id 4: Value: 0.35800253480
+Processer number 128
+
+id 54: Execution time 0.000660
+id 54: Value: 0.08845453430
+id 59: Execution time 0.000574
+id 59: Value: 0.08664068918
+id 52: Execution time 0.000664
+id 52: Value: 0.08926320365
+id 57: Execution time 0.000502
+id 57: Value: 0.08733358731
+id 14: Execution time 0.000437
+id 14: Value: 0.13981421815
+id 19: Execution time 0.000359
+id 19: Value: 0.12273007325
+id 12: Execution time 0.000476
+id 12: Value: 0.15024347516
+id 17: Execution time 0.000199
+id 17: Value: 0.12845018683
+id 34: Execution time 0.000576
+id 34: Value: 0.10015943821
+id 38: Execution time 0.000678
+id 38: Value: 0.09694888889
+id 39: Execution time 0.000345
+id 39: Value: 0.09623926461
+id 36: Execution time 0.000842
+id 36: Value: 0.09847379494
+id 81: Execution time 0.000509
+id 81: Value: 0.08096919617
+id 98: Execution time 0.000610
+id 98: Value: 0.07805587600
+id 96: Execution time 0.001007
+id 96: Value: 0.07835634381
+id 97: Execution time 0.000612
+id 97: Value: 0.07820491628
+id 41: Execution time 0.000422
+id 41: Value: 0.09491325491
+id 69: Execution time 0.000556
+id 69: Value: 0.08369196818
+id 93: Execution time 0.000647
+id 93: Value: 0.07882565753
+id 90: Execution time 0.000825
+id 90: Value: 0.07931913111
+id 73: Execution time 0.000685
+id 73: Value: 0.08270357082
+id 70: Execution time 0.000919
+id 70: Value: 0.08343617513
+id 49: Execution time 0.000569
+id 49: Value: 0.09058258809
+id 66: Execution time 0.000776
+id 66: Value: 0.08449759616
+id 92: Execution time 0.000705
+id 92: Value: 0.07898735649
+id 58: Execution time 0.000592
+id 58: Value: 0.08698205641
+id 71: Execution time 0.000553
+id 71: Value: 0.08318633196
+id 94: Execution time 0.000626
+id 94: Value: 0.07866664077
+id 48: Execution time 0.000864
+id 48: Value: 0.09105413836
+id 77: Execution time 0.000577
+id 77: Value: 0.08179993320
+id 35: Execution time 0.000415
+id 35: Value: 0.09929486978
+id 72: Execution time 0.000943
+id 72: Value: 0.08294220444
+id 55: Execution time 0.000340
+id 55: Value: 0.08806925096
+id 62: Execution time 0.000874
+id 62: Value: 0.08567287420
+id 67: Execution time 0.000520
+id 67: Value: 0.08422240895
+id 21: Execution time 0.000561
+id 21: Value: 0.11802317088
+id 74: Execution time 0.000619
+id 74: Value: 0.08247022103
+id 78: Execution time 0.000547
+id 78: Value: 0.08158582576
+id 47: Execution time 0.000874
+id 47: Value: 0.09154318237
+id 76: Execution time 0.000651
+id 76: Value: 0.08201858642
+id 79: Execution time 0.000420
+id 79: Value: 0.08137610202
+id 16: Execution time 0.001079
+id 16: Value: 0.13180164149
+id 33: Execution time 0.000419
+id 33: Value: 0.10107129509
+id 60: Execution time 0.000712
+id 60: Value: 0.08630900082
+id 25: Execution time 0.000470
+id 25: Value: 0.11071617001
+id 37: Execution time 0.000344
+id 37: Value: 0.09769281751
+id 5: Execution time 0.001079
+id 5: Value: 0.24062080904
+id 1: Execution time 0.000141
+id 1: Value: 0.57433816616
+id 3: Execution time 0.000184
+id 3: Value: 0.32414404362
+id 53: Execution time 0.000569
+id 53: Value: 0.08885228953
+id 0: Execution time 0.000000
+id 0: Value: 0.00000000000
+Sn: 14.3927267228657136399760929634794592857360839843750000000000000000000000000000000000000000000000000000
+Process number: 128	, Max time: 0.001438	, Answer: 14.3927267228657136399760929634794592857360839843750000000000000000000000000000000000000000000000000000
+id 10: Execution time 0.000720
+id 10: Value: 0.16440587354
+id 2: Execution time 0.000149
+id 2: Value: 0.40757389973
+id 9: Execution time 0.000237
+id 9: Value: 0.17358634412
+id 106: Execution time 0.000586
+id 106: Value: 0.07694201042
+id 99: Execution time 0.000576
+id 99: Value: 0.07790915635
+id 103: Execution time 0.000597
+id 103: Value: 0.07734423913
+id 18: Execution time 0.000506
+id 18: Value: 0.12544353544
+id 11: Execution time 0.000309
+id 11: Value: 0.15674147315
+id 88: Execution time 0.000849
+id 88: Value: 0.07966266092
+id 15: Execution time 0.000275
+id 15: Value: 0.13556241373
+id 102: Execution time 0.000898
+id 102: Value: 0.07748229285
+id 29: Execution time 0.000482
+id 29: Value: 0.10528517680
+id 27: Execution time 0.000456
+id 27: Value: 0.10781616982
+id 86: Execution time 0.001282
+id 86: Value: 0.08001870475
+id 56: Execution time 0.000920
+id 56: Value: 0.08769580041
+id 61: Execution time 0.000150
+id 61: Value: 0.08598653756
+id 30: Execution time 0.000761
+id 30: Value: 0.10413587470
+id 120: Execution time 0.000911
+id 120: Value: 0.07526896977
+id 100: Execution time 0.000961
+id 100: Value: 0.07776469329
+id 31: Execution time 0.000486
+id 31: Value: 0.10305442053
+id 75: Execution time 0.000627
+id 75: Value: 0.08224195588
+id 105: Execution time 0.000679
+id 105: Value: 0.07707414988
+id 83: Execution time 0.000582
+id 83: Value: 0.08057806817
+id 13: Execution time 0.000171
+id 13: Value: 0.14466211239
+id 50: Execution time 0.000868
+id 50: Value: 0.09012752412
+id 82: Execution time 0.000467
+id 82: Value: 0.08077172741
+id 87: Execution time 0.000482
+id 87: Value: 0.07983906852
+id 84: Execution time 0.001063
+id 84: Value: 0.08038809129
+id 89: Execution time 0.000629
+id 89: Value: 0.07948938073
+id 85: Execution time 0.000612
+id 85: Value: 0.08020167544
+id 8: Execution time 0.000599
+id 8: Value: 0.18478795328
+id 64: Execution time 0.001424
+id 64: Value: 0.08506937599
+id 91: Execution time 0.000706
+id 91: Value: 0.07915181931
+id 118: Execution time 0.000755
+id 118: Value: 0.07548978615
+id 116: Execution time 0.000624
+id 116: Value: 0.07571619268
+id 119: Execution time 0.000730
+id 119: Value: 0.07537869507
+id 114: Execution time 0.000583
+id 114: Value: 0.07594845412
+id 113: Execution time 0.000540
+id 113: Value: 0.07606686806
+id 108: Execution time 0.000771
+id 108: Value: 0.07668329585
+id 95: Execution time 0.000670
+id 95: Value: 0.07851022792
+id 80: Execution time 0.001157
+id 80: Value: 0.08117060776
+id 117: Execution time 0.000599
+id 117: Value: 0.07560227450
+id 126: Execution time 0.001282
+id 126: Value: 0.07463765543
+id 44: Execution time 0.001400
+id 44: Value: 0.09312668719
+id 125: Execution time 0.000674
+id 125: Value: 0.07473979466
+id 127: Execution time 0.000728
+id 127: Value: 0.07453668718
+id 26: Execution time 0.000923
+id 26: Value: 0.10921495078
+id 43: Execution time 0.000886
+id 43: Value: 0.09369763268
+id 40: Execution time 0.001183
+id 40: Value: 0.09556146731
+id 112: Execution time 0.001231
+id 112: Value: 0.07618685327
+id 22: Execution time 0.000758
+id 22: Value: 0.11596729457
+id 109: Execution time 0.000612
+id 109: Value: 0.07655662757
+id 107: Execution time 0.000783
+id 107: Value: 0.07681174155
+id 110: Execution time 0.000722
+id 110: Value: 0.07643169255
+id 101: Execution time 0.000614
+id 101: Value: 0.07762242522
+id 4: Execution time 0.000980
+id 4: Value: 0.27404857601
+id 45: Execution time 0.000819
+id 45: Value: 0.09257821700
+id 7: Execution time 0.000500
+id 7: Value: 0.19876829519
+id 6: Execution time 0.001027
+id 6: Value: 0.21671786496
+id 123: Execution time 0.000683
+id 123: Value: 0.07494768815
+id 111: Execution time 0.000812
+id 111: Value: 0.07630844817
+id 20: Execution time 0.000991
+id 20: Value: 0.12026801510
+id 65: Execution time 0.000678
+id 65: Value: 0.08477981452
+id 115: Execution time 0.000585
+id 115: Value: 0.07583157431
+id 23: Execution time 0.000895
+id 23: Value: 0.11407684592
+id 51: Execution time 0.000645
+id 51: Value: 0.08968801614
+id 24: Execution time 0.001044
+id 24: Value: 0.11233204934
+id 32: Execution time 0.001438
+id 32: Value: 0.10203469431
+id 124: Execution time 0.001287
+id 124: Value: 0.07484313020
+id 68: Execution time 0.000948
+id 68: Value: 0.08395395878
+id 46: Execution time 0.001233
+id 46: Value: 0.09205081282
+id 63: Execution time 0.000517
+id 63: Value: 0.08536761186
+id 104: Execution time 0.000841
+id 104: Value: 0.07720820912
+id 121: Execution time 0.000573
+id 121: Value: 0.07516057973
+id 28: Execution time 0.001100
+id 28: Value: 0.10650928973
+id 42: Execution time 0.001105
+id 42: Value: 0.09429259329
+id 122: Execution time 0.000647
+id 122: Value: 0.07505349541
+Processer number 256
+
+id 137: Execution time 0.001017
+id 137: Value: 0.03926939276
+id 57: Execution time 0.000631
+id 57: Value: 0.05054740195
+id 17: Execution time 0.000231
+id 17: Value: 0.08968665562
+id 97: Execution time 0.000543
+id 97: Value: 0.04281890441
+id 119: Execution time 0.002064
+id 119: Value: 0.04061222279
+id 78: Execution time 0.001208
+id 78: Value: 0.04558677281
+id 12: Execution time 0.001199
+id 12: Value: 0.11116939955
+id 37: Execution time 0.000564
+id 37: Value: 0.06001448575
+id 81: Execution time 0.000404
+id 81: Value: 0.04507253762
+id 115: Execution time 0.001613
+id 115: Value: 0.04095866405
+id 118: Execution time 0.001667
+id 118: Value: 0.04069694295
+id 135: Execution time 0.001115
+id 135: Value: 0.03940361393
+id 177: Execution time 0.000855
+id 177: Value: 0.03712382195
+id 79: Execution time 0.000311
+id 79: Value: 0.04541143237
+id 94: Execution time 0.000900
+id 94: Value: 0.04318913057
+id 139: Execution time 0.000083
+id 139: Value: 0.03913840136
+id 156: Execution time 0.001188
+id 156: Value: 0.03813861127
+id 95: Execution time 0.000176
+id 95: Value: 0.04306342250
+id 92: Execution time 0.001212
+id 92: Value: 0.04344780797
+id 54: Execution time 0.000422
+id 54: Value: 0.05154447623
+id 136: Execution time 0.001195
+id 136: Value: 0.03933609114
+id 5: Execution time 0.001292
+id 5: Value: 0.20107960541
+id 8: Execution time 0.001602
+id 8: Value: 0.14545186214
+id 14: Execution time 0.000741
+id 14: Value: 0.10086653264
+id 15: Execution time 0.001102
+id 15: Value: 0.09667682267
+id 18: Execution time 0.001230
+id 18: Value: 0.08673999735
+id 19: Execution time 0.001180
+id 19: Value: 0.08408585494
+id 26: Execution time 0.001991
+id 26: Value: 0.07096816364
+id 32: Execution time 0.004113
+id 32: Value: 0.06410581825
+id 33: Execution time 0.001174
+id 33: Value: 0.06319353097
+id 35: Execution time 0.000698
+id 35: Value: 0.06151780754
+id 36: Execution time 0.001873
+id 36: Value: 0.06074634013
+id 38: Execution time 0.001885
+id 38: Value: 0.05931920403
+id 39: Execution time 0.000744
+id 39: Value: 0.05865775856
+id 49: Execution time 0.000085
+id 49: Value: 0.05345876614
+id 52: Execution time 0.004081
+id 52: Value: 0.05226876480
+id 55: Execution time 0.000122
+id 55: Value: 0.05120083809
+id 56: Execution time 0.001000
+id 56: Value: 0.05086867665
+id 58: Execution time 0.000731
+id 58: Value: 0.05023646399
+id 59: Execution time 0.000086
+id 59: Value: 0.04993534939
+id 60: Execution time 0.000737
+id 60: Value: 0.04964357842
+id 61: Execution time 0.000128
+id 61: Value: 0.04936070225
+id 62: Execution time 0.000920
+id 62: Value: 0.04908630051
+id 70: Execution time 0.000806
+id 70: Value: 0.04715252754
+id 71: Execution time 0.000792
+id 71: Value: 0.04693921932
+id 74: Execution time 0.000874
+id 74: Value: 0.04633103639
+id 80: Execution time 0.002248
+id 80: Value: 0.04524006846
+id 83: Execution time 0.000963
+id 83: Value: 0.04474843533
+id 88: Execution time 0.001882
+id 88: Value: 0.04399644640
+id 90: Execution time 0.002131
+id 90: Value: 0.04371668838
+id 93: Execution time 0.000628
+id 93: Value: 0.04331723382
+id 96: Execution time 0.005391
+id 96: Value: 0.04294003700
+id 99: Execution time 0.000087
+id 99: Value: 0.04258313318
+id 102: Execution time 0.001624
+id 102: Value: 0.04224478548
+id 106: Execution time 0.001814
+id 106: Value: 0.04181988121
+id 107: Execution time 0.000077
+id 107: Value: 0.04171799953
+id 110: Execution time 0.000582
+id 110: Value: 0.04142204795
+id 114: Execution time 0.002083
+id 114: Value: 0.04104853083
+id 116: Execution time 0.002224
+id 116: Value: 0.04087013226
+id 121: Execution time 0.001780
+id 121: Value: 0.04044638252
+id 123: Execution time 0.001300
+id 123: Value: 0.04028515480
+id 124: Execution time 0.002826
+id 124: Value: 0.04020620368
+id 127: Execution time 0.001994
+id 127: Value: 0.03997569977
+id 129: Execution time 0.001727
+id 129: Value: 0.03982708574
+id 130: Execution time 0.000349
+id 130: Value: 0.03975422826
+id 132: Execution time 0.001671
+id 132: Value: 0.03961130729
+id 134: Execution time 0.001719
+id 134: Value: 0.03947197873
+id 145: Execution time 0.000617
+id 145: Value: 0.03876353121
+id 147: Execution time 0.000081
+id 147: Value: 0.03864421831
+id 149: Execution time 0.001065
+id 149: Value: 0.03852754732
+id 150: Execution time 0.001131
+id 150: Value: 0.03847017122
+id 151: Execution time 0.000788
+id 151: Value: 0.03841341865
+id 157: Execution time 0.000999
+id 157: Value: 0.03808536531
+id 159: Execution time 0.000397
+id 159: Value: 0.03798050734
+id 162: Execution time 0.000275
+id 162: Value: 0.03782716246
+id 163: Execution time 0.000289
+id 163: Value: 0.03777706224
+id 167: Execution time 0.000578
+id 167: Value: 0.03758150605
+id 168: Execution time 0.000468
+id 168: Value: 0.03753378749
+id 169: Execution time 0.000286
+id 169: Value: 0.03748652151
+id 170: Execution time 0.000665
+id 170: Value: 0.03743970062
+id 172: Execution time 0.001015
+id 172: Value: 0.03734736497
+id 174: Execution time 0.000478
+id 174: Value: 0.03725672391
+id 175: Execution time 0.000599
+id 175: Value: 0.03721202184
+id 176: Execution time 0.001388
+id 176: Value: 0.03716772332
+id 178: Execution time 0.000713
+id 178: Value: 0.03708031147
+id 179: Execution time 0.000083
+id 179: Value: 0.03703718577
+id 180: Execution time 0.000613
+id 180: Value: 0.03699443885
+id 181: Execution time 0.000787
+id 181: Value: 0.03695206486
+id 187: Execution time 0.000616
+id 187: Value: 0.03670533979
+id 189: Execution time 0.000788
+id 189: Value: 0.03662583532
+id 195: Execution time 0.000129
+id 195: Value: 0.03639498479
+id 196: Execution time 0.000875
+id 196: Value: 0.03635757958
+id 197: Execution time 0.000604
+id 197: Value: 0.03632046855
+id 198: Execution time 0.001117
+id 198: Value: 0.03628364759
+id 199: Execution time 0.000078
+id 199: Value: 0.03624711264
+id 200: Execution time 0.001240
+id 200: Value: 0.03621085974
+id 202: Execution time 0.000832
+id 202: Value: 0.03613918464
+id 205: Execution time 0.000476
+id 205: Value: 0.03603369260
+id 209: Execution time 0.000968
+id 209: Value: 0.03589665855
+id 212: Execution time 0.001756
+id 212: Value: 0.03579648150
+id 214: Execution time 0.001209
+id 214: Value: 0.03573088634
+id 215: Execution time 0.001452
+id 215: Value: 0.03569843648
+id 216: Execution time 0.002047
+id 216: Value: 0.03566621451
+id 217: Execution time 0.000794
+id 217: Value: 0.03563421754
+id 218: Execution time 0.001389
+id 218: Value: 0.03560244273
+id 0: Execution time 0.000000
+id 0: Value: 0.00000000000
+Sn: 14.3927267228657100872624141629785299301147460937500000000000000000000000000000000000000000000000000000
+Process number: 256	, Max time: 0.005780	, Answer: 14.3927267228657100872624141629785299301147460937500000000000000000000000000000000000000000000000000000
+id 9: Execution time 0.000402
+id 9: Value: 0.13431695136
+id 16: Execution time 0.002460
+id 16: Value: 0.09297743051
+id 22: Execution time 0.000083
+id 22: Value: 0.07749712336
+id 27: Execution time 0.000074
+id 27: Value: 0.06962375470
+id 75: Execution time 0.000759
+id 75: Value: 0.04613820100
+id 76: Execution time 0.001035
+id 76: Value: 0.04594999435
+id 77: Execution time 0.001027
+id 77: Value: 0.04576624060
+id 87: Execution time 0.001994
+id 87: Value: 0.04414063203
+id 117: Execution time 0.001777
+id 117: Value: 0.04078290251
+id 122: Execution time 0.001745
+id 122: Value: 0.04036520570
+id 125: Execution time 0.002283
+id 125: Value: 0.04012832703
+id 133: Execution time 0.000606
+id 133: Value: 0.03954120363
+id 138: Execution time 0.001141
+id 138: Value: 0.03920350170
+id 140: Execution time 0.000563
+id 140: Value: 0.03907407561
+id 152: Execution time 0.001153
+id 152: Value: 0.03835727798
+id 153: Execution time 0.000077
+id 153: Value: 0.03830173783
+id 154: Execution time 0.000867
+id 154: Value: 0.03824678714
+id 155: Execution time 0.000811
+id 155: Value: 0.03819241512
+id 158: Execution time 0.000904
+id 158: Value: 0.03803266726
+id 173: Execution time 0.000617
+id 173: Value: 0.03730183605
+id 185: Execution time 0.000777
+id 185: Value: 0.03678618536
+id 190: Execution time 0.001305
+id 190: Value: 0.03658657370
+id 191: Execution time 0.001080
+id 191: Value: 0.03654763280
+id 201: Execution time 0.000446
+id 201: Value: 0.03617488501
+id 203: Execution time 0.000791
+id 203: Value: 0.03610375488
+id 207: Execution time 0.000281
+id 207: Value: 0.03596466965
+id 208: Execution time 0.001867
+id 208: Value: 0.03593053929
+id 210: Execution time 0.001655
+id 210: Value: 0.03586302414
+id 219: Execution time 0.000609
+id 219: Value: 0.03557088730
+id 221: Execution time 0.001347
+id 221: Value: 0.03550842370
+id 226: Execution time 0.001237
+id 226: Value: 0.03535591813
+id 229: Execution time 0.000550
+id 229: Value: 0.03526682011
+id 28: Execution time 0.002453
+id 28: Value: 0.06837067846
+id 43: Execution time 0.001075
+id 43: Value: 0.05630431519
+id 98: Execution time 0.001054
+id 98: Value: 0.04269995787
+id 171: Execution time 0.000425
+id 171: Value: 0.03739331749
+id 222: Execution time 0.001719
+id 222: Value: 0.03547751020
+id 225: Execution time 0.000860
+id 225: Value: 0.03538601187
+id 230: Execution time 0.000774
+id 230: Value: 0.03523750737
+id 231: Execution time 0.000739
+id 231: Value: 0.03520838411
+id 242: Execution time 0.000793
+id 242: Value: 0.03489992329
+id 245: Execution time 0.001325
+id 245: Value: 0.03481937200
+id 249: Execution time 0.000875
+id 249: Value: 0.03471419721
+id 252: Execution time 0.004208
+id 252: Value: 0.03463692652
+id 254: Execution time 0.001358
+id 254: Value: 0.03458615512
+id 227: Execution time 0.000692
+id 227: Value: 0.03532602317
+id 232: Execution time 0.001079
+id 232: Value: 0.03517944812
+id 248: Execution time 0.003716
+id 248: Value: 0.03474025751
+id 250: Execution time 0.000603
+id 250: Value: 0.03468828970
+id 255: Execution time 0.000742
+id 255: Value: 0.03456098742
+id 120: Execution time 0.005343
+id 120: Value: 0.04052871226
+id 46: Execution time 0.000762
+id 46: Value: 0.05479408891
+id 161: Execution time 0.000077
+id 161: Value: 0.03787776412
+id 253: Execution time 0.000078
+id 253: Value: 0.03461146763
+id 186: Execution time 0.000397
+id 186: Value: 0.03674559243
+id 20: Execution time 0.001126
+id 20: Value: 0.08168245617
+id 247: Execution time 0.001086
+id 247: Value: 0.03476647228
+id 69: Execution time 0.000469
+id 69: Value: 0.04737149963
+id 73: Execution time 0.000078
+id 73: Value: 0.04652868581
+id 141: Execution time 0.000772
+id 141: Value: 0.03901050874
+id 164: Execution time 0.000630
+id 164: Value: 0.03772745481
+id 89: Execution time 0.000656
+id 89: Value: 0.04385516320
+id 34: Execution time 0.000790
+id 34: Value: 0.06233227575
+id 236: Execution time 0.001188
+id 236: Value: 0.03506553355
+id 211: Execution time 0.001438
+id 211: Value: 0.03582963284
+id 82: Execution time 0.000563
+id 82: Value: 0.04490870328
+id 235: Execution time 0.000714
+id 235: Value: 0.03509374202
+id 237: Execution time 0.000491
+id 237: Value: 0.03503750175
+id 243: Execution time 0.000685
+id 243: Value: 0.03487291026
+id 85: Execution time 0.001117
+id 85: Value: 0.04443810843
+id 240: Execution time 0.003954
+id 240: Value: 0.03495444635
+id 239: Execution time 0.000077
+id 239: Value: 0.03498196012
+id 238: Execution time 0.000862
+id 238: Value: 0.03500964460
+id 48: Execution time 0.004402
+id 48: Value: 0.05388641504
+id 183: Execution time 0.000699
+id 183: Value: 0.03686841287
+id 66: Execution time 0.000901
+id 66: Value: 0.04806490778
+id 193: Execution time 0.000578
+id 193: Value: 0.03647069465
+id 10: Execution time 0.001392
+id 10: Value: 0.12520237184
+id 31: Execution time 0.000911
+id 31: Value: 0.06507391318
+id 182: Execution time 0.000905
+id 182: Value: 0.03691005807
+id 6: Execution time 0.001139
+id 6: Value: 0.17724588623
+id 25: Execution time 0.000768
+id 25: Value: 0.07241443218
+id 241: Execution time 0.000077
+id 241: Value: 0.03492710137
+id 148: Execution time 0.000596
+id 148: Value: 0.03858555892
+id 213: Execution time 0.001195
+id 213: Value: 0.03576356701
+id 30: Execution time 0.001143
+id 30: Value: 0.06610320744
+id 224: Execution time 0.004325
+id 224: Value: 0.03541630681
+id 47: Execution time 0.000913
+id 47: Value: 0.05433116052
+id 4: Execution time 0.000911
+id 4: Value: 0.23443726872
+id 67: Execution time 0.000466
+id 67: Value: 0.04782742416
+id 112: Execution time 0.005692
+id 112: Value: 0.04123240692
+id 111: Execution time 0.000658
+id 111: Value: 0.04132648806
+id 142: Execution time 0.000774
+id 142: Value: 0.03894768551
+id 220: Execution time 0.002010
+id 220: Value: 0.03553954852
+id 233: Execution time 0.000077
+id 233: Value: 0.03515069720
+id 146: Execution time 0.000789
+id 146: Value: 0.03870353809
+id 21: Execution time 0.001075
+id 21: Value: 0.07949562356
+id 65: Execution time 0.000080
+id 65: Value: 0.04830911987
+id 11: Execution time 0.001542
+id 11: Value: 0.11760307178
+id 29: Execution time 0.000153
+id 29: Value: 0.06719981148
+id 194: Execution time 0.000592
+id 194: Value: 0.03643268838
+id 2: Execution time 0.000240
+id 2: Value: 0.36781967147
+id 165: Execution time 0.000630
+id 165: Value: 0.03767833176
+id 3: Execution time 0.000132
+id 3: Value: 0.28446173472
+id 128: Execution time 0.003881
+id 128: Value: 0.03990090235
+id 40: Execution time 0.002275
+id 40: Value: 0.05802767982
+id 50: Execution time 0.001074
+id 50: Value: 0.05304721265
+id 105: Execution time 0.001270
+id 105: Value: 0.04192345268
+id 126: Execution time 0.002040
+id 126: Value: 0.04005150031
+id 41: Execution time 0.000079
+id 41: Value: 0.05742673339
+id 53: Execution time 0.000078
+id 53: Value: 0.05190022467
+id 7: Execution time 0.000132
+id 7: Value: 0.15936468126
+id 144: Execution time 0.001591
+id 144: Value: 0.03882421098
+id 100: Execution time 0.001304
+id 100: Value: 0.04246836868
+id 72: Execution time 0.001579
+id 72: Value: 0.04673134470
+id 113: Execution time 0.001498
+id 113: Value: 0.04113976669
+id 101: Execution time 0.000782
+id 101: Value: 0.04235560510
+id 204: Execution time 0.000765
+id 204: Value: 0.03606859207
+id 109: Execution time 0.000977
+id 109: Value: 0.04151912582
+id 188: Execution time 0.001387
+id 188: Value: 0.03666542240
+id 91: Execution time 0.002387
+id 91: Value: 0.04358093200
+id 103: Execution time 0.001144
+id 103: Value: 0.04213585502
+id 42: Execution time 0.001241
+id 42: Value: 0.05685289267
+id 45: Execution time 0.000603
+id 45: Value: 0.05527638094
+id 160: Execution time 0.002722
+id 160: Value: 0.03792887606
+id 246: Execution time 0.001783
+id 246: Value: 0.03479284320
+id 184: Execution time 0.001340
+id 184: Value: 0.03682712376
+id 1: Execution time 0.000117
+id 1: Value: 0.53451108042
+id 13: Execution time 0.000562
+id 13: Value: 0.10565160365
+id 228: Execution time 0.001064
+id 228: Value: 0.03529632461
+id 192: Execution time 0.003840
+id 192: Value: 0.03650900797
+id 84: Execution time 0.001346
+id 84: Value: 0.04459160979
+id 131: Execution time 0.000083
+id 131: Value: 0.03968230890
+id 234: Execution time 0.000978
+id 234: Value: 0.03512212921
+id 206: Execution time 0.001110
+id 206: Value: 0.03599905295
+id 68: Execution time 0.000566
+id 68: Value: 0.04759637920
+id 244: Execution time 0.001722
+id 244: Value: 0.03484606043
+id 223: Execution time 0.001451
+id 223: Value: 0.03544680542
+id 251: Execution time 0.000310
+id 251: Value: 0.03466253335
+id 104: Execution time 0.002313
+id 104: Value: 0.04202876100
+id 166: Execution time 0.000597
+id 166: Value: 0.03762968485
+id 108: Execution time 0.000543
+id 108: Value: 0.04161776230
+id 23: Execution time 0.000231
+id 23: Value: 0.07566342727
+id 51: Execution time 0.000497
+id 51: Value: 0.05265083037
+id 24: Execution time 0.002247
+id 24: Value: 0.07397477137
+id 86: Execution time 0.001945
+id 86: Value: 0.04428781841
+id 63: Execution time 0.000970
+id 63: Value: 0.04881997907
+id 143: Execution time 0.000609
+id 143: Value: 0.03888559107
+id 44: Execution time 0.000677
+id 44: Value: 0.05577932222
+id 64: Execution time 0.005482
+id 64: Value: 0.04856036803
+Processer number 512
+
+id 94: Execution time 0.007516
+id 94: Value: 0.02592567986
+id 118: Execution time 0.007084
+id 116: Execution time 0.005934
+id 116: Value: 0.02384089805
+id 114: Execution time 0.005392
+id 114: Value: 0.02399891607
+id 0: Execution time 0.000000
+id 0: Value: 0.00000000000
+Sn: 14.3927267228657189690466111642308533191680908203125000000000000000000000000000000000000000000000000000
+Process number: 512	, Max time: 0.012287	, Answer: 14.3927267228657189690466111642308533191680908203125000000000000000000000000000000000000000000000000000
+id 23: Execution time 0.004840
+id 23: Value: 0.05744800622
+id 30: Execution time 0.005735
+id 30: Value: 0.04799870619
+id 32: Execution time 0.008132
+id 32: Value: 0.04603218279
+id 33: Execution time 0.005499
+id 33: Value: 0.04513519534
+id 34: Execution time 0.005174
+id 34: Value: 0.04428915243
+id 35: Execution time 0.003902
+id 35: Value: 0.04348980985
+id 37: Execution time 0.002791
+id 37: Value: 0.04201648267
+id 39: Execution time 0.003289
+id 39: Value: 0.04068941342
+id 45: Execution time 0.006236
+id 45: Value: 0.03739505348
+id 52: Execution time 0.005241
+id 52: Value: 0.03448542137
+id 55: Execution time 0.005723
+id 55: Value: 0.03345837891
+id 56: Execution time 0.006987
+id 56: Value: 0.03313970265
+id 58: Execution time 0.005657
+id 58: Value: 0.03253424985
+id 61: Execution time 0.003635
+id 61: Value: 0.03169811114
+id 72: Execution time 0.007406
+id 72: Value: 0.02920897775
+id 73: Execution time 0.005304
+id 73: Value: 0.02901868921
+id 74: Execution time 0.005213
+id 74: Value: 0.02883334959
+id 75: Execution time 0.006322
+id 75: Value: 0.02865276398
+id 76: Execution time 0.005961
+id 76: Value: 0.02847674758
+id 77: Execution time 0.002650
+id 77: Value: 0.02830512507
+id 78: Execution time 0.006351
+id 78: Value: 0.02813773002
+id 79: Execution time 0.005564
+id 79: Value: 0.02797440429
+id 82: Execution time 0.005500
+id 82: Value: 0.02750737609
+id 89: Execution time 0.004420
+id 89: Value: 0.02653519589
+id 92: Execution time 0.005723
+id 92: Value: 0.02616190607
+id 95: Execution time 0.004350
+id 95: Value: 0.02581112090
+id 98: Execution time 0.006573
+id 98: Value: 0.02548080256
+id 102: Execution time 0.007177
+id 102: Value: 0.02506913752
+id 112: Execution time 0.006125
+id 112: Value: 0.02416223757
+id 113: Execution time 0.003510
+id 113: Value: 0.02407989656
+id 115: Execution time 0.003251
+id 115: Value: 0.02391926116
+id 117: Execution time 0.007284
+id 117: Value: 0.02376379413
+id 118: Value: 0.02368791787
+id 119: Execution time 0.005270
+id 119: Value: 0.02361323879
+id 123: Execution time 0.006266
+id 123: Value: 0.02332591912
+id 128: Execution time 0.009287
+id 128: Value: 0.02299043887
+id 137: Execution time 0.006843
+id 137: Value: 0.02244427128
+id 138: Execution time 0.007283
+id 138: Value: 0.02238767526
+id 139: Execution time 0.006673
+id 139: Value: 0.02233183345
+id 1: Execution time 0.002913
+id 1: Value: 0.51591443036
+id 2: Execution time 0.003704
+id 2: Value: 0.34924153520
+id 3: Execution time 0.000411
+id 3: Value: 0.26590199101
+id 4: Execution time 0.005919
+id 4: Value: 0.21589579769
+id 5: Execution time 0.003718
+id 5: Value: 0.18255628849
+id 6: Execution time 0.002801
+id 6: Value: 0.15874060617
+id 7: Execution time 0.002713
+id 7: Value: 0.14087732206
+id 8: Execution time 0.007323
+id 8: Value: 0.12698230911
+id 9: Execution time 0.003627
+id 9: Value: 0.11586509102
+id 10: Execution time 0.005592
+id 10: Value: 0.10676809195
+id 11: Execution time 0.004935
+id 11: Value: 0.09918626132
+id 12: Execution time 0.006183
+id 12: Value: 0.09276994867
+id 13: Execution time 0.004434
+id 13: Value: 0.08726940368
+id 14: Execution time 0.005256
+id 14: Value: 0.08250147608
+id 15: Execution time 0.005088
+id 15: Value: 0.07832880315
+id 16: Execution time 0.008391
+id 16: Value: 0.07464634278
+id 17: Execution time 0.006077
+id 17: Value: 0.07137239554
+id 18: Execution time 0.007634
+id 18: Value: 0.06844246187
+id 19: Execution time 0.004758
+id 19: Value: 0.06580494210
+id 20: Execution time 0.007170
+id 20: Value: 0.06341806505
+id 21: Execution time 0.006041
+id 21: Value: 0.06124765429
+id 22: Execution time 0.005497
+id 22: Value: 0.05926547711
+id 24: Execution time 0.008163
+id 24: Value: 0.05577547870
+id 25: Execution time 0.005835
+id 25: Value: 0.05423117206
+id 26: Execution time 0.006718
+id 26: Value: 0.05280084121
+id 27: Execution time 0.006532
+id 27: Value: 0.05147227606
+id 28: Execution time 0.005975
+id 28: Value: 0.05023495065
+id 29: Execution time 0.006960
+id 29: Value: 0.04907974250
+id 31: Execution time 0.006107
+id 31: Value: 0.04698488947
+id 36: Execution time 0.002867
+id 36: Value: 0.04273338224
+id 38: Execution time 0.002974
+id 38: Value: 0.04133607159
+id 40: Execution time 0.006184
+id 40: Value: 0.04007403942
+id 41: Execution time 0.002767
+id 41: Value: 0.03948771598
+id 42: Execution time 0.003083
+id 42: Value: 0.03892841728
+id 43: Execution time 0.003415
+id 43: Value: 0.03839430163
+id 44: Execution time 0.004992
+id 44: Value: 0.03788369105
+id 46: Execution time 0.006974
+id 46: Value: 0.03692698722
+id 47: Execution time 0.003777
+id 47: Value: 0.03647820739
+id 48: Execution time 0.006316
+id 48: Value: 0.03604753398
+id 49: Execution time 0.002961
+id 49: Value: 0.03563388139
+id 50: Execution time 0.006501
+id 50: Value: 0.03523624915
+id 51: Execution time 0.004706
+id 51: Value: 0.03485371375
+id 53: Execution time 0.005988
+id 53: Value: 0.03413058143
+id 54: Execution time 0.004737
+id 54: Value: 0.03378846086
+id 57: Execution time 0.004081
+id 57: Value: 0.03283184275
+id 59: Execution time 0.003893
+id 59: Value: 0.03224641121
+id 60: Execution time 0.007097
+id 60: Value: 0.03196784772
+id 62: Execution time 0.005357
+id 62: Value: 0.03143678174
+id 63: Execution time 0.003604
+id 63: Value: 0.03118346597
+id 64: Execution time 0.007099
+id 64: Value: 0.03093679452
+id 65: Execution time 0.002834
+id 65: Value: 0.03069842045
+id 66: Execution time 0.001681
+id 66: Value: 0.03046701755
+id 67: Execution time 0.002427
+id 67: Value: 0.03024227877
+id 68: Execution time 0.007504
+id 68: Value: 0.03002391486
+id 69: Execution time 0.005840
+id 69: Value: 0.02981165311
+id 70: Execution time 0.007454
+id 70: Value: 0.02960523617
+id 71: Execution time 0.005875
+id 71: Value: 0.02940442096
+id 80: Execution time 0.006768
+id 80: Value: 0.02781499757
+id 81: Execution time 0.005252
+id 81: Value: 0.02765936687
+id 83: Execution time 0.005422
+id 83: Value: 0.02735889561
+id 84: Execution time 0.007677
+id 84: Value: 0.02721380191
+id 85: Execution time 0.007705
+id 85: Value: 0.02707197720
+id 86: Execution time 0.007012
+id 86: Value: 0.02693330913
+id 87: Execution time 0.006195
+id 87: Value: 0.02679769042
+id 88: Execution time 0.007262
+id 88: Value: 0.02666501864
+id 90: Execution time 0.007388
+id 90: Value: 0.02640812859
+id 91: Execution time 0.004582
+id 91: Value: 0.02628372720
+id 93: Execution time 0.006385
+id 93: Value: 0.02604258314
+id 96: Execution time 0.006438
+id 96: Value: 0.02569883407
+id 97: Execution time 0.006613
+id 97: Value: 0.02558875011
+id 99: Execution time 0.006507
+id 99: Value: 0.02537492762
+id 100: Execution time 0.005560
+id 100: Value: 0.02527106400
+id 101: Execution time 0.006609
+id 101: Value: 0.02516915283
+id 103: Execution time 0.006522
+id 103: Value: 0.02497096365
+id 104: Execution time 0.005531
+id 104: Value: 0.02487457887
+id 105: Execution time 0.006247
+id 105: Value: 0.02477993281
+id 106: Execution time 0.006991
+id 106: Value: 0.02468697699
+id 107: Execution time 0.006465
+id 107: Value: 0.02459566470
+id 108: Execution time 0.005004
+id 108: Value: 0.02450595097
+id 109: Execution time 0.004222
+id 109: Value: 0.02441779244
+id 110: Execution time 0.005364
+id 110: Value: 0.02433114732
+id 111: Execution time 0.006327
+id 111: Value: 0.02424597532
+id 120: Execution time 0.005873
+id 120: Value: 0.02353972742
+id 121: Execution time 0.004740
+id 121: Value: 0.02346735526
+id 122: Execution time 0.005163
+id 122: Value: 0.02339609472
+id 124: Execution time 0.006389
+id 124: Value: 0.02325680263
+id 125: Execution time 0.004219
+id 125: Value: 0.02318872021
+id 126: Execution time 0.005123
+id 126: Value: 0.02312164764
+id 127: Execution time 0.005726
+id 127: Value: 0.02305556144
+id 129: Execution time 0.003155
+id 129: Value: 0.02292625788
+id 130: Execution time 0.007462
+id 130: Value: 0.02286299708
+id 131: Execution time 0.007155
+id 131: Value: 0.02280063575
+id 132: Execution time 0.005224
+id 132: Value: 0.02273915378
+id 133: Execution time 0.006664
+id 133: Value: 0.02267853166
+id 134: Execution time 0.006549
+id 134: Value: 0.02261875046
+id 135: Execution time 0.005825
+id 135: Value: 0.02255979180
+id 136: Execution time 0.006286
+id 136: Value: 0.02250163785
+id 186: Execution time 0.007719
+id 186: Value: 0.02033723313
+id 189: Execution time 0.003398
+id 189: Value: 0.02024069776
+id 192: Execution time 0.008781
+id 192: Value: 0.02014685732
+id 195: Execution time 0.003965
+id 195: Value: 0.02005559053
+id 196: Execution time 0.007411
+id 196: Value: 0.02002572028
+id 197: Execution time 0.003799
+id 197: Value: 0.01999611922
+id 200: Execution time 0.007199
+id 200: Value: 0.01990889179
+id 201: Execution time 0.003549
+id 201: Value: 0.01988032853
+id 204: Execution time 0.005989
+id 204: Value: 0.01979612501
+id 205: Execution time 0.005184
+id 205: Value: 0.01976854084
+id 212: Execution time 0.007452
+id 212: Value: 0.01958188134
+id 214: Execution time 0.006015
+id 214: Value: 0.01953052289
+id 154: Execution time 0.005821
+id 154: Value: 0.02157488403
+id 156: Execution time 0.004852
+id 156: Value: 0.02148409077
+id 157: Execution time 0.003980
+id 157: Value: 0.02143948762
+id 158: Execution time 0.004300
+id 158: Value: 0.02139540033
+id 159: Execution time 0.004945
+id 159: Value: 0.02135181935
+id 167: Execution time 0.002956
+id 167: Value: 0.02102032865
+id 173: Execution time 0.005165
+id 173: Value: 0.02079002605
+id 174: Execution time 0.005781
+id 174: Value: 0.02075303972
+id 175: Execution time 0.004700
+id 175: Value: 0.02071643481
+id 177: Execution time 0.002023
+id 177: Value: 0.02064434395
+id 178: Execution time 0.001662
+id 178: Value: 0.02060884571
+id 183: Execution time 0.003730
+id 183: Value: 0.02043659261
+id 184: Execution time 0.007124
+id 184: Value: 0.02040315068
+id 188: Execution time 0.006664
+id 188: Value: 0.02027257056
+id 191: Execution time 0.003145
+id 191: Value: 0.02017784567
+id 194: Execution time 0.006360
+id 194: Value: 0.02008573402
+id 198: Execution time 0.007314
+id 198: Value: 0.01996678336
+id 199: Execution time 0.006080
+id 199: Value: 0.01993770882
+id 202: Execution time 0.004516
+id 202: Value: 0.01985201536
+id 206: Execution time 0.007440
+id 206: Value: 0.01974119280
+id 208: Execution time 0.007342
+id 208: Value: 0.01968719186
+id 210: Execution time 0.006319
+id 210: Value: 0.01963409634
+id 211: Execution time 0.006811
+id 211: Value: 0.01960788030
+id 213: Execution time 0.006865
+id 213: Value: 0.01955609651
+id 218: Execution time 0.006381
+id 218: Value: 0.01943028411
+id 219: Execution time 0.007534
+id 219: Value: 0.01940572468
+id 220: Execution time 0.006200
+id 220: Value: 0.01938136006
+id 222: Execution time 0.007966
+id 222: Value: 0.01933320507
+id 225: Execution time 0.005273
+id 225: Value: 0.01926237109
+id 227: Execution time 0.004180
+id 227: Value: 0.01921605293
+id 230: Execution time 0.003672
+id 230: Value: 0.01914788674
+id 232: Execution time 0.007726
+id 232: Value: 0.01910329115
+id 233: Execution time 0.004898
+id 233: Value: 0.01908124157
+id 234: Execution time 0.006857
+id 234: Value: 0.01905935474
+id 235: Execution time 0.006303
+id 235: Value: 0.01903762865
+id 236: Execution time 0.007397
+id 236: Value: 0.01901606132
+id 237: Execution time 0.006942
+id 237: Value: 0.01899465082
+id 238: Execution time 0.007113
+id 238: Value: 0.01897339524
+id 239: Execution time 0.006913
+id 239: Value: 0.01895229270
+id 243: Execution time 0.005360
+id 243: Value: 0.01886937647
+id 247: Execution time 0.004931
+id 247: Value: 0.01878876652
+id 249: Execution time 0.005304
+id 249: Value: 0.01874929291
+id 251: Execution time 0.004854
+id 251: Value: 0.01871035654
+id 253: Execution time 0.005319
+id 253: Value: 0.01867194513
+id 255: Execution time 0.005895
+id 255: Value: 0.01863404681
+id 274: Execution time 0.005630
+id 274: Value: 0.01829753547
+id 278: Execution time 0.005288
+id 278: Value: 0.01823164625
+id 288: Execution time 0.007547
+id 288: Value: 0.01807363546
+id 293: Execution time 0.006833
+id 293: Value: 0.01799800308
+id 294: Execution time 0.006277
+id 294: Value: 0.01798313244
+id 295: Execution time 0.006517
+id 295: Value: 0.01796834515
+id 296: Execution time 0.008981
+id 296: Value: 0.01795364040
+id 298: Execution time 0.007886
+id 298: Value: 0.01792447538
+id 299: Execution time 0.006768
+id 299: Value: 0.01791001356
+id 300: Execution time 0.007960
+id 300: Value: 0.01789563117
+id 301: Execution time 0.006402
+id 301: Value: 0.01788132746
+id 316: Execution time 0.006817
+id 316: Value: 0.01767573071
+id 322: Execution time 0.004122
+id 322: Value: 0.01759789023
+id 323: Execution time 0.003914
+id 323: Value: 0.01758514540
+id 325: Execution time 0.005978
+id 325: Value: 0.01755984652
+id 327: Execution time 0.005504
+id 327: Value: 0.01753479836
+id 330: Execution time 0.006185
+id 330: Value: 0.01749768680
+id 333: Execution time 0.006472
+id 333: Value: 0.01746111553
+id 335: Execution time 0.006054
+id 335: Value: 0.01743702808
+id 338: Execution time 0.006110
+id 338: Value: 0.01740132718
+id 342: Execution time 0.007843
+id 342: Value: 0.01735450928
+id 346: Execution time 0.006279
+id 346: Value: 0.01730855979
+id 352: Execution time 0.006344
+id 352: Value: 0.01724120293
+id 353: Execution time 0.005406
+id 353: Value: 0.01723015429
+id 358: Execution time 0.007252
+id 358: Value: 0.01717564796
+id 359: Execution time 0.005749
+id 359: Value: 0.01716489137
+id 366: Execution time 0.006623
+id 366: Value: 0.01709090063
+id 367: Execution time 0.006306
+id 367: Value: 0.01708051273
+id 372: Execution time 0.006825
+id 372: Value: 0.01702923420
+id 373: Execution time 0.005680
+id 373: Value: 0.01701910837
+id 374: Execution time 0.005850
+id 374: Value: 0.01700902508
+id 376: Execution time 0.007191
+id 376: Value: 0.01698898484
+id 389: Execution time 0.003875
+id 389: Value: 0.01686267197
+id 394: Execution time 0.003891
+id 394: Value: 0.01681582644
+id 395: Execution time 0.003680
+id 395: Value: 0.01680656792
+id 397: Execution time 0.003462
+id 397: Value: 0.01678815939
+id 140: Execution time 0.004282
+id 140: Value: 0.02227672996
+id 146: Execution time 0.003639
+id 146: Value: 0.02196077869
+id 149: Execution time 0.005838
+id 149: Value: 0.02181161159
+id 150: Execution time 0.005433
+id 150: Value: 0.02176310875
+id 152: Execution time 0.005190
+id 152: Value: 0.02166786147
+id 153: Execution time 0.005395
+id 153: Value: 0.02162109448
+id 155: Execution time 0.003308
+id 155: Value: 0.02152921956
+id 160: Execution time 0.006981
+id 160: Value: 0.02130873538
+id 162: Execution time 0.003722
+id 162: Value: 0.02122402240
+id 164: Execution time 0.005067
+id 164: Value: 0.02114119138
+id 165: Execution time 0.004424
+id 165: Value: 0.02110046067
+id 168: Execution time 0.005184
+id 168: Value: 0.02098091185
+id 169: Execution time 0.004951
+id 169: Value: 0.02094191783
+id 180: Execution time 0.006832
+id 180: Value: 0.02053891390
+id 181: Execution time 0.003603
+id 181: Value: 0.02050446884
+id 203: Execution time 0.003771
+id 203: Value: 0.01982394869
+id 207: Execution time 0.004188
+id 207: Value: 0.01971407756
+id 217: Execution time 0.007626
+id 217: Value: 0.01945504097
+id 226: Execution time 0.005740
+id 226: Value: 0.01923912311
+id 250: Execution time 0.005298
+id 250: Value: 0.01872975835
+id 252: Execution time 0.007036
+id 252: Value: 0.01869108596
+id 254: Execution time 0.006963
+id 254: Value: 0.01865293256
+id 258: Execution time 0.005376
+id 258: Value: 0.01857813627
+id 276: Execution time 0.005292
+id 276: Value: 0.01826439112
+id 277: Execution time 0.004471
+id 277: Value: 0.01824796927
+id 302: Execution time 0.008086
+id 302: Value: 0.01786710169
+id 303: Execution time 0.007610
+id 303: Value: 0.01785295313
+id 309: Execution time 0.003292
+id 309: Value: 0.01776964323
+id 314: Execution time 0.003538
+id 314: Value: 0.01770221414
+id 331: Execution time 0.004830
+id 331: Value: 0.01748543703
+id 344: Execution time 0.006381
+id 344: Value: 0.01733142777
+id 350: Execution time 0.006332
+id 350: Value: 0.01726345072
+id 354: Execution time 0.005965
+id 354: Value: 0.01721915530
+id 361: Execution time 0.005766
+id 361: Value: 0.01714351987
+id 387: Execution time 0.003313
+id 387: Value: 0.01688167315
+id 388: Execution time 0.005333
+id 388: Value: 0.01687215351
+id 391: Execution time 0.003893
+id 391: Value: 0.01684382213
+id 398: Execution time 0.003500
+id 398: Value: 0.01677900888
+id 404: Execution time 0.006881
+id 404: Value: 0.01672484281
+id 413: Execution time 0.005472
+id 413: Value: 0.01664587769
+id 415: Execution time 0.004075
+id 415: Value: 0.01662868799
+id 419: Execution time 0.005910
+id 419: Value: 0.01659468635
+id 421: Execution time 0.006487
+id 421: Value: 0.01657787110
+id 141: Execution time 0.004187
+id 141: Value: 0.02222234935
+id 142: Execution time 0.004231
+id 142: Value: 0.02216867663
+id 143: Execution time 0.005450
+id 143: Value: 0.02211569720
+id 144: Execution time 0.005527
+id 144: Value: 0.02206339687
+id 145: Execution time 0.001797
+id 145: Value: 0.02201176184
+id 151: Execution time 0.003734
+id 151: Value: 0.02171519585
+id 161: Execution time 0.003572
+id 161: Value: 0.02126613935
+id 163: Execution time 0.002674
+id 163: Value: 0.02118237589
+id 166: Execution time 0.006101
+id 166: Value: 0.02106017570
+id 170: Execution time 0.004366
+id 170: Value: 0.02090333929
+id 171: Execution time 0.003644
+id 171: Value: 0.02086516910
+id 172: Execution time 0.005423
+id 172: Value: 0.02082740029
+id 182: Execution time 0.007211
+id 182: Value: 0.02047036356
+id 185: Execution time 0.006038
+id 185: Value: 0.02037003255
+id 187: Execution time 0.004895
+id 187: Value: 0.02030474743
+id 190: Execution time 0.006860
+id 190: Value: 0.02020912432
+id 193: Execution time 0.005794
+id 193: Value: 0.02011615488
+id 209: Execution time 0.006337
+id 209: Value: 0.01966053250
+id 215: Execution time 0.007000
+id 215: Value: 0.01950515763
+id 216: Execution time 0.008520
+id 216: Value: 0.01947999790
+id 221: Execution time 0.008378
+id 221: Value: 0.01935718770
+id 223: Execution time 0.005961
+id 223: Value: 0.01930940971
+id 224: Execution time 0.006727
+id 224: Value: 0.01928579917
+id 229: Execution time 0.005757
+id 229: Value: 0.01917043695
+id 231: Execution time 0.005328
+id 231: Value: 0.01912550551
+id 240: Execution time 0.006773
+id 240: Value: 0.01893134135
+id 241: Execution time 0.006565
+id 241: Value: 0.01891053939
+id 242: Execution time 0.005619
+id 242: Value: 0.01888988501
+id 244: Execution time 0.007332
+id 244: Value: 0.01884901204
+id 245: Execution time 0.005022
+id 245: Value: 0.01882879001
+id 246: Execution time 0.007458
+id 246: Value: 0.01880870872
+id 248: Execution time 0.007149
+id 248: Value: 0.01876896178
+id 256: Execution time 0.011382
+id 256: Value: 0.01861528645
+id 257: Execution time 0.001974
+id 257: Value: 0.01859665006
+id 260: Execution time 0.007388
+id 260: Value: 0.01854147103
+id 261: Execution time 0.004158
+id 261: Value: 0.01852331692
+id 271: Execution time 0.005397
+id 271: Value: 0.01834801952
+id 272: Execution time 0.006136
+id 272: Value: 0.01833108773
+id 273: Execution time 0.005071
+id 273: Value: 0.01831426008
+id 275: Execution time 0.004204
+id 275: Value: 0.01828091284
+id 279: Execution time 0.005133
+id 279: Value: 0.01821542105
+id 280: Execution time 0.006931
+id 280: Value: 0.01819929267
+id 283: Execution time 0.005493
+id 283: Value: 0.01815147864
+id 285: Execution time 0.005384
+id 285: Value: 0.01812006898
+id 286: Execution time 0.006904
+id 286: Value: 0.01810450125
+id 287: Execution time 0.005507
+id 287: Value: 0.01808902371
+id 289: Execution time 0.003676
+id 289: Value: 0.01805833562
+id 292: Execution time 0.006781
+id 292: Value: 0.01801295789
+id 297: Execution time 0.007075
+id 297: Value: 0.01793901741
+id 305: Execution time 0.003011
+id 305: Value: 0.01782488475
+id 306: Execution time 0.005684
+id 306: Value: 0.01781096350
+id 307: Execution time 0.002850
+id 307: Value: 0.01779711662
+id 312: Execution time 0.006233
+id 312: Value: 0.01772897401
+id 313: Execution time 0.003399
+id 313: Value: 0.01771555920
+id 315: Execution time 0.003045
+id 315: Value: 0.01768893818
+id 317: Execution time 0.005519
+id 317: Value: 0.01766259110
+id 318: Execution time 0.003593
+id 318: Value: 0.01764951877
+id 319: Execution time 0.004621
+id 319: Value: 0.01763651310
+id 320: Execution time 0.009012
+id 320: Value: 0.01762357351
+id 328: Execution time 0.007205
+id 328: Value: 0.01752236695
+id 329: Execution time 0.003349
+id 329: Value: 0.01750999660
+id 332: Execution time 0.006676
+id 332: Value: 0.01747324677
+id 334: Execution time 0.005203
+id 334: Value: 0.01744904279
+id 337: Execution time 0.004596
+id 337: Value: 0.01741317075
+id 340: Execution time 0.008534
+id 340: Value: 0.01737780788
+id 343: Execution time 0.007148
+id 343: Value: 0.01734294161
+id 345: Execution time 0.005106
+id 345: Value: 0.01731996730
+id 347: Execution time 0.004646
+id 347: Value: 0.01729720480
+id 349: Execution time 0.007686
+id 349: Value: 0.01727465068
+id 351: Execution time 0.004857
+id 351: Value: 0.01725230160
+id 355: Execution time 0.004810
+id 355: Value: 0.01720820556
+id 356: Execution time 0.006755
+id 356: Value: 0.01719730468
+id 357: Execution time 0.006053
+id 357: Value: 0.01718645227
+id 360: Execution time 0.007146
+id 360: Value: 0.01715418213
+id 362: Execution time 0.005468
+id 362: Value: 0.01713290422
+id 363: Execution time 0.006415
+id 363: Value: 0.01712233483
+id 365: Execution time 0.005186
+id 365: Value: 0.01710133338
+id 368: Execution time 0.006786
+id 368: Value: 0.01707016935
+id 369: Execution time 0.004831
+id 369: Value: 0.01705987013
+id 370: Execution time 0.005577
+id 370: Value: 0.01704961476
+id 375: Execution time 0.006143
+id 375: Value: 0.01699898401
+id 377: Execution time 0.005713
+id 377: Value: 0.01697902727
+id 378: Execution time 0.006120
+id 378: Value: 0.01696911098
+id 382: Execution time 0.004080
+id 382: Value: 0.01692985267
+id 386: Execution time 0.003900
+id 386: Value: 0.01689123118
+id 393: Execution time 0.006150
+id 393: Value: 0.01682512148
+id 396: Execution time 0.005766
+id 396: Value: 0.01679734565
+id 399: Execution time 0.001904
+id 399: Value: 0.01676989387
+id 400: Execution time 0.007412
+id 400: Value: 0.01676081411
+id 401: Execution time 0.003518
+id 401: Value: 0.01675176937
+id 405: Execution time 0.005063
+id 405: Value: 0.01671593573
+id 409: Execution time 0.005614
+id 409: Value: 0.01668064335
+id 412: Execution time 0.005258
+id 412: Value: 0.01665452050
+id 414: Execution time 0.003943
+id 414: Value: 0.01663726693
+id 417: Execution time 0.005823
+id 417: Value: 0.01661162477
+id 418: Execution time 0.006787
+id 418: Value: 0.01660314006
+id 420: Execution time 0.007528
+id 420: Value: 0.01658626343
+id 422: Execution time 0.007344
+id 422: Value: 0.01656950915
+id 423: Execution time 0.007157
+id 423: Value: 0.01656117740
+id 433: Execution time 0.005613
+id 433: Value: 0.01647947800
+id 434: Execution time 0.005571
+id 434: Value: 0.01647146576
+id 436: Execution time 0.006618
+id 436: Value: 0.01645552494
+id 437: Execution time 0.006611
+id 437: Value: 0.01644759602
+id 438: Execution time 0.006241
+id 438: Value: 0.01643969451
+id 440: Execution time 0.006998
+id 440: Value: 0.01642397308
+id 443: Execution time 0.006086
+id 443: Value: 0.01640059236
+id 445: Execution time 0.004617
+id 445: Value: 0.01638513756
+id 447: Execution time 0.006670
+id 447: Value: 0.01636978712
+id 448: Execution time 0.007971
+id 448: Value: 0.01636215064
+id 449: Execution time 0.003908
+id 449: Value: 0.01635453977
+id 450: Execution time 0.005185
+id 450: Value: 0.01634695436
+id 452: Execution time 0.006713
+id 452: Value: 0.01633185930
+id 453: Execution time 0.004780
+id 453: Value: 0.01632434934
+id 454: Execution time 0.005433
+id 454: Value: 0.01631686423
+id 455: Execution time 0.004380
+id 455: Value: 0.01630940381
+id 456: Execution time 0.005398
+id 456: Value: 0.01630196795
+id 457: Execution time 0.005679
+id 457: Value: 0.01629455648
+id 458: Execution time 0.006931
+id 458: Value: 0.01628716928
+id 476: Execution time 0.006123
+id 476: Value: 0.01615818846
+id 477: Execution time 0.007500
+id 477: Value: 0.01615123600
+id 479: Execution time 0.004057
+id 479: Value: 0.01613739571
+id 480: Execution time 0.008328
+id 480: Value: 0.01613050764
+id 487: Execution time 0.004943
+id 487: Value: 0.01608287860
+id 488: Execution time 0.007167
+id 488: Value: 0.01607615697
+id 489: Execution time 0.005698
+id 489: Value: 0.01606945563
+id 492: Execution time 0.007669
+id 492: Value: 0.01604947223
+id 494: Execution time 0.007549
+id 494: Value: 0.01603624936
+id 495: Execution time 0.003959
+id 495: Value: 0.01602966742
+id 497: Execution time 0.006772
+id 497: Value: 0.01601656199
+id 498: Execution time 0.006455
+id 498: Value: 0.01601003828
+id 147: Execution time 0.003841
+id 147: Value: 0.02191043435
+id 148: Execution time 0.005689
+id 148: Value: 0.02186071611
+id 176: Execution time 0.006980
+id 176: Value: 0.02068020496
+id 179: Execution time 0.001650
+id 179: Value: 0.02057370430
+id 228: Execution time 0.005767
+id 228: Value: 0.01919315828
+id 262: Execution time 0.007432
+id 262: Value: 0.01850528007
+id 265: Execution time 0.005736
+id 265: Value: 0.01845186034
+id 266: Execution time 0.003554
+id 266: Value: 0.01843427989
+id 267: Execution time 0.003108
+id 267: Value: 0.01841681047
+id 269: Execution time 0.003638
+id 269: Value: 0.01838219997
+id 270: Execution time 0.006062
+id 270: Value: 0.01836505656
+id 281: Execution time 0.004367
+id 281: Value: 0.01818326013
+id 282: Execution time 0.005853
+id 282: Value: 0.01816732244
+id 284: Execution time 0.006446
+id 284: Value: 0.01813572780
+id 290: Execution time 0.004973
+id 290: Value: 0.01804312332
+id 291: Execution time 0.005467
+id 291: Value: 0.01802799769
+id 304: Execution time 0.006595
+id 304: Value: 0.01783888105
+id 308: Execution time 0.003309
+id 308: Value: 0.01778334343
+id 310: Execution time 0.003904
+id 310: Value: 0.01775601537
+id 321: Execution time 0.003497
+id 321: Value: 0.01761069941
+id 324: Execution time 0.005855
+id 324: Value: 0.01757246434
+id 326: Execution time 0.006602
+id 326: Value: 0.01754729137
+id 336: Execution time 0.009052
+id 336: Value: 0.01742507089
+id 339: Execution time 0.005212
+id 339: Value: 0.01738953972
+id 341: Execution time 0.007889
+id 341: Value: 0.01736613122
+id 348: Execution time 0.007770
+id 348: Value: 0.01728590190
+id 364: Execution time 0.005876
+id 364: Value: 0.01711181133
+id 371: Execution time 0.004767
+id 371: Value: 0.01703940289
+id 379: Execution time 0.007109
+id 379: Value: 0.01695923568
+id 380: Execution time 0.007049
+id 380: Value: 0.01694940106
+id 381: Execution time 0.006206
+id 381: Value: 0.01693960682
+id 383: Execution time 0.004945
+id 383: Value: 0.01692013832
+id 385: Execution time 0.003888
+id 385: Value: 0.01690082786
+id 390: Execution time 0.004188
+id 390: Value: 0.01685322827
+id 392: Execution time 0.004397
+id 392: Value: 0.01683445329
+id 402: Execution time 0.004132
+id 402: Value: 0.01674275940
+id 403: Execution time 0.003313
+id 403: Value: 0.01673378396
+id 406: Execution time 0.005507
+id 406: Value: 0.01670706246
+id 407: Execution time 0.005097
+id 407: Value: 0.01669822280
+id 408: Execution time 0.004472
+id 408: Value: 0.01668941650
+id 410: Execution time 0.004945
+id 410: Value: 0.01667190311
+id 411: Execution time 0.005708
+id 411: Value: 0.01666319557
+id 416: Execution time 0.009229
+id 416: Value: 0.01662014068
+id 429: Execution time 0.006650
+id 429: Value: 0.01651181001
+id 430: Execution time 0.005255
+id 430: Value: 0.01650368419
+id 432: Execution time 0.006708
+id 432: Value: 0.01648751836
+id 435: Execution time 0.004219
+id 435: Value: 0.01646348147
+id 439: Execution time 0.005333
+id 439: Value: 0.01643182026
+id 441: Execution time 0.004717
+id 441: Value: 0.01641615282
+id 442: Execution time 0.006166
+id 442: Value: 0.01640835930
+id 444: Execution time 0.005358
+id 444: Value: 0.01639285183
+id 472: Execution time 0.006685
+id 472: Value: 0.01618621661
+id 473: Execution time 0.006257
+id 473: Value: 0.01617917657
+id 474: Execution time 0.005580
+id 474: Value: 0.01617215862
+id 475: Execution time 0.004688
+id 475: Value: 0.01616516262
+id 478: Execution time 0.004697
+id 478: Value: 0.01614430513
+id 482: Execution time 0.005947
+id 482: Value: 0.01611679502
+id 483: Execution time 0.003791
+id 483: Value: 0.01610997025
+id 485: Execution time 0.004243
+id 485: Value: 0.01609638316
+id 490: Execution time 0.005379
+id 490: Value: 0.01606277447
+id 493: Execution time 0.004202
+id 493: Value: 0.01604285092
+id 496: Execution time 0.009035
+id 496: Value: 0.01602310499
+id 499: Execution time 0.007434
+id 499: Value: 0.01600353379
+id 500: Execution time 0.007628
+id 500: Value: 0.01599704839
+id 501: Execution time 0.006654
+id 501: Value: 0.01599058199
+id 507: Execution time 0.007675
+id 507: Value: 0.01595217681
+id 259: Execution time 0.005358
+id 259: Value: 0.01855974370
+id 263: Execution time 0.005930
+id 263: Value: 0.01848735919
+id 268: Execution time 0.006486
+id 268: Value: 0.01839945088
+id 311: Execution time 0.003165
+id 311: Value: 0.01774245918
+id 384: Execution time 0.011984
+id 384: Value: 0.01691046348
+id 426: Execution time 0.006681
+id 426: Value: 0.01653636133
+id 427: Execution time 0.005751
+id 427: Value: 0.01652814839
+id 451: Execution time 0.005099
+id 451: Value: 0.01633939425
+id 459: Execution time 0.005854
+id 459: Value: 0.01627980619
+id 460: Execution time 0.006645
+id 460: Value: 0.01627246706
+id 461: Execution time 0.006298
+id 461: Value: 0.01626515177
+id 462: Execution time 0.004604
+id 462: Value: 0.01625786015
+id 465: Execution time 0.003889
+id 465: Value: 0.01623612605
+id 470: Execution time 0.006370
+id 470: Value: 0.01620036344
+id 481: Execution time 0.004434
+id 481: Value: 0.01612364078
+id 484: Execution time 0.004911
+id 484: Value: 0.01610316633
+id 486: Execution time 0.004771
+id 486: Value: 0.01608962062
+id 491: Execution time 0.004631
+id 491: Value: 0.01605611337
+id 509: Execution time 0.006253
+id 509: Value: 0.01593952250
+id 446: Execution time 0.005499
+id 446: Value: 0.01637744938
+id 468: Execution time 0.008188
+id 468: Value: 0.01621460015
+id 471: Execution time 0.003897
+id 471: Value: 0.01619327886
+id 506: Execution time 0.005689
+id 506: Value: 0.01595853136
+id 467: Execution time 0.005658
+id 467: Value: 0.01622175254
+id 504: Execution time 0.008174
+id 504: Value: 0.01597129573
+id 510: Execution time 0.006009
+id 510: Value: 0.01593322255
+id 502: Execution time 0.006687
+id 502: Value: 0.01598413448
+id 469: Execution time 0.003892
+id 469: Value: 0.01620747050
+id 505: Execution time 0.005820
+id 505: Value: 0.01596490430
+id 508: Execution time 0.007982
+id 508: Value: 0.01594584056
+id 511: Execution time 0.006866
+id 511: Value: 0.01592694061
+id 466: Execution time 0.005299
+id 466: Value: 0.01622892780
+id 424: Execution time 0.006976
+id 424: Value: 0.01655287564
+id 503: Execution time 0.005628
+id 503: Value: 0.01597770576
+id 425: Execution time 0.005911
+id 425: Value: 0.01654460368
+id 431: Execution time 0.005065
+id 431: Value: 0.01649558703
+id 264: Execution time 0.006984
+id 264: Value: 0.01846955303
+id 428: Execution time 0.007690
+id 428: Value: 0.01651996468
+id 463: Execution time 0.005590
+id 463: Value: 0.01625059209
+id 464: Execution time 0.006153
+id 464: Value: 0.01624334743
+Processer number 1024
+
+id 112: Execution time 0.012636
+id 112: Value: 0.01597173013
+id 117: Execution time 0.002178
+id 41: Execution time 0.003993
+id 41: Value: 0.03103190154
+id 117: Value: 0.01559003106
+id 22: Execution time 0.001814
+id 22: Value: 0.05072910181
+id 33: Execution time 0.004909
+id 33: Value: 0.03664603650
+id 36: Execution time 0.011133
+id 36: Value: 0.03425682331
+id 38: Execution time 0.008769
+id 38: Value: 0.03286784844
+id 57: Execution time 0.004098
+id 57: Value: 0.02444035216
+id 78: Execution time 0.004381
+id 78: Value: 0.01982722886
+id 82: Execution time 0.008673
+id 82: Value: 0.01921157783
+id 101: Execution time 0.007373
+id 101: Value: 0.01694102290
+id 131: Execution time 0.000065
+id 131: Value: 0.01467262320
+id 133: Execution time 0.003459
+id 133: Value: 0.01455692272
+id 136: Execution time 0.008143
+id 136: Value: 0.01438957410
+id 144: Execution time 0.016177
+id 144: Value: 0.01397644018
+id 5: Execution time 0.003144
+id 5: Value: 0.17394361904
+id 16: Execution time 0.010668
+id 16: Value: 0.06608351516
+id 17: Execution time 0.003263
+id 17: Value: 0.06281401185
+id 18: Execution time 0.005595
+id 18: Value: 0.05988850792
+id 19: Execution time 0.000053
+id 19: Value: 0.05725540378
+id 20: Execution time 0.007599
+id 20: Value: 0.05487292834
+id 21: Execution time 0.001492
+id 21: Value: 0.05270690523
+id 23: Execution time 0.001555
+id 23: Value: 0.04891599088
+id 31: Execution time 0.005462
+id 31: Value: 0.03848726571
+id 34: Execution time 0.009472
+id 34: Value: 0.03580420649
+id 37: Execution time 0.008137
+id 37: Value: 0.03354409800
+id 48: Execution time 0.012800
+id 48: Value: 0.02762023928
+id 50: Execution time 0.006947
+id 50: Value: 0.02681699364
+id 51: Execution time 0.004995
+id 51: Value: 0.02643845993
+id 53: Execution time 0.008322
+id 53: Value: 0.02572329548
+id 55: Execution time 0.008505
+id 55: Value: 0.02505901388
+id 65: Execution time 0.000048
+id 65: Value: 0.02233897213
+id 66: Execution time 0.003239
+id 66: Value: 0.02211139920
+id 67: Execution time 0.000053
+id 67: Value: 0.02189047939
+id 69: Execution time 0.005693
+id 69: Value: 0.02146745891
+id 71: Execution time 0.004549
+id 71: Value: 0.02106778860
+id 73: Execution time 0.002645
+id 73: Value: 0.02068957576
+id 74: Execution time 0.004420
+id 74: Value: 0.02050797964
+id 81: Execution time 0.008697
+id 81: Value: 0.01935990826
+id 84: Execution time 0.008648
+id 84: Value: 0.01892529387
+id 86: Execution time 0.009331
+id 86: Value: 0.01865205103
+id 87: Execution time 0.008387
+id 87: Value: 0.01852004230
+id 97: Execution time 0.005190
+id 97: Value: 0.01734666336
+id 99: Execution time 0.008766
+id 99: Value: 0.01713983804
+id 103: Execution time 0.007163
+id 103: Value: 0.01674975617
+id 107: Execution time 0.010122
+id 107: Value: 0.01638819197
+id 32: Execution time 0.012200
+id 32: Value: 0.03753879803
+id 35: Execution time 0.005766
+id 35: Value: 0.03500906386
+id 49: Execution time 0.005495
+id 49: Value: 0.02721061227
+id 52: Execution time 0.009788
+id 52: Value: 0.02607415738
+id 54: Execution time 0.007032
+id 54: Value: 0.02538514120
+id 72: Execution time 0.004355
+id 72: Value: 0.02087611019
+id 77: Execution time 0.002069
+id 77: Value: 0.01999092240
+id 83: Execution time 0.006301
+id 83: Value: 0.01906674752
+id 85: Execution time 0.006247
+id 85: Value: 0.01878709915
+id 92: Execution time 0.009429
+id 92: Value: 0.01790215984
+id 95: Execution time 0.009269
+id 95: Value: 0.01756199909
+id 102: Execution time 0.007473
+id 102: Value: 0.01684447344
+id 104: Execution time 0.015174
+id 104: Value: 0.01665681879
+id 110: Execution time 0.010762
+id 110: Value: 0.01613388056
+id 121: Execution time 0.001901
+id 121: Value: 0.01530683195
+id 122: Execution time 0.006876
+id 122: Value: 0.01523886005
+id 128: Execution time 0.018742
+id 128: Value: 0.01485275995
+id 142: Execution time 0.005433
+id 142: Value: 0.01407548984
+id 1: Execution time 0.000050
+id 1: Value: 0.50728318777
+id 3: Execution time 0.000047
+id 3: Value: 0.25728006564
+id 12: Execution time 0.011144
+id 12: Value: 0.08418920198
+id 26: Execution time 0.004792
+id 26: Value: 0.04428182369
+id 27: Execution time 0.001386
+id 27: Value: 0.04295756402
+id 76: Execution time 0.007550
+id 76: Value: 0.02015883296
+id 94: Execution time 0.007370
+id 94: Value: 0.01767302619
+id 106: Execution time 0.007342
+id 106: Value: 0.01647608424
+id 127: Execution time 0.006090
+id 127: Value: 0.01491464400
+id 160: Execution time 0.013685
+id 160: Value: 0.01327053720
+id 183: Execution time 0.002834
+id 183: Value: 0.01246530195
+id 2: Execution time 0.003127
+id 2: Value: 0.34061495893
+id 4: Execution time 0.005107
+id 4: Value: 0.20727850790
+id 6: Execution time 0.006259
+id 6: Value: 0.15013254190
+id 7: Execution time 0.002468
+id 7: Value: 0.13227384792
+id 8: Execution time 0.012773
+id 8: Value: 0.11838341009
+id 13: Execution time 0.005168
+id 13: Value: 0.07869315843
+id 24: Execution time 0.011592
+id 24: Value: 0.04724780960
+id 25: Execution time 0.002424
+id 25: Value: 0.04570783554
+id 29: Execution time 0.003243
+id 29: Value: 0.04057360120
+id 39: Execution time 0.006394
+id 39: Value: 0.03222533909
+id 43: Execution time 0.003458
+id 43: Value: 0.02994669714
+id 47: Execution time 0.006549
+id 47: Value: 0.02804687506
+id 56: Execution time 0.009960
+id 56: Value: 0.02474428062
+id 58: Execution time 0.006422
+id 58: Value: 0.02414667920
+id 59: Execution time 0.007649
+id 59: Value: 0.02386274906
+id 61: Execution time 0.004364
+id 61: Value: 0.02332223188
+id 62: Execution time 0.006832
+id 62: Value: 0.02306477698
+id 68: Execution time 0.009404
+id 68: Value: 0.02167592351
+id 70: Execution time 0.005372
+id 70: Value: 0.02126482827
+id 75: Execution time 0.003807
+id 75: Value: 0.02033112696
+id 79: Execution time 0.003015
+id 79: Value: 0.01966759429
+id 80: Execution time 0.015426
+id 80: Value: 0.01951186840
+id 88: Execution time 0.015423
+id 88: Value: 0.01839097057
+id 90: Execution time 0.009696
+id 90: Value: 0.01814125102
+id 93: Execution time 0.008171
+id 93: Value: 0.01778638802
+id 96: Execution time 0.015662
+id 96: Value: 0.01745323454
+id 100: Execution time 0.009064
+id 100: Value: 0.01703945891
+id 105: Execution time 0.008116
+id 105: Value: 0.01656561096
+id 109: Execution time 0.009194
+id 109: Value: 0.01621713266
+id 111: Execution time 0.011862
+id 111: Value: 0.01605209266
+id 120: Execution time 0.008726
+id 120: Value: 0.01537590699
+id 123: Execution time 0.001526
+id 123: Value: 0.01517196464
+id 124: Execution time 0.007886
+id 124: Value: 0.01510611992
+id 125: Execution time 0.002833
+id 125: Value: 0.01504130091
+id 126: Execution time 0.006624
+id 126: Value: 0.01497748342
+id 135: Execution time 0.005615
+id 135: Value: 0.01444455431
+id 140: Execution time 0.006813
+id 140: Value: 0.01417728214
+id 141: Execution time 0.002533
+id 141: Value: 0.01412603594
+id 143: Execution time 0.004866
+id 143: Value: 0.01402562931
+id 164: Execution time 0.009489
+id 164: Value: 0.01311489145
+id 166: Execution time 0.010142
+id 166: Value: 0.01303978252
+id 173: Execution time 0.009832
+id 173: Value: 0.01279008803
+id 176: Execution time 0.011031
+id 176: Value: 0.01268893113
+id 212: Execution time 0.010457
+id 212: Value: 0.01169007579
+id 0: Execution time 0.000000
+id 0: Value: 0.00000000000
+Sn: 14.3927267228657225217602899647317826747894287109375000000000000000000000000000000000000000000000000000
+Process number: 1024	, Max time: 0.030041	, Answer: 14.3927267228657225217602899647317826747894287109375000000000000000000000000000000000000000000000000000
+id 9: Execution time 0.004026
+id 9: Value: 0.10727075224
+id 10: Execution time 0.008097
+id 10: Value: 0.09817829858
+id 14: Execution time 0.007360
+id 14: Value: 0.07392971776
+id 15: Execution time 0.005627
+id 15: Value: 0.06976151735
+id 28: Execution time 0.006513
+id 28: Value: 0.04172453067
+id 30: Execution time 0.004526
+id 30: Value: 0.03949683027
+id 40: Execution time 0.007891
+id 40: Value: 0.03161410131
+id 42: Execution time 0.009734
+id 42: Value: 0.03047671403
+id 45: Execution time 0.003731
+id 45: Value: 0.02895560953
+id 46: Execution time 0.006290
+id 46: Value: 0.02849160516
+id 60: Execution time 0.010088
+id 60: Value: 0.02358808267
+id 63: Execution time 0.004812
+id 63: Value: 0.02281532450
+id 64: Execution time 0.015491
+id 64: Value: 0.02257350518
+id 89: Execution time 0.008764
+id 89: Value: 0.01826473799
+id 98: Execution time 0.009940
+id 98: Value: 0.01724221911
+id 169: Execution time 0.005125
+id 169: Value: 0.01293033247
+id 194: Execution time 0.006507
+id 194: Value: 0.01214520420
+id 11: Execution time 0.006340
+id 11: Value: 0.09060099861
+id 91: Execution time 0.011109
+id 91: Value: 0.01802042018
+id 119: Execution time 0.000046
+id 119: Value: 0.01544611272
+id 178: Execution time 0.007430
+id 178: Value: 0.01262331445
+id 197: Execution time 0.001717
+id 197: Value: 0.01206384647
+id 294: Execution time 0.011321
+id 294: Value: 0.01029125626
+id 299: Execution time 0.007781
+id 299: Value: 0.01022930076
+id 44: Execution time 0.009347
+id 44: Value: 0.02944017298
+id 108: Execution time 0.010669
+id 108: Value: 0.01630188921
+id 115: Execution time 0.000059
+id 115: Value: 0.01573882653
+id 118: Execution time 0.005706
+id 118: Value: 0.01551747760
+id 132: Execution time 0.008465
+id 132: Value: 0.01461434707
+id 162: Execution time 0.004168
+id 162: Value: 0.01319178754
+id 193: Execution time 0.000052
+id 193: Value: 0.01217286027
+id 198: Execution time 0.001490
+id 198: Value: 0.01203725062
+id 199: Execution time 0.000060
+id 199: Value: 0.01201090997
+id 208: Execution time 0.012881
+id 208: Value: 0.01178472596
+id 211: Execution time 0.004431
+id 211: Value: 0.01171341842
+id 226: Execution time 0.006353
+id 226: Value: 0.01138390672
+id 234: Execution time 0.009316
+id 234: Value: 0.01122455859
+id 242: Execution time 0.000296
+id 242: Value: 0.01107516749
+id 246: Execution time 0.008781
+id 246: Value: 0.01100390557
+id 273: Execution time 0.007270
+id 273: Value: 0.01057430120
+id 274: Execution time 0.009071
+id 274: Value: 0.01055991136
+id 276: Execution time 0.011880
+id 276: Value: 0.01053142273
+id 277: Execution time 0.010297
+id 277: Value: 0.01051732185
+id 278: Execution time 0.013650
+id 278: Value: 0.01050331525
+id 279: Execution time 0.007444
+id 279: Value: 0.01048940192
+id 292: Execution time 0.011193
+id 292: Value: 0.01031658635
+id 295: Execution time 0.010757
+id 295: Value: 0.01027871018
+id 304: Execution time 0.017766
+id 304: Value: 0.01016922593
+id 306: Execution time 0.007318
+id 306: Value: 0.01014570224
+id 307: Execution time 0.007820
+id 307: Value: 0.01013404610
+id 308: Execution time 0.011086
+id 308: Value: 0.01012245953
+id 318: Execution time 0.013825
+id 318: Value: 0.01001027780
+id 321: Execution time 0.006436
+id 321: Value: 0.00997787339
+id 336: Execution time 0.012625
+id 336: Value: 0.00982379648
+id 337: Execution time 0.007015
+id 337: Value: 0.00981396943
+id 339: Execution time 0.007129
+id 339: Value: 0.00979447339
+id 343: Execution time 0.011083
+id 343: Value: 0.00975610098
+id 356: Execution time 0.011764
+id 356: Value: 0.00963679770
+id 358: Execution time 0.010240
+id 358: Value: 0.00961913913
+id 359: Execution time 0.006182
+id 359: Value: 0.00961037639
+id 372: Execution time 0.014447
+id 372: Value: 0.00950032724
+id 374: Execution time 0.011873
+id 374: Value: 0.00948400724
+id 375: Execution time 0.009372
+id 375: Value: 0.00947590576
+id 378: Execution time 0.010501
+id 378: Value: 0.00945183173
+id 379: Execution time 0.010978
+id 379: Value: 0.00944388287
+id 385: Execution time 0.006632
+id 385: Value: 0.00939696558
+id 386: Execution time 0.011719
+id 386: Value: 0.00938927273
+id 394: Execution time 0.009803
+id 394: Value: 0.00932898449
+id 399: Execution time 0.009386
+id 399: Value: 0.00929239817
+id 402: Execution time 0.009278
+id 402: Value: 0.00927083455
+id 403: Execution time 0.006163
+id 403: Value: 0.00926370997
+id 407: Execution time 0.012776
+id 407: Value: 0.00923552200
+id 412: Execution time 0.012924
+id 412: Value: 0.00920096885
+id 414: Execution time 0.009596
+id 414: Value: 0.00918735421
+id 634: Execution time 0.004855
+id 634: Value: 0.00815723468
+id 113: Execution time 0.003655
+id 113: Value: 0.01589275551
+id 116: Execution time 0.003818
+id 116: Value: 0.01566380354
+id 134: Execution time 0.004781
+id 134: Value: 0.01450033125
+id 146: Execution time 0.005844
+id 146: Value: 0.01388002143
+id 150: Execution time 0.007526
+id 150: Value: 0.01369465940
+id 157: Execution time 0.003026
+id 157: Value: 0.01339229067
+id 158: Execution time 0.005031
+id 158: Value: 0.01335121018
+id 163: Execution time 0.003887
+id 163: Value: 0.01315311203
+id 172: Execution time 0.012938
+id 172: Value: 0.01282456069
+id 174: Execution time 0.008068
+id 174: Value: 0.01275599652
+id 179: Execution time 0.004499
+id 179: Value: 0.01259103434
+id 184: Execution time 0.010002
+id 184: Value: 0.01243468850
+id 191: Execution time 0.006572
+id 191: Value: 0.01222900271
+id 196: Execution time 0.005768
+id 196: Value: 0.01209070136
+id 201: Execution time 0.008976
+id 201: Value: 0.01195897914
+id 203: Execution time 0.003834
+id 203: Value: 0.01190802453
+id 214: Execution time 0.008480
+id 214: Value: 0.01164401261
+id 215: Execution time 0.007400
+id 215: Value: 0.01162128632
+id 227: Execution time 0.005668
+id 227: Value: 0.01136340810
+id 231: Execution time 0.001838
+id 231: Value: 0.01128309236
+id 233: Execution time 0.005425
+id 233: Value: 0.01124391178
+id 236: Execution time 0.004662
+id 236: Value: 0.01118631645
+id 237: Execution time 0.001798
+id 237: Value: 0.01116742364
+id 238: Execution time 0.004907
+id 238: Value: 0.01114868047
+id 241: Execution time 0.000046
+id 241: Value: 0.01109333037
+id 252: Execution time 0.003179
+id 252: Value: 0.01090100161
+id 254: Execution time 0.002233
+id 254: Value: 0.01086771434
+id 257: Execution time 0.008752
+id 257: Value: 0.01081869390
+id 258: Execution time 0.005856
+id 258: Value: 0.01080259097
+id 259: Execution time 0.004568
+id 259: Value: 0.01078660438
+id 264: Execution time 0.012527
+id 264: Value: 0.01070837092
+id 266: Execution time 0.006694
+id 266: Value: 0.01067784707
+id 282: Execution time 0.012268
+id 282: Value: 0.01044821179
+id 288: Execution time 0.017270
+id 288: Value: 0.01036822110
+id 290: Execution time 0.007190
+id 290: Value: 0.01034223909
+id 293: Execution time 0.009019
+id 293: Value: 0.01030388138
+id 296: Execution time 0.015364
+id 296: Value: 0.01026624237
+id 298: Execution time 0.007704
+id 298: Value: 0.01024153842
+id 309: Execution time 0.007772
+id 309: Value: 0.01011094185
+id 310: Execution time 0.010139
+id 310: Value: 0.01009949243
+id 311: Execution time 0.010556
+id 311: Value: 0.01008811059
+id 314: Execution time 0.008867
+id 314: Value: 0.01005436433
+id 316: Execution time 0.012387
+id 316: Value: 0.01003219330
+id 322: Execution time 0.009176
+id 322: Value: 0.00996719465
+id 323: Execution time 0.008842
+id 323: Value: 0.00995657635
+id 327: Execution time 0.006743
+id 327: Value: 0.00991469657
+id 328: Execution time 0.015596
+id 328: Value: 0.00990437231
+id 332: Execution time 0.015493
+id 332: Value: 0.00986364254
+id 334: Execution time 0.011034
+id 334: Value: 0.00984361100
+id 335: Execution time 0.008678
+id 335: Value: 0.00983367685
+id 338: Execution time 0.011895
+id 338: Value: 0.00980419522
+id 342: Execution time 0.009749
+id 342: Value: 0.00976561774
+id 344: Execution time 0.012771
+id 344: Value: 0.00974663439
+id 345: Execution time 0.009504
+id 345: Value: 0.00973721755
+id 350: Execution time 0.006474
+id 350: Value: 0.00969086484
+id 352: Execution time 0.020485
+id 352: Value: 0.00967265752
+id 353: Execution time 0.009287
+id 353: Value: 0.00966362379
+id 354: Execution time 0.009985
+id 354: Value: 0.00965463616
+id 355: Execution time 0.008109
+id 355: Value: 0.00964569426
+id 357: Execution time 0.007396
+id 357: Value: 0.00962794612
+id 363: Execution time 0.011027
+id 363: Value: 0.00957576061
+id 369: Execution time 0.008427
+id 369: Value: 0.00952510445
+id 373: Execution time 0.012708
+id 373: Value: 0.00949214763
+id 376: Execution time 0.018839
+id 376: Value: 0.00946784288
+id 387: Execution time 0.008848
+id 387: Value: 0.00938161534
+id 388: Execution time 0.013196
+id 388: Value: 0.00937399314
+id 389: Execution time 0.006420
+id 389: Value: 0.00936640588
+id 390: Execution time 0.012113
+id 390: Value: 0.00935885329
+id 391: Execution time 0.008421
+id 391: Value: 0.00935133512
+id 392: Execution time 0.015209
+id 392: Value: 0.00934385109
+id 393: Execution time 0.008708
+id 393: Value: 0.00933640097
+id 395: Execution time 0.010980
+id 395: Value: 0.00932160141
+id 396: Execution time 0.013367
+id 396: Value: 0.00931425148
+id 397: Execution time 0.010515
+id 397: Value: 0.00930693446
+id 398: Execution time 0.011515
+id 398: Value: 0.00929965010
+id 401: Execution time 0.010688
+id 401: Value: 0.00927799063
+id 405: Execution time 0.009754
+id 405: Value: 0.00924955436
+id 408: Execution time 0.012141
+id 408: Value: 0.00922855149
+id 415: Execution time 0.010788
+id 415: Value: 0.00918059034
+id 417: Execution time 0.010091
+id 417: Value: 0.00916714847
+id 418: Execution time 0.012190
+id 418: Value: 0.00916047007
+id 419: Execution time 0.009098
+id 419: Value: 0.00915381976
+id 421: Execution time 0.010588
+id 421: Value: 0.00914060266
+id 423: Execution time 0.013668
+id 423: Value: 0.00912749561
+id 424: Execution time 0.014302
+id 424: Value: 0.00912098288
+id 426: Execution time 0.011213
+id 426: Value: 0.00910803810
+id 432: Execution time 0.016685
+id 432: Value: 0.00906983598
+id 433: Execution time 0.008738
+id 433: Value: 0.00906355929
+id 434: Execution time 0.011377
+id 434: Value: 0.00905730796
+id 436: Execution time 0.012189
+id 436: Value: 0.00904488065
+id 437: Execution time 0.010696
+id 437: Value: 0.00903870435
+id 438: Execution time 0.012556
+id 438: Value: 0.00903255272
+id 439: Execution time 0.009183
+id 439: Value: 0.00902642561
+id 449: Execution time 0.005820
+id 449: Value: 0.00896646773
+id 452: Execution time 0.012527
+id 452: Value: 0.00894893198
+id 454: Execution time 0.013994
+id 454: Value: 0.00893735355
+id 455: Execution time 0.011203
+id 455: Value: 0.00893159754
+id 459: Execution time 0.009639
+id 459: Value: 0.00890879150
+id 464: Execution time 0.017125
+id 464: Value: 0.00888076427
+id 465: Execution time 0.005497
+id 465: Value: 0.00887522153
+id 466: Execution time 0.007062
+id 466: Value: 0.00886969938
+id 467: Execution time 0.007027
+id 467: Value: 0.00886419771
+id 468: Execution time 0.013121
+id 468: Value: 0.00885871639
+id 469: Execution time 0.009352
+id 469: Value: 0.00885325527
+id 471: Execution time 0.011248
+id 471: Value: 0.00884239320
+id 474: Execution time 0.009017
+id 474: Value: 0.00882624864
+id 475: Execution time 0.007134
+id 475: Value: 0.00882090624
+id 477: Execution time 0.010099
+id 477: Value: 0.00881027943
+id 478: Execution time 0.010847
+id 478: Value: 0.00880499477
+id 479: Execution time 0.005405
+id 479: Value: 0.00879972913
+id 482: Execution time 0.010388
+id 482: Value: 0.00878404515
+id 483: Execution time 0.008925
+id 483: Value: 0.00877885443
+id 485: Execution time 0.007179
+id 485: Value: 0.00876852821
+id 486: Execution time 0.011088
+id 486: Value: 0.00876339251
+id 487: Execution time 0.009327
+id 487: Value: 0.00875827492
+id 489: Execution time 0.008548
+id 489: Value: 0.00874809368
+id 490: Execution time 0.009139
+id 490: Value: 0.00874302981
+id 492: Execution time 0.013162
+id 492: Value: 0.00873295506
+id 494: Execution time 0.011132
+id 494: Value: 0.00872295027
+id 497: Execution time 0.009118
+id 497: Value: 0.00870807245
+id 502: Execution time 0.013462
+id 502: Value: 0.00868361447
+id 504: Execution time 0.011471
+id 504: Value: 0.00867394745
+id 506: Execution time 0.006768
+id 506: Value: 0.00866434567
+id 516: Execution time 0.010824
+id 516: Value: 0.00861728979
+id 517: Execution time 0.005763
+id 517: Value: 0.00861266945
+id 518: Execution time 0.007600
+id 518: Value: 0.00860806427
+id 519: Execution time 0.004909
+id 519: Value: 0.00860347415
+id 529: Execution time 0.000714
+id 529: Value: 0.00855838369
+id 532: Execution time 0.003762
+id 532: Value: 0.00854513672
+id 533: Execution time 0.002112
+id 533: Value: 0.00854074907
+id 534: Execution time 0.002454
+id 534: Value: 0.00853637530
+id 535: Execution time 0.001574
+id 535: Value: 0.00853201533
+id 539: Execution time 0.011392
+id 539: Value: 0.00851471203
+id 545: Execution time 0.006562
+id 545: Value: 0.00848915884
+id 547: Execution time 0.004380
+id 547: Value: 0.00848074599
+id 554: Execution time 0.006457
+id 554: Value: 0.00845170325
+id 556: Execution time 0.009108
+id 556: Value: 0.00844351808
+id 557: Execution time 0.003399
+id 557: Value: 0.00843944395
+id 558: Execution time 0.007089
+id 558: Value: 0.00843538206
+id 559: Execution time 0.002573
+id 559: Value: 0.00843133233
+id 560: Execution time 0.013846
+id 560: Value: 0.00842729470
+id 563: Execution time 0.004116
+id 563: Value: 0.00841525382
+id 567: Execution time 0.004260
+id 567: Value: 0.00839936503
+id 572: Execution time 0.005661
+id 572: Value: 0.00837976504
+id 574: Execution time 0.005543
+id 574: Value: 0.00837200476
+id 576: Execution time 0.018741
+id 576: Value: 0.00836328934
+id 579: Execution time 0.008393
+id 579: Value: 0.00835179938
+id 582: Execution time 0.005075
+id 582: Value: 0.00834040790
+id 594: Execution time 0.005435
+id 594: Value: 0.00829579826
+id 596: Execution time 0.008384
+id 596: Value: 0.00828850804
+id 597: Execution time 0.008234
+id 597: Value: 0.00828487806
+id 598: Execution time 0.008650
+id 598: Value: 0.00828125810
+id 599: Execution time 0.005647
+id 599: Value: 0.00827764812
+id 603: Execution time 0.008919
+id 603: Value: 0.00826330703
+id 607: Execution time 0.007114
+id 607: Value: 0.00824912182
+id 612: Execution time 0.005495
+id 612: Value: 0.00823160509
+id 613: Execution time 0.005726
+id 613: Value: 0.00822812993
+id 614: Execution time 0.005252
+id 614: Value: 0.00822466408
+id 615: Execution time 0.002531
+id 615: Value: 0.00822120747
+id 619: Execution time 0.009038
+id 619: Value: 0.00820747273
+id 624: Execution time 0.016028
+id 624: Value: 0.00819050744
+id 626: Execution time 0.008607
+id 626: Value: 0.00818378346
+id 636: Execution time 0.006571
+id 636: Value: 0.00815068271
+id 637: Execution time 0.002693
+id 637: Value: 0.00814741930
+id 638: Execution time 0.005536
+id 638: Value: 0.00814416422
+id 639: Execution time 0.002415
+id 639: Value: 0.00814091744
+id 642: Execution time 0.002681
+id 642: Value: 0.00813122651
+id 646: Execution time 0.011338
+id 646: Value: 0.00811841921
+id 652: Execution time 0.013002
+id 652: Value: 0.00809944782
+id 654: Execution time 0.008524
+id 654: Value: 0.00809318679
+id 656: Execution time 0.015047
+id 656: Value: 0.00808695669
+id 669: Execution time 0.006302
+id 669: Value: 0.00804719695
+id 674: Execution time 0.002862
+id 674: Value: 0.00803223486
+id 718: Execution time 0.008527
+id 718: Value: 0.00790783136
+id 725: Execution time 0.005884
+id 725: Value: 0.00788915503
+id 114: Execution time 0.003464
+id 114: Value: 0.01581513261
+id 139: Execution time 0.005257
+id 139: Value: 0.01422924343
+id 147: Execution time 0.006307
+id 147: Value: 0.01383276539
+id 154: Execution time 0.013902
+id 154: Value: 0.01351862304
+id 155: Execution time 0.014075
+id 155: Value: 0.01347598722
+id 156: Execution time 0.004642
+id 156: Value: 0.01343387977
+id 159: Execution time 0.000046
+id 159: Value: 0.01331062878
+id 161: Execution time 0.004052
+id 161: Value: 0.01323092640
+id 175: Execution time 0.007964
+id 175: Value: 0.01272227966
+id 177: Execution time 0.004217
+id 177: Value: 0.01265594474
+id 181: Execution time 0.003376
+id 181: Value: 0.01252750167
+id 186: Execution time 0.007661
+id 186: Value: 0.01237440847
+id 190: Execution time 0.009143
+id 190: Value: 0.01225749773
+id 202: Execution time 0.004374
+id 202: Value: 0.01193338160
+id 205: Execution time 0.009112
+id 205: Value: 0.01185801785
+id 209: Execution time 0.009751
+id 209: Value: 0.01176074047
+id 217: Execution time 0.006198
+id 217: Value: 0.01157643043
+id 219: Execution time 0.006524
+id 219: Value: 0.01153235214
+id 229: Execution time 0.004863
+id 229: Value: 0.01132291884
+id 230: Execution time 0.002195
+id 230: Value: 0.01130292382
+id 235: Execution time 0.008546
+id 235: Value: 0.01120536079
+id 239: Execution time 0.000045
+id 239: Value: 0.01113008507
+id 243: Execution time 0.000187
+id 243: Value: 0.01105714526
+id 245: Execution time 0.009006
+id 245: Value: 0.01102151597
+id 247: Execution time 0.005946
+id 247: Value: 0.01098642915
+id 255: Execution time 0.000050
+id 255: Value: 0.01085125421
+id 261: Execution time 0.008622
+id 261: Value: 0.01075497496
+id 265: Execution time 0.005639
+id 265: Value: 0.01069305526
+id 267: Execution time 0.006845
+id 267: Value: 0.01066274517
+id 270: Execution time 0.012019
+id 270: Value: 0.01061806553
+id 271: Execution time 0.009924
+id 271: Value: 0.01060337720
+id 275: Execution time 0.007883
+id 275: Value: 0.01054561889
+id 281: Execution time 0.011882
+id 281: Value: 0.01046185115
+id 283: Execution time 0.011256
+id 283: Value: 0.01043466183
+id 287: Execution time 0.011447
+id 287: Value: 0.01038133770
+id 297: Execution time 0.010296
+id 297: Value: 0.01025385204
+id 300: Execution time 0.010131
+id 300: Value: 0.01021713830
+id 302: Execution time 0.007613
+id 302: Value: 0.01019303606
+id 313: Execution time 0.006913
+id 313: Value: 0.01006554717
+id 317: Execution time 0.008954
+id 317: Value: 0.01002120391
+id 319: Execution time 0.007685
+id 319: Value: 0.00999941439
+id 325: Execution time 0.006810
+id 325: Value: 0.00993551885
+id 326: Execution time 0.007896
+id 326: Value: 0.00992507857
+id 330: Execution time 0.011934
+id 330: Value: 0.00988389499
+id 331: Execution time 0.008916
+id 331: Value: 0.00987374091
+id 333: Execution time 0.011589
+id 333: Value: 0.00985359940
+id 340: Execution time 0.010319
+id 340: Value: 0.00978480350
+id 341: Execution time 0.010222
+id 341: Value: 0.00977518510
+id 346: Execution time 0.012298
+id 346: Value: 0.00972785003
+id 347: Execution time 0.008408
+id 347: Value: 0.00971853140
+id 351: Execution time 0.007426
+id 351: Value: 0.00968173774
+id 360: Execution time 0.015182
+id 360: Value: 0.00960165752
+id 361: Execution time 0.012724
+id 361: Value: 0.00959298216
+id 362: Execution time 0.011157
+id 362: Value: 0.00958434998
+id 365: Execution time 0.011520
+id 365: Value: 0.00955870894
+id 366: Execution time 0.011930
+id 366: Value: 0.00955024597
+id 367: Execution time 0.009151
+id 367: Value: 0.00954182444
+id 368: Execution time 0.017618
+id 368: Value: 0.00953344405
+id 370: Execution time 0.012037
+id 370: Value: 0.00951680533
+id 371: Execution time 0.007018
+id 371: Value: 0.00950854636
+id 377: Execution time 0.008860
+id 377: Value: 0.00945981830
+id 380: Execution time 0.017185
+id 380: Value: 0.00943597144
+id 382: Execution time 0.014226
+id 382: Value: 0.00942025967
+id 384: Execution time 0.018868
+id 384: Value: 0.00940469418
+id 400: Execution time 0.012740
+id 400: Value: 0.00928517842
+id 404: Execution time 0.014152
+id 404: Value: 0.00925661665
+id 406: Execution time 0.009574
+id 406: Value: 0.00924252289
+id 409: Execution time 0.011278
+id 409: Value: 0.00922161113
+id 416: Execution time 0.020396
+id 416: Value: 0.00917385516
+id 420: Execution time 0.016188
+id 420: Value: 0.00914719736
+id 422: Execution time 0.017038
+id 422: Value: 0.00913403547
+id 427: Execution time 0.009639
+id 427: Value: 0.00910160567
+id 429: Execution time 0.012282
+id 429: Value: 0.00908881984
+id 430: Execution time 0.010386
+id 430: Value: 0.00908246607
+id 431: Execution time 0.009249
+id 431: Value: 0.00907613818
+id 435: Execution time 0.007541
+id 435: Value: 0.00905108180
+id 440: Execution time 0.012538
+id 440: Value: 0.00902032285
+id 441: Execution time 0.010188
+id 441: Value: 0.00901424428
+id 442: Execution time 0.008537
+id 442: Value: 0.00900818974
+id 443: Execution time 0.008737
+id 443: Value: 0.00900215907
+id 445: Execution time 0.013303
+id 445: Value: 0.00899016873
+id 446: Execution time 0.012416
+id 446: Value: 0.00898420875
+id 448: Execution time 0.019388
+id 448: Value: 0.00897235840
+id 450: Execution time 0.009232
+id 450: Value: 0.00896059987
+id 451: Execution time 0.007547
+id 451: Value: 0.00895475467
+id 453: Execution time 0.007319
+id 453: Value: 0.00894313165
+id 456: Execution time 0.017380
+id 456: Value: 0.00892586346
+id 457: Execution time 0.009292
+id 457: Value: 0.00892015119
+id 458: Execution time 0.007416
+id 458: Value: 0.00891446058
+id 460: Execution time 0.019480
+id 460: Value: 0.00890314381
+id 470: Execution time 0.010818
+id 470: Value: 0.00884781425
+id 472: Execution time 0.013190
+id 472: Value: 0.00883699200
+id 473: Execution time 0.006512
+id 473: Value: 0.00883161052
+id 476: Execution time 0.014413
+id 476: Value: 0.00881558321
+id 480: Execution time 0.015566
+id 480: Value: 0.00879448239
+id 484: Execution time 0.013556
+id 484: Value: 0.00877368215
+id 488: Execution time 0.013574
+id 488: Value: 0.00875317535
+id 493: Execution time 0.007373
+id 493: Value: 0.00872794397
+id 495: Execution time 0.008232
+id 495: Value: 0.00871797385
+id 496: Execution time 0.014918
+id 496: Value: 0.00871301461
+id 498: Execution time 0.009189
+id 498: Value: 0.00870314728
+id 499: Execution time 0.006015
+id 499: Value: 0.00869823899
+id 501: Execution time 0.011140
+id 501: Value: 0.00868847269
+id 505: Execution time 0.009815
+id 505: Value: 0.00866913845
+id 507: Execution time 0.006683
+id 507: Value: 0.00865956901
+id 509: Execution time 0.007818
+id 509: Value: 0.00865006370
+id 510: Execution time 0.012179
+id 510: Value: 0.00864533487
+id 511: Execution time 0.010185
+id 511: Value: 0.00864062180
+id 512: Execution time 0.026703
+id 512: Value: 0.00863592440
+id 513: Execution time 0.000053
+id 513: Value: 0.00863124259
+id 514: Execution time 0.005468
+id 514: Value: 0.00862657628
+id 515: Execution time 0.000047
+id 515: Value: 0.00862192537
+id 520: Execution time 0.013002
+id 520: Value: 0.00859889901
+id 521: Execution time 0.004922
+id 521: Value: 0.00859433879
+id 522: Execution time 0.005524
+id 522: Value: 0.00858979338
+id 523: Execution time 0.007128
+id 523: Value: 0.00858526271
+id 524: Execution time 0.007413
+id 524: Value: 0.00858074669
+id 525: Execution time 0.003625
+id 525: Value: 0.00857624526
+id 526: Execution time 0.005423
+id 526: Value: 0.00857175832
+id 527: Execution time 0.005646
+id 527: Value: 0.00856728579
+id 528: Execution time 0.010932
+id 528: Value: 0.00856282761
+id 530: Execution time 0.002908
+id 530: Value: 0.00855395395
+id 531: Execution time 0.004448
+id 531: Value: 0.00854953832
+id 536: Execution time 0.012539
+id 536: Value: 0.00852766910
+id 537: Execution time 0.008735
+id 537: Value: 0.00852333652
+id 538: Execution time 0.011005
+id 538: Value: 0.00851901752
+id 541: Execution time 0.008065
+id 541: Value: 0.00850614131
+id 544: Execution time 0.015589
+id 544: Value: 0.00849338476
+id 546: Execution time 0.009564
+id 546: Value: 0.00848494594
+id 548: Execution time 0.009916
+id 548: Value: 0.00847655892
+id 549: Execution time 0.005870
+id 549: Value: 0.00847238467
+id 550: Execution time 0.010020
+id 550: Value: 0.00846822315
+id 551: Execution time 0.003669
+id 551: Value: 0.00846407432
+id 552: Execution time 0.012488
+id 552: Value: 0.00845993811
+id 553: Execution time 0.011177
+id 553: Value: 0.00845581444
+id 555: Execution time 0.004999
+id 555: Value: 0.00844760449
+id 561: Execution time 0.001795
+id 561: Value: 0.00842326912
+id 562: Execution time 0.010033
+id 562: Value: 0.00841925551
+id 564: Execution time 0.009115
+id 564: Value: 0.00841126399
+id 565: Execution time 0.007970
+id 565: Value: 0.00840728595
+id 566: Execution time 0.005645
+id 566: Value: 0.00840331965
+id 568: Execution time 0.016039
+id 568: Value: 0.00839542203
+id 569: Execution time 0.006322
+id 569: Value: 0.00839149059
+id 570: Execution time 0.013542
+id 570: Value: 0.00838757065
+id 575: Execution time 0.005206
+id 575: Value: 0.00836814147
+id 577: Execution time 0.005625
+id 577: Value: 0.00835944832
+id 578: Execution time 0.010718
+id 578: Value: 0.00835561835
+id 580: Execution time 0.003516
+id 580: Value: 0.00834799135
+id 581: Execution time 0.006513
+id 581: Value: 0.00834419420
+id 583: Execution time 0.003387
+id 583: Value: 0.00833663237
+id 584: Execution time 0.017494
+id 584: Value: 0.00833286757
+id 586: Execution time 0.006318
+id 586: Value: 0.00832536995
+id 587: Execution time 0.005522
+id 587: Value: 0.00832163702
+id 589: Execution time 0.005715
+id 589: Value: 0.00831420267
+id 590: Execution time 0.014550
+id 590: Value: 0.00831050116
+id 591: Execution time 0.005665
+id 591: Value: 0.00830681001
+id 592: Execution time 0.016334
+id 592: Value: 0.00830312917
+id 595: Execution time 0.005791
+id 595: Value: 0.00829214809
+id 600: Execution time 0.009578
+id 600: Value: 0.00827404807
+id 601: Execution time 0.006489
+id 601: Value: 0.00827045790
+id 602: Execution time 0.009273
+id 602: Value: 0.00826687757
+id 605: Execution time 0.005402
+id 605: Value: 0.00825619512
+id 606: Execution time 0.009534
+id 606: Value: 0.00825265367
+id 609: Execution time 0.005833
+id 609: Value: 0.00824208676
+id 610: Execution time 0.002416
+id 610: Value: 0.00823858345
+id 611: Execution time 0.000050
+id 611: Value: 0.00823508958
+id 616: Execution time 0.015046
+id 616: Value: 0.00821776008
+id 617: Execution time 0.011306
+id 617: Value: 0.00821432185
+id 618: Execution time 0.010153
+id 618: Value: 0.00821089275
+id 620: Execution time 0.010881
+id 620: Value: 0.00820406176
+id 621: Execution time 0.004159
+id 621: Value: 0.00820065978
+id 622: Execution time 0.009242
+id 622: Value: 0.00819726676
+id 625: Execution time 0.003321
+id 625: Value: 0.00818714105
+id 627: Execution time 0.005179
+id 627: Value: 0.00818043463
+id 628: Execution time 0.011817
+id 628: Value: 0.00817709451
+id 629: Execution time 0.004588
+id 629: Value: 0.00817376307
+id 630: Execution time 0.008281
+id 630: Value: 0.00817044027
+id 631: Execution time 0.005801
+id 631: Value: 0.00816712607
+id 632: Execution time 0.012533
+id 632: Value: 0.00816382043
+id 633: Execution time 0.008954
+id 633: Value: 0.00816052331
+id 635: Execution time 0.003799
+id 635: Value: 0.00815395449
+id 641: Execution time 0.005355
+id 641: Value: 0.00813444862
+id 643: Execution time 0.000045
+id 643: Value: 0.00812801255
+id 644: Execution time 0.014438
+id 644: Value: 0.00812480671
+id 645: Execution time 0.012500
+id 645: Value: 0.00812160894
+id 647: Execution time 0.010799
+id 647: Value: 0.00811523750
+id 648: Execution time 0.010615
+id 648: Value: 0.00811206376
+id 649: Execution time 0.004944
+id 649: Value: 0.00810889795
+id 650: Execution time 0.012140
+id 650: Value: 0.00810574005
+id 651: Execution time 0.002580
+id 651: Value: 0.00810259001
+id 653: Execution time 0.005110
+id 653: Value: 0.00809631342
+id 655: Execution time 0.008726
+id 655: Value: 0.00809006789
+id 657: Execution time 0.005983
+id 657: Value: 0.00808385316
+id 658: Execution time 0.010112
+id 658: Value: 0.00808075726
+id 659: Execution time 0.006898
+id 659: Value: 0.00807766897
+id 660: Execution time 0.005770
+id 660: Value: 0.00807458824
+id 661: Execution time 0.003692
+id 661: Value: 0.00807151504
+id 662: Execution time 0.007103
+id 662: Value: 0.00806844935
+id 665: Execution time 0.007933
+id 665: Value: 0.00805929698
+id 666: Execution time 0.009245
+id 666: Value: 0.00805626099
+id 667: Execution time 0.006229
+id 667: Value: 0.00805323234
+id 670: Execution time 0.006561
+id 670: Value: 0.00804419015
+id 671: Execution time 0.006187
+id 671: Value: 0.00804119057
+id 672: Execution time 0.015821
+id 672: Value: 0.00803819818
+id 675: Execution time 0.001741
+id 675: Value: 0.00802926386
+id 676: Execution time 0.009047
+id 676: Value: 0.00802629994
+id 677: Execution time 0.007204
+id 677: Value: 0.00802334305
+id 678: Execution time 0.005912
+id 678: Value: 0.00802039318
+id 679: Execution time 0.002026
+id 679: Value: 0.00801745030
+id 682: Execution time 0.001914
+id 682: Value: 0.00800866325
+id 683: Execution time 0.000053
+id 683: Value: 0.00800574801
+id 689: Execution time 0.008158
+id 689: Value: 0.00798839921
+id 692: Execution time 0.016166
+id 692: Value: 0.00797981527
+id 694: Execution time 0.012290
+id 694: Value: 0.00797412565
+id 695: Execution time 0.014888
+id 695: Value: 0.00797129066
+id 696: Execution time 0.009729
+id 696: Value: 0.00796846218
+id 697: Execution time 0.007951
+id 697: Value: 0.00796564019
+id 699: Execution time 0.006149
+id 699: Value: 0.00796001555
+id 703: Execution time 0.005105
+id 703: Value: 0.00794884297
+id 706: Execution time 0.006349
+id 706: Value: 0.00794052982
+id 710: Execution time 0.008820
+id 710: Value: 0.00792953274
+id 712: Execution time 0.010550
+id 712: Value: 0.00792407108
+id 713: Execution time 0.008683
+id 713: Value: 0.00792134939
+id 714: Execution time 0.009832
+id 714: Value: 0.00791863376
+id 716: Execution time 0.008644
+id 716: Value: 0.00791322058
+id 717: Execution time 0.006568
+id 717: Value: 0.00791052299
+id 719: Execution time 0.005201
+id 719: Value: 0.00790514567
+id 722: Execution time 0.006487
+id 722: Value: 0.00789712403
+id 723: Execution time 0.005776
+id 723: Value: 0.00789446187
+id 727: Execution time 0.008261
+id 727: Value: 0.00788387131
+id 728: Execution time 0.013889
+id 728: Value: 0.00788123807
+id 730: Execution time 0.005572
+id 730: Value: 0.00787598870
+id 732: Execution time 0.011620
+id 732: Value: 0.00787076203
+id 733: Execution time 0.009926
+id 733: Value: 0.00786815714
+id 734: Execution time 0.010081
+id 734: Value: 0.00786555786
+id 735: Execution time 0.006955
+id 735: Value: 0.00786296417
+id 736: Execution time 0.021701
+id 736: Value: 0.00786037604
+id 738: Execution time 0.008666
+id 738: Value: 0.00785521639
+id 739: Execution time 0.003383
+id 739: Value: 0.00785264483
+id 742: Execution time 0.014441
+id 742: Value: 0.00784496293
+id 746: Execution time 0.011378
+id 746: Value: 0.00783479615
+id 752: Execution time 0.021735
+id 752: Value: 0.00781970571
+id 753: Execution time 0.009347
+id 753: Value: 0.00781720902
+id 754: Execution time 0.007546
+id 754: Value: 0.00781471752
+id 756: Execution time 0.010891
+id 756: Value: 0.00780975006
+id 757: Execution time 0.009435
+id 757: Value: 0.00780727404
+id 758: Execution time 0.010419
+id 758: Value: 0.00780480316
+id 759: Execution time 0.006672
+id 759: Value: 0.00780233737
+id 760: Execution time 0.013469
+id 760: Value: 0.00779987667
+id 761: Execution time 0.006396
+id 761: Value: 0.00779742104
+id 762: Execution time 0.007744
+id 762: Value: 0.00779497045
+id 763: Execution time 0.006686
+id 763: Value: 0.00779252490
+id 768: Execution time 0.028119
+id 768: Value: 0.00778037192
+id 771: Execution time 0.001718
+id 771: Value: 0.00777313933
+id 772: Execution time 0.010306
+id 772: Value: 0.00777073822
+id 773: Execution time 0.006898
+id 773: Value: 0.00776834196
+id 774: Execution time 0.008286
+id 774: Value: 0.00776595054
+id 779: Execution time 0.010364
+id 779: Value: 0.00775406529
+id 780: Execution time 0.009645
+id 780: Value: 0.00775170250
+id 786: Execution time 0.004450
+id 786: Value: 0.00773762411
+id 787: Execution time 0.002534
+id 787: Value: 0.00773529395
+id 793: Execution time 0.004418
+id 793: Value: 0.00772140897
+id 794: Execution time 0.009897
+id 794: Value: 0.00771911065
+id 796: Execution time 0.013796
+id 796: Value: 0.00771452745
+id 798: Execution time 0.012329
+id 798: Value: 0.00770996206
+id 799: Execution time 0.008353
+id 799: Value: 0.00770768601
+id 812: Execution time 0.008238
+id 812: Value: 0.00767849287
+id 814: Execution time 0.005106
+id 814: Value: 0.00767406563
+id 815: Execution time 0.003282
+id 815: Value: 0.00767185829
+id 819: Execution time 0.003345
+id 819: Value: 0.00766307052
+id 831: Execution time 0.007512
+id 831: Value: 0.00763709871
+id 834: Execution time 0.005828
+id 834: Value: 0.00763069558
+id 836: Execution time 0.009397
+id 836: Value: 0.00762644642
+id 837: Execution time 0.003341
+id 837: Value: 0.00762432767
+id 838: Execution time 0.005181
+id 838: Value: 0.00762221280
+id 839: Execution time 0.002185
+id 839: Value: 0.00762010179
+id 843: Execution time 0.006208
+id 843: Value: 0.00761169612
+id 852: Execution time 0.009269
+id 852: Value: 0.00759300438
+id 854: Execution time 0.008011
+id 854: Value: 0.00758889155
+id 859: Execution time 0.005123
+id 859: Value: 0.00757867339
+id 862: Execution time 0.010760
+id 862: Value: 0.00757258588
+id 866: Execution time 0.008102
+id 866: Value: 0.00756451914
+id 869: Execution time 0.005377
+id 869: Value: 0.00755850616
+id 873: Execution time 0.005654
+id 873: Value: 0.00755053770
+id 874: Execution time 0.008752
+id 874: Value: 0.00754855424
+id 876: Execution time 0.013237
+id 876: Value: 0.00754459762
+id 877: Execution time 0.007272
+id 877: Value: 0.00754262444
+id 878: Execution time 0.012044
+id 878: Value: 0.00754065467
+id 879: Execution time 0.005718
+id 879: Value: 0.00753868829
+id 892: Execution time 0.012406
+id 892: Value: 0.00751342962
+id 893: Execution time 0.007196
+id 893: Value: 0.00751150969
+id 894: Execution time 0.007205
+id 894: Value: 0.00750959300
+id 895: Execution time 0.006290
+id 895: Value: 0.00750767954
+id 899: Execution time 0.002840
+id 899: Value: 0.00750005782
+id 954: Execution time 0.009266
+id 954: Value: 0.00740016956
+id 956: Execution time 0.011343
+id 956: Value: 0.00739669972
+id 959: Execution time 0.005627
+id 959: Value: 0.00739151510
+id 130: Execution time 0.003236
+id 130: Value: 0.01473177057
+id 138: Execution time 0.005059
+id 138: Value: 0.01428193521
+id 145: Execution time 0.001335
+id 145: Value: 0.01392790868
+id 151: Execution time 0.005925
+id 151: Value: 0.01364980472
+id 168: Execution time 0.013703
+id 168: Value: 0.01296639748
+id 195: Execution time 0.000045
+id 195: Value: 0.01211781926
+id 207: Execution time 0.003803
+id 207: Value: 0.01180893189
+id 210: Execution time 0.005458
+id 210: Value: 0.01173697231
+id 213: Execution time 0.005919
+id 213: Value: 0.01166694149
+id 216: Execution time 0.010267
+id 216: Value: 0.01159875984
+id 256: Execution time 0.022940
+id 256: Value: 0.01083491453
+id 260: Execution time 0.011908
+id 260: Value: 0.01077073281
+id 268: Execution time 0.014034
+id 268: Value: 0.01064774839
+id 272: Execution time 0.015962
+id 272: Value: 0.01058878945
+id 289: Execution time 0.007972
+id 289: Value: 0.01035518851
+id 315: Execution time 0.007553
+id 315: Value: 0.01004324658
+id 349: Execution time 0.009604
+id 349: Value: 0.00970003922
+id 364: Execution time 0.011681
+id 364: Value: 0.00956721371
+id 410: Execution time 0.008187
+id 410: Value: 0.00921470072
+id 425: Execution time 0.010392
+id 425: Value: 0.00911449711
+id 447: Execution time 0.009080
+id 447: Value: 0.00897827202
+id 481: Execution time 0.008824
+id 481: Value: 0.00878925443
+id 491: Execution time 0.008579
+id 491: Value: 0.00873798364
+id 542: Execution time 0.006288
+id 542: Value: 0.00850187592
+id 593: Execution time 0.003634
+id 593: Value: 0.00829945861
+id 608: Execution time 0.014093
+id 608: Value: 0.00824559953
+id 623: Execution time 0.004617
+id 623: Value: 0.00819388266
+id 640: Execution time 0.025672
+id 640: Value: 0.00813767892
+id 673: Execution time 0.000055
+id 673: Value: 0.00803521295
+id 688: Execution time 0.018566
+id 688: Value: 0.00799127383
+id 693: Execution time 0.013847
+id 693: Value: 0.00797696718
+id 698: Execution time 0.006717
+id 698: Value: 0.00796282465
+id 704: Execution time 0.026300
+id 704: Value: 0.00794606565
+id 708: Execution time 0.010622
+id 708: Value: 0.00793501892
+id 711: Execution time 0.008983
+id 711: Value: 0.00792679886
+id 715: Execution time 0.008878
+id 715: Value: 0.00791592417
+id 720: Execution time 0.015182
+id 720: Value: 0.00790246590
+id 721: Execution time 0.005861
+id 721: Value: 0.00789979203
+id 737: Execution time 0.004927
+id 737: Value: 0.00785779345
+id 747: Execution time 0.006008
+id 747: Value: 0.00783226785
+id 767: Execution time 0.009453
+id 767: Value: 0.00778279260
+id 769: Execution time 0.005565
+id 769: Value: 0.00777795616
+id 775: Execution time 0.005933
+id 775: Value: 0.00776356393
+id 776: Execution time 0.013880
+id 776: Value: 0.00776118211
+id 777: Execution time 0.004486
+id 777: Value: 0.00775880508
+id 778: Execution time 0.011958
+id 778: Value: 0.00775643281
+id 782: Execution time 0.009356
+id 782: Value: 0.00774699103
+id 790: Execution time 0.008180
+id 790: Value: 0.00772833099
+id 802: Execution time 0.006241
+id 802: Value: 0.00770088423
+id 808: Execution time 0.010551
+id 808: Value: 0.00768739803
+id 810: Execution time 0.009916
+id 810: Value: 0.00768293696
+id 816: Execution time 0.013430
+id 816: Value: 0.00766965513
+id 817: Execution time 0.002849
+id 817: Value: 0.00766745612
+id 824: Execution time 0.010483
+id 824: Value: 0.00765217828
+id 829: Execution time 0.007184
+id 829: Value: 0.00764138720
+id 830: Execution time 0.009187
+id 830: Value: 0.00763924097
+id 833: Execution time 0.004568
+id 833: Value: 0.00763282603
+id 841: Execution time 0.005914
+id 841: Value: 0.00761589131
+id 846: Execution time 0.003115
+id 846: Value: 0.00760543180
+id 847: Execution time 0.002240
+id 847: Value: 0.00760335123
+id 848: Execution time 0.014146
+id 848: Value: 0.00760127441
+id 849: Execution time 0.003425
+id 849: Value: 0.00759920133
+id 850: Execution time 0.003790
+id 850: Value: 0.00759713197
+id 855: Execution time 0.005716
+id 855: Value: 0.00758684063
+id 856: Execution time 0.013866
+id 856: Value: 0.00758479337
+id 857: Execution time 0.006028
+id 857: Value: 0.00758274975
+id 858: Execution time 0.009242
+id 858: Value: 0.00758070977
+id 867: Execution time 0.008811
+id 867: Value: 0.00756251130
+id 871: Execution time 0.005746
+id 871: Value: 0.00755451499
+id 881: Execution time 0.008959
+id 881: Value: 0.00753476568
+id 885: Execution time 0.005369
+id 885: Value: 0.00752696074
+id 888: Execution time 0.012635
+id 888: Value: 0.00752114196
+id 891: Execution time 0.009076
+id 891: Value: 0.00751535280
+id 896: Execution time 0.024290
+id 896: Value: 0.00750576930
+id 897: Execution time 0.003876
+id 897: Value: 0.00750386228
+id 906: Execution time 0.010460
+id 906: Value: 0.00748684195
+id 914: Execution time 0.003984
+id 914: Value: 0.00747192485
+id 916: Execution time 0.008276
+id 916: Value: 0.00746822617
+id 917: Execution time 0.010292
+id 917: Value: 0.00746638137
+id 918: Execution time 0.006181
+id 918: Value: 0.00746453958
+id 919: Execution time 0.003273
+id 919: Value: 0.00746270080
+id 932: Execution time 0.013867
+id 932: Value: 0.00743906607
+id 934: Execution time 0.014523
+id 934: Value: 0.00743547368
+id 935: Execution time 0.011307
+id 935: Value: 0.00743368179
+id 953: Execution time 0.008691
+id 953: Value: 0.00740190854
+id 957: Execution time 0.008821
+id 957: Value: 0.00739496883
+id 958: Execution time 0.007921
+id 958: Value: 0.00739324063
+id 972: Execution time 0.009299
+id 972: Value: 0.00736932325
+id 974: Execution time 0.008442
+id 974: Value: 0.00736594810
+id 975: Execution time 0.005749
+id 975: Value: 0.00736426436
+id 994: Execution time 0.004332
+id 994: Value: 0.00733274987
+id 996: Execution time 0.012527
+id 996: Value: 0.00732948418
+id 999: Execution time 0.002774
+id 999: Value: 0.00732460368
+id 137: Execution time 0.001790
+id 137: Value: 0.01433537333
+id 149: Execution time 0.003438
+id 149: Value: 0.01374009655
+id 153: Execution time 0.014174
+id 153: Value: 0.01356179750
+id 165: Execution time 0.004548
+id 165: Value: 0.01307711761
+id 167: Execution time 0.006922
+id 167: Value: 0.01300287835
+id 192: Execution time 0.017995
+id 192: Value: 0.01220079168
+id 200: Execution time 0.010328
+id 200: Value: 0.01198482071
+id 218: Execution time 0.004789
+id 218: Value: 0.01155429541
+id 225: Execution time 0.005819
+id 225: Value: 0.01140457763
+id 232: Execution time 0.015850
+id 232: Value: 0.01126342236
+id 250: Execution time 0.008159
+id 250: Value: 0.01093478789
+id 253: Execution time 0.003441
+id 253: Value: 0.01088429633
+id 262: Execution time 0.008600
+id 262: Value: 0.01073932953
+id 286: Execution time 0.013070
+id 286: Value: 0.01039453919
+id 303: Execution time 0.007896
+id 303: Value: 0.01018109484
+id 312: Execution time 0.014355
+id 312: Value: 0.01007679572
+id 413: Execution time 0.009088
+id 413: Value: 0.00919414698
+id 428: Execution time 0.012320
+id 428: Value: 0.00909519964
+id 462: Execution time 0.015399
+id 462: Value: 0.00889191206
+id 463: Execution time 0.013746
+id 463: Value: 0.00888632773
+id 500: Execution time 0.014025
+id 500: Value: 0.00869334750
+id 508: Execution time 0.012422
+id 508: Value: 0.00865480838
+id 585: Execution time 0.004276
+id 585: Value: 0.00832911345
+id 680: Execution time 0.002839
+id 680: Value: 0.00801451436
+id 681: Execution time 0.002240
+id 681: Value: 0.00801158536
+id 690: Execution time 0.007099
+id 690: Value: 0.00798553126
+id 705: Execution time 0.003880
+id 705: Value: 0.00794329461
+id 707: Execution time 0.003882
+id 707: Value: 0.00793777127
+id 744: Execution time 0.015834
+id 744: Value: 0.00783986879
+id 745: Execution time 0.005992
+id 745: Value: 0.00783732979
+id 751: Execution time 0.009190
+id 751: Value: 0.00782220763
+id 784: Execution time 0.015297
+id 784: Value: 0.00774229828
+id 795: Execution time 0.004880
+id 795: Value: 0.00771681682
+id 797: Execution time 0.010716
+id 797: Value: 0.00771224254
+id 803: Execution time 0.007169
+id 803: Value: 0.00769862572
+id 818: Execution time 0.010126
+id 818: Value: 0.00766526126
+id 826: Execution time 0.006119
+id 826: Value: 0.00764784981
+id 827: Execution time 0.003703
+id 827: Value: 0.00764569160
+id 835: Execution time 0.002683
+id 835: Value: 0.00762856905
+id 842: Execution time 0.002906
+id 842: Value: 0.00761379181
+id 870: Execution time 0.006277
+id 870: Value: 0.00755650883
+id 900: Execution time 0.010919
+id 900: Value: 0.00749816037
+id 902: Execution time 0.007280
+id 902: Value: 0.00749437498
+id 904: Execution time 0.013405
+id 904: Value: 0.00749060220
+id 910: Execution time 0.006350
+id 910: Value: 0.00747935878
+id 913: Execution time 0.004714
+id 913: Value: 0.00747377875
+id 928: Execution time 0.023680
+id 928: Value: 0.00744628552
+id 936: Execution time 0.022647
+id 936: Value: 0.00743189276
+id 939: Execution time 0.011541
+id 939: Value: 0.00742654272
+id 946: Execution time 0.014301
+id 946: Value: 0.00741415780
+id 947: Execution time 0.011527
+id 947: Value: 0.00741239967
+id 950: Execution time 0.009910
+id 950: Value: 0.00740714179
+id 977: Execution time 0.003422
+id 977: Value: 0.00736090452
+id 984: Execution time 0.011944
+id 984: Value: 0.00734922461
+id 993: Execution time 0.003711
+id 993: Value: 0.00733438635
+id 997: Execution time 0.004889
+id 997: Value: 0.00732785495
+id 998: Execution time 0.007886
+id 998: Value: 0.00732622811
+id 1012: Execution time 0.009864
+id 1012: Value: 0.00730370089
+id 1014: Execution time 0.009294
+id 1014: Value: 0.00730052000
+id 1015: Execution time 0.006426
+id 1015: Value: 0.00729893300
+id 170: Execution time 0.007237
+id 170: Value: 0.01289467605
+id 187: Execution time 0.003706
+id 187: Value: 0.01234473188
+id 248: Execution time 0.007944
+id 248: Value: 0.01096908511
+id 269: Execution time 0.005524
+id 269: Value: 0.01063285555
+id 381: Execution time 0.008925
+id 381: Value: 0.00942809713
+id 540: Execution time 0.009689
+id 540: Value: 0.00851041999
+id 664: Execution time 0.012557
+id 664: Value: 0.00806234035
+id 687: Execution time 0.003672
+id 687: Value: 0.00799415515
+id 729: Execution time 0.007287
+id 729: Value: 0.00787861054
+id 731: Execution time 0.005763
+id 731: Value: 0.00787337254
+id 750: Execution time 0.013068
+id 750: Value: 0.00782471478
+id 765: Execution time 0.007780
+id 765: Value: 0.00778764880
+id 766: Execution time 0.007903
+id 766: Value: 0.00778521822
+id 791: Execution time 0.005141
+id 791: Value: 0.00772601913
+id 801: Execution time 0.005493
+id 801: Value: 0.00770314711
+id 822: Execution time 0.008080
+id 822: Value: 0.00765652295
+id 825: Execution time 0.007928
+id 825: Value: 0.00765001203
+id 832: Execution time 0.016962
+id 832: Value: 0.00763496040
+id 853: Execution time 0.005717
+id 853: Value: 0.00759094612
+id 883: Execution time 0.006457
+id 883: Value: 0.00753085652
+id 898: Execution time 0.005289
+id 898: Value: 0.00750195845
+id 922: Execution time 0.010165
+id 922: Value: 0.00745720239
+id 937: Execution time 0.012276
+id 937: Value: 0.00743010657
+id 979: Execution time 0.005604
+id 979: Value: 0.00735755483
+id 986: Execution time 0.005049
+id 986: Value: 0.00734590998
+id 995: Execution time 0.007505
+id 995: Value: 0.00733111582
+id 129: Execution time 0.004130
+id 129: Value: 0.01479180925
+id 224: Execution time 0.015498
+id 224: Value: 0.01142542313
+id 305: Execution time 0.007798
+id 305: Value: 0.01015742862
+id 685: Execution time 0.000049
+id 685: Value: 0.00799993801
+id 686: Execution time 0.002012
+id 686: Value: 0.00799704321
+id 770: Execution time 0.004395
+id 770: Value: 0.00777554530
+id 875: Execution time 0.005801
+id 875: Value: 0.00754657422
+id 887: Execution time 0.005082
+id 887: Value: 0.00752307825
+id 921: Execution time 0.004326
+id 921: Value: 0.00745903221
+id 976: Execution time 0.013056
+id 976: Value: 0.00736258317
+id 573: Execution time 0.002248
+id 573: Value: 0.00837587926
+id 702: Execution time 0.010247
+id 702: Value: 0.00795162659
+id 923: Execution time 0.008964
+id 923: Value: 0.00745537554
+id 990: Execution time 0.004874
+id 990: Value: 0.00733931036
+id 1018: Execution time 0.009360
+id 1018: Value: 0.00729418569
+id 749: Execution time 0.012785
+id 749: Value: 0.00782722719
+id 788: Execution time 0.011085
+id 788: Value: 0.00773296839
+id 461: Execution time 0.013485
+id 461: Value: 0.00889751737
+id 755: Execution time 0.005250
+id 755: Value: 0.00781223121
+id 807: Execution time 0.005622
+id 807: Value: 0.00768963496
+id 952: Execution time 0.010995
+id 952: Value: 0.00740365023
+id 991: Execution time 0.003668
+id 991: Value: 0.00733766658
+id 1017: Execution time 0.005670
+id 1017: Value: 0.00729576585
+id 1019: Execution time 0.005074
+id 1019: Value: 0.00729260780
+id 860: Execution time 0.013712
+id 860: Value: 0.00757664063
+id 905: Execution time 0.005635
+id 905: Value: 0.00748872051
+id 907: Execution time 0.004501
+id 907: Value: 0.00748496651
+id 968: Execution time 0.010622
+id 968: Value: 0.00737610448
+id 182: Execution time 0.007128
+id 182: Value: 0.01249623791
+id 285: Execution time 0.012025
+id 285: Value: 0.01040782644
+id 709: Execution time 0.004373
+id 709: Value: 0.00793227275
+id 886: Execution time 0.006800
+id 886: Value: 0.00752501784
+id 1002: Execution time 0.004961
+id 1002: Value: 0.00731974466
+id 684: Execution time 0.002491
+id 684: Value: 0.00800283960
+id 889: Execution time 0.006812
+id 889: Value: 0.00751920896
+id 1016: Execution time 0.011801
+id 1016: Value: 0.00729734829
+id 348: Execution time 0.012174
+id 348: Value: 0.00970926127
+id 864: Execution time 0.015521
+id 864: Value: 0.00756854541
+id 992: Execution time 0.015319
+id 992: Value: 0.00733602525
+id 701: Execution time 0.002872
+id 701: Value: 0.00795441655
+id 963: Execution time 0.002839
+id 963: Value: 0.00738463959
+id 811: Execution time 0.008261
+id 811: Value: 0.00768071280
+id 915: Execution time 0.003647
+id 915: Value: 0.00747007399
+id 840: Execution time 0.006763
+id 840: Value: 0.00761799463
+id 911: Execution time 0.006241
+id 911: Value: 0.00747749570
+id 1020: Execution time 0.009432
+id 1020: Value: 0.00729103217
+id 805: Execution time 0.009311
+id 805: Value: 0.00769412171
+id 813: Execution time 0.003887
+id 813: Value: 0.00767627715
+id 978: Execution time 0.003098
+id 978: Value: 0.00735922841
+id 987: Execution time 0.005980
+id 987: Value: 0.00734425638
+id 663: Execution time 0.005597
+id 663: Value: 0.00806539113
+id 785: Execution time 0.005532
+id 785: Value: 0.00773995888
+id 1008: Execution time 0.014486
+id 1008: Value: 0.00731009039
+id 927: Execution time 0.008734
+id 927: Value: 0.00744809766
+id 989: Execution time 0.009754
+id 989: Value: 0.00734095658
+id 668: Execution time 0.012457
+id 668: Value: 0.00805021100
+id 901: Execution time 0.005688
+id 901: Value: 0.00749626609
+id 944: Execution time 0.011925
+id 944: Value: 0.00741768239
+id 872: Execution time 0.014612
+id 872: Value: 0.00755252461
+id 955: Execution time 0.010338
+id 955: Value: 0.00739843329
+id 503: Execution time 0.014784
+id 503: Value: 0.00867877276
+id 726: Execution time 0.009950
+id 726: Value: 0.00788651029
+id 740: Execution time 0.015966
+id 740: Value: 0.00785007874
+id 804: Execution time 0.009542
+id 804: Value: 0.00769637155
+id 962: Execution time 0.005499
+id 962: Value: 0.00738635449
+id 1003: Execution time 0.006435
+id 1003: Value: 0.00731812973
+id 865: Execution time 0.006191
+id 865: Value: 0.00756653050
+id 845: Execution time 0.006110
+id 845: Value: 0.00760751613
+id 909: Execution time 0.005740
+id 909: Value: 0.00748122493
+id 933: Execution time 0.011945
+id 933: Value: 0.00743726844
+id 691: Execution time 0.003443
+id 691: Value: 0.00798266996
+id 938: Execution time 0.011640
+id 938: Value: 0.00742832323
+id 329: Execution time 0.009275
+id 329: Value: 0.00989410529
+id 280: Execution time 0.015011
+id 280: Value: 0.01047558088
+id 828: Execution time 0.008649
+id 828: Value: 0.00764353740
+id 882: Execution time 0.008009
+id 882: Value: 0.00753280943
+id 222: Execution time 0.005703
+id 222: Value: 0.01146764721
+id 792: Execution time 0.013599
+id 792: Value: 0.00772371179
+id 861: Execution time 0.004418
+id 861: Value: 0.00757461146
+id 383: Execution time 0.015668
+id 383: Value: 0.00941245878
+id 951: Execution time 0.006433
+id 951: Value: 0.00740539465
+id 967: Execution time 0.005910
+id 967: Value: 0.00737780627
+id 700: Execution time 0.009676
+id 700: Value: 0.00795721286
+id 206: Execution time 0.007998
+id 206: Value: 0.01183336144
+id 789: Execution time 0.005044
+id 789: Value: 0.00773064741
+id 945: Execution time 0.004206
+id 945: Value: 0.00741591871
+id 1013: Execution time 0.008283
+id 1013: Value: 0.00730210930
+id 800: Execution time 0.015891
+id 800: Value: 0.00770541436
+id 925: Execution time 0.007449
+id 925: Value: 0.00745173071
+id 171: Execution time 0.004025
+id 171: Value: 0.01285942110
+id 741: Execution time 0.009590
+id 741: Value: 0.00784751811
+id 890: Execution time 0.007488
+id 890: Value: 0.00751727925
+id 1022: Execution time 0.005018
+id 1022: Value: 0.00728788768
+id 969: Execution time 0.003343
+id 969: Value: 0.00737440529
+id 152: Execution time 0.016448
+id 152: Value: 0.01360552112
+id 543: Execution time 0.006083
+id 543: Value: 0.00849762376
+id 949: Execution time 0.005770
+id 949: Value: 0.00740889167
+id 980: Execution time 0.009206
+id 980: Value: 0.00735588377
+id 320: Execution time 0.022291
+id 320: Value: 0.00998861311
+id 965: Execution time 0.004367
+id 965: Value: 0.00738121769
+id 973: Execution time 0.006675
+id 973: Value: 0.00736763439
+id 809: Execution time 0.004609
+id 809: Value: 0.00768516537
+id 912: Execution time 0.014149
+id 912: Value: 0.00747563569
+id 930: Execution time 0.012740
+id 930: Value: 0.00744267000
+id 781: Execution time 0.006604
+id 781: Value: 0.00774934442
+id 189: Execution time 0.006853
+id 189: Value: 0.01228628121
+id 240: Execution time 0.013126
+id 240: Value: 0.01111163564
+id 983: Execution time 0.007902
+id 983: Value: 0.00735088565
+id 180: Execution time 0.007574
+id 180: Value: 0.01255909863
+id 1001: Execution time 0.005956
+id 1001: Value: 0.00732136195
+id 985: Execution time 0.008959
+id 985: Value: 0.00734756606
+id 981: Execution time 0.008458
+id 981: Value: 0.00735421522
+id 263: Execution time 0.006164
+id 263: Value: 0.01072379527
+id 961: Execution time 0.009989
+id 961: Value: 0.00738807204
+id 1007: Execution time 0.005344
+id 1007: Value: 0.00731169357
+id 249: Execution time 0.001790
+id 249: Value: 0.01095187187
+id 948: Execution time 0.013657
+id 948: Value: 0.00741064429
+id 1010: Execution time 0.005770
+id 1010: Value: 0.00730689100
+id 940: Execution time 0.019371
+id 940: Value: 0.00742476504
+id 1005: Execution time 0.011548
+id 1005: Value: 0.00731490695
+id 982: Execution time 0.007835
+id 982: Value: 0.00735254919
+id 571: Execution time 0.013192
+id 571: Value: 0.00838366215
+id 880: Execution time 0.014744
+id 880: Value: 0.00753672530
+id 903: Execution time 0.002523
+id 903: Value: 0.00749248701
+id 1009: Execution time 0.004196
+id 1009: Value: 0.00730848953
+id 821: Execution time 0.009572
+id 821: Value: 0.00765870138
+id 185: Execution time 0.005303
+id 185: Value: 0.01240439236
+id 970: Execution time 0.007892
+id 970: Value: 0.00737270870
+id 748: Execution time 0.013848
+id 748: Value: 0.00782974487
+id 604: Execution time 0.010361
+id 604: Value: 0.00825974623
+id 291: Execution time 0.006756
+id 291: Value: 0.01032937198
+id 806: Execution time 0.011241
+id 806: Value: 0.00769187619
+id 942: Execution time 0.019334
+id 942: Value: 0.00742121811
+id 204: Execution time 0.008642
+id 204: Value: 0.01188290442
+id 588: Execution time 0.013443
+id 588: Value: 0.00831791461
+id 929: Execution time 0.011287
+id 929: Value: 0.00744447630
+id 1021: Execution time 0.007517
+id 1021: Value: 0.00728945880
+id 926: Execution time 0.007311
+id 926: Value: 0.00744991272
+id 411: Execution time 0.007653
+id 411: Value: 0.00920782003
+id 188: Execution time 0.007235
+id 188: Value: 0.01231535771
+id 941: Execution time 0.011728
+id 941: Value: 0.00742299017
+id 220: Execution time 0.005668
+id 220: Value: 0.01151059803
+id 228: Execution time 0.002632
+id 228: Value: 0.01134307954
+id 251: Execution time 0.007025
+id 251: Value: 0.01091783164
+id 724: Execution time 0.012023
+id 724: Value: 0.00789180555
+id 820: Execution time 0.008752
+id 820: Value: 0.00766088390
+id 1006: Execution time 0.005262
+id 1006: Value: 0.00731329909
+id 148: Execution time 0.009442
+id 148: Value: 0.01378612787
+id 924: Execution time 0.009341
+id 924: Value: 0.00745355165
+id 971: Execution time 0.005687
+id 971: Value: 0.00737101469
+id 221: Execution time 0.006876
+id 221: Value: 0.01148903056
+id 223: Execution time 0.000051
+id 223: Value: 0.01144644553
+id 244: Execution time 0.010399
+id 244: Value: 0.01103926198
+id 966: Execution time 0.006165
+id 966: Value: 0.00737951067
+id 851: Execution time 0.003608
+id 851: Value: 0.00759506632
+id 1000: Execution time 0.010647
+id 1000: Value: 0.00732298162
+id 444: Execution time 0.014207
+id 444: Value: 0.00899615212
+id 301: Execution time 0.011828
+id 301: Value: 0.01020505031
+id 943: Execution time 0.016332
+id 943: Value: 0.00741944886
+id 284: Execution time 0.011896
+id 284: Value: 0.01042120035
+id 931: Execution time 0.010296
+id 931: Value: 0.00744086659
+id 920: Execution time 0.013133
+id 920: Value: 0.00746086501
+id 764: Execution time 0.011527
+id 764: Value: 0.00779008435
+id 743: Execution time 0.015503
+id 743: Value: 0.00784241316
+id 964: Execution time 0.009042
+id 964: Value: 0.00738292732
+id 868: Execution time 0.009284
+id 868: Value: 0.00756050698
+id 1023: Execution time 0.006651
+id 1023: Value: 0.00728631881
+id 844: Execution time 0.004488
+id 844: Value: 0.00760960423
+id 988: Execution time 0.009240
+id 988: Value: 0.00734260525
+id 783: Execution time 0.007993
+id 783: Value: 0.00774464232
+id 324: Execution time 0.010001
+id 324: Value: 0.00994601793
+id 908: Execution time 0.005646
+id 908: Value: 0.00748309417
+id 1011: Execution time 0.006317
+id 1011: Value: 0.00730529479
+id 960: Execution time 0.014502
+id 960: Value: 0.00738979224
+id 863: Execution time 0.009484
+id 863: Value: 0.00757056386
+id 1004: Execution time 0.012938
+id 1004: Value: 0.00731651716
+id 884: Execution time 0.008214
+id 884: Value: 0.00752890697
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 229025 RUNNING AT cn0307
+=   EXIT CODE: 14
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+   Intel(R) MPI Library troubleshooting guide:
+      https://software.intel.com/node/561764
+===================================================================================

@@ -1,0 +1,12 @@
+./5-11.c: In function ‘assertm’:
+./5-11.c:16:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+         exit(1);
+         ^
+./5-11.c:16:9: warning: incompatible implicit declaration of built-in function ‘exit’ [enabled by default]
+./5-11.c: In function ‘main’:
+./5-11.c:41:5: warning: implicit declaration of function ‘alarm’ [-Wimplicit-function-declaration]
+     alarm(3);
+     ^
+./5-11.c:48:5: warning: implicit declaration of function ‘atoi’ [-Wimplicit-function-declaration]
+     int n = atoi(argv[1]);
+     ^

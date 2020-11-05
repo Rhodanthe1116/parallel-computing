@@ -1,0 +1,75 @@
+/home/hwww1116/parallel-computing/hw/hw1/6-8
+Thu Nov  5 22:09:53 CST 2020
+Processer number 2
+
+t = 10
+n-byte, n = 8
+Execution time 0.000027
+Avg latency + (n / bandwith) = 0.0000013471
+Processer number 2
+
+t = 100
+n-byte, n = 8
+Execution time 0.000156
+Avg latency + (n / bandwith) = 0.0000007796
+Processer number 2
+
+t = 1000
+n-byte, n = 8
+Execution time 0.001336
+Avg latency + (n / bandwith) = 0.0000006680
+Processer number 2
+
+t = 10000
+n-byte, n = 8
+Execution time 0.014369
+Avg latency + (n / bandwith) = 0.0000007185
+Processer number 2
+
+t = 100000
+n-byte, n = 8
+Execution time 0.136395
+Avg latency + (n / bandwith) = 0.0000006820
+Processer number 2
+
+t = 1000000
+n-byte, n = 8
+Execution time 1.306775
+Avg latency + (n / bandwith) = 0.0000006534
+Processer number 2
+
+t = 10000000
+n-byte, n = 8
+Execution time 12.218243
+Avg latency + (n / bandwith) = 0.0000006109
+Processer number 2
+
+t = 10000
+n-byte, n = 10
+Execution time 0.013658
+Avg latency + (n / bandwith) = 0.0000006829
+Processer number 2
+
+Processer number 2
+
+Processer number 2
+
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 141750 RUNNING AT cn0321
+=   EXIT CODE: 11
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 141750 RUNNING AT cn0321
+=   EXIT CODE: 11
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+   Intel(R) MPI Library troubleshooting guide:
+      https://software.intel.com/node/561764
+===================================================================================

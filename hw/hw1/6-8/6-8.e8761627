@@ -1,0 +1,21 @@
+./6-8.c: In function ‘assertm’:
+./6-8.c:25:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+         exit(1);
+         ^
+./6-8.c:25:9: warning: incompatible implicit declaration of built-in function ‘exit’ [enabled by default]
+./6-8.c: In function ‘main’:
+./6-8.c:57:5: warning: implicit declaration of function ‘atoi’ [-Wimplicit-function-declaration]
+     int t = atoi(argv[1]);
+     ^
+./6-8.c:61:5: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+     int* sent = (int*)malloc(n * sizeof(int) / 4);
+     ^
+./6-8.c:61:23: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+     int* sent = (int*)malloc(n * sizeof(int) / 4);
+                       ^
+Fatal error in MPI_Send: Invalid count, error stack:
+MPI_Send(201): MPI_Send(buf=0x7fffffffc900, count=-67905982, MPI_INT, dest=0, tag=10000, MPI_COMM_WORLD) failed
+MPI_Send(117): Negative count, value is -67905982
+Fatal error in MPI_Send: Invalid count, error stack:
+MPI_Send(201): MPI_Send(buf=0x7fffffffc900, count=-67847255, MPI_INT, dest=0, tag=10000, MPI_COMM_WORLD) failed
+MPI_Send(117): Negative count, value is -67847255

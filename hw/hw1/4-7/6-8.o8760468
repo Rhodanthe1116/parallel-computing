@@ -1,0 +1,7 @@
+/home/hwww1116/parallel-computing/hw/hw1/4-7
+Thu Nov  5 17:51:00 CST 2020
+Execution time 0.000034
+Number of processors: 10
+sum 1 + 2 + • • • + p = ?
+Expected:	 55
+Result:  	 55

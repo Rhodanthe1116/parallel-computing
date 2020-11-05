@@ -1,0 +1,5 @@
+./4-8.c: In function ‘assertm’:
+./4-8.c:14:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+         exit(1);
+         ^
+./4-8.c:14:9: warning: incompatible implicit declaration of built-in function ‘exit’ [enabled by default]

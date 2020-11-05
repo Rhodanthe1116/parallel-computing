@@ -13,6 +13,7 @@
 const int MAX_HEIGHT = 100;
 const int MAX_WIDTH = 100;
 const int ROOT = 0;
+const int HANDLE_INPUT_TAG = 0;
 void assertm(bool ok, char msg[])
 {
     if (!ok) {
@@ -32,15 +33,7 @@ int** alloc_2d_int(int n, int m)
     return a;
 }
 
-bool is_id_safe(int id, int p)
-{
-    if (0 <= id && id < p) {
-        return true;
-    }
-    return false;
-}
-
-bool is_i_safe(int i, int n)
+bool is_range_safe(int i, int n)
 {
     if (0 <= i && i < n) {
         return true;
@@ -96,7 +89,7 @@ int main(int argc, char* argv[])
         printf("Processer number: %d\n\n", p), fff;
     }
     /* Avoid TLE */
-    alarm(1);
+    alarm(2);
 
     /* Start timer */
     elapsed_time = -MPI_Wtime();
@@ -105,15 +98,17 @@ int main(int argc, char* argv[])
 
     int a[MAX_HEIGHT][MAX_WIDTH]; /* Input array */
     int n, m; /* Dimension of array */
-    int generations, print_per_gen;
+    int iterations, print_per_gen;
     int partition_height;
 
-    generations = atoi(argv[1]);
-    print_per_gen = atoi(argv[2]);
-
-    const int HANDLE_INPUT = 0;
     if (id == ROOT) {
-        assertm(argc == 3, "Please give me your generations and print_per_gen\n");
+        assertm(argc == 3, "Please give me your iterations j and print_per_iter k\n");
+    }
+    iterations = atoi(argv[1]);
+    print_per_gen = atoi(argv[2]);
+    
+
+    if (id == ROOT) {
         FILE* f = fopen("./life.txt", "r");
         assertm(f != NULL, "{lease prepare ./life.txt\n");
 
@@ -159,16 +154,17 @@ int main(int argc, char* argv[])
     MPI_Bcast(&n, count, MPI_INT, ROOT, MPI_COMM_WORLD);
     MPI_Bcast(&m, count, MPI_INT, ROOT, MPI_COMM_WORLD);
     partition_height = BLOCK_SIZE(id, p, n);
-    int** partition; /* Please give me local index... */
-    partition = alloc_2d_int(partition_height, m);
+    /* Please give me local index... */
+    int** partition = alloc_2d_int(partition_height, m);
     printf("id %d: height = %d, m = %d\n", id, partition_height, m);
     if (id == ROOT) {
 
-        for (int pi = 1; pi < p; pi++) {
+        for (int pi = 0; pi < p; pi++) {
 
             // prepare partition
             int others_height = BLOCK_SIZE(pi, p, n);
-            int** others_partition = alloc_2d_int(others_height, m); /* Please give me local index... */
+            /* Please give me local index... */
+            int** others_partition = alloc_2d_int(others_height, m);
             for (int i = 0; i < others_height; i++) {
                 for (int j = 0; j < m; j++) {
                     // cut a slice from the the board
@@ -177,21 +173,17 @@ int main(int argc, char* argv[])
             }
 
             // and send it.
-            MPI_Send(&(others_partition[0][0]), others_height * m, MPI_INT, pi, HANDLE_INPUT, MPI_COMM_WORLD);
+            if (pi == ROOT) {
+                partition = others_partition;
+            } else if (pi != ROOT) {
+                MPI_Send(&(others_partition[0][0]), others_height * m, MPI_INT, pi, HANDLE_INPUT_TAG, MPI_COMM_WORLD);
+            }
             printf("Sended to PID %d!\n", pi);
             fflush(stdout);
         }
     }
-    if (id != 0) {
-        MPI_Recv(&(partition[0][0]), partition_height * m, MPI_INT, ROOT, HANDLE_INPUT, MPI_COMM_WORLD, &status);
-    }
-    if (id == 0) {
-        for (int i = 0; i < partition_height; i++) {
-            for (int j = 0; j < m; j++) {
-                // cut a slice from the the board
-                partition[i][j] = a[BLOCK_LOW(id, p, n) + i][j];
-            }
-        }
+    if (id != ROOT) {
+        MPI_Recv(&(partition[0][0]), partition_height * m, MPI_INT, ROOT, HANDLE_INPUT_TAG, MPI_COMM_WORLD, &status);
     }
     printf("PID %d received!\n", id);
     fflush(stdout);
@@ -203,14 +195,14 @@ int main(int argc, char* argv[])
     int row_from_next[m];
     int row_from_prev[m];
     const int COMM = 1;
-    for (int gen = 0; gen < generations; gen++) {
-        // printf("iteration %d\n", gen);
+    for (int iteration = 0; iteration < iterations; iteration++) {
+        // printf("iteration %d\n", iteration);
         // printf("Communacating...\n");
         /*
             This part is for passing edge array data through processes.
         */
         // Send to next
-        if (is_id_safe(id + 1, p)) {
+        if (is_range_safe(id + 1, p)) {
             for (int j = 0; j < m; j++) {
                 row_to_next[j] = partition[partition_height - 1][j];
             }
@@ -218,7 +210,7 @@ int main(int argc, char* argv[])
         }
 
         // Receive from prev
-        if (is_id_safe(id - 1, p)) {
+        if (is_range_safe(id - 1, p)) {
             MPI_Recv(&row_from_prev, m, MPI_INT, id - 1, COMM, MPI_COMM_WORLD, &status);
         } else {
             for (int j = 0; j < m; j++) {
@@ -227,7 +219,7 @@ int main(int argc, char* argv[])
         }
 
         // Send to prev
-        if (is_id_safe(id - 1, p)) {
+        if (is_range_safe(id - 1, p)) {
             for (int j = 0; j < m; j++) {
                 row_to_prev[j] = partition[0][j];
             }
@@ -235,7 +227,7 @@ int main(int argc, char* argv[])
         }
 
         // Receive from next
-        if (is_id_safe(id + 1, p)) {
+        if (is_range_safe(id + 1, p)) {
             MPI_Recv(&row_from_next, m, MPI_INT, id + 1, COMM, MPI_COMM_WORLD, &status);
         } else {
             for (int j = 0; j < m; j++) {
@@ -256,20 +248,20 @@ int main(int argc, char* argv[])
                 sum = cal_neighber(i, j, partition_height, m, partition);
                 bool is_top_edge = i == 0;
                 if (is_top_edge) {
-                    if (is_i_safe(j - 1, m))
+                    if (is_range_safe(j - 1, m))
                         sum += row_from_prev[j - 1];
-                    if (is_i_safe(j, m))
+                    if (is_range_safe(j, m))
                         sum += row_from_prev[j];
-                    if (is_i_safe(j + 1, m))
+                    if (is_range_safe(j + 1, m))
                         sum += row_from_prev[j + 1];
                 }
                 bool is_bottom_edge = i == (partition_height - 1);
                 if (is_bottom_edge) {
-                    if (is_i_safe(j - 1, m))
+                    if (is_range_safe(j - 1, m))
                         sum += row_from_next[j - 1];
-                    if (is_i_safe(j, m))
+                    if (is_range_safe(j, m))
                         sum += row_from_next[j];
-                    if (is_i_safe(j + 1, m))
+                    if (is_range_safe(j + 1, m))
                         sum += row_from_next[j + 1];
                 }
 
@@ -298,21 +290,17 @@ int main(int argc, char* argv[])
         }
 
         if (id == ROOT) {
-            if (gen % print_per_gen == 0) {
-                printf("\nGeneration %d result!!!!!!!!!!!!!!!:\n", gen + 1);
+            if (iteration % print_per_gen == 0) {
+                printf("\nGeneration %d result!!!!!!!!!!!!!!!:\n", iteration + 1);
                 fflush(stdout);
-                for (int i = 0; i < partition_height; i++) {
-                    for (int j = 0; j < m; j++) {
-                        printf("%d ", partition[i][j]);
-                        fflush(stdout);
-                    }
-                    printf("\n");
-                    fflush(stdout);
-                }
-                for (int pi = 1; pi < p; pi++) {
+                for (int pi = 0; pi < p; pi++) {
                     int others_height = BLOCK_SIZE(pi, p, n);
                     int** others_partition = alloc_2d_int(others_height, m);
-                    MPI_Recv(&(others_partition[0][0]), others_height * m, MPI_INT, pi, RETURN, MPI_COMM_WORLD, &status);
+                    if (pi == ROOT) {
+                        others_partition = partition;
+                    } else if (pi != ROOT) {
+                        MPI_Recv(&(others_partition[0][0]), others_height * m, MPI_INT, pi, RETURN, MPI_COMM_WORLD, &status);
+                    }
                     for (int i = 0; i < others_height; i++) {
                         for (int j = 0; j < m; j++) {
                             printf("%d ", others_partition[i][j]);
@@ -326,9 +314,8 @@ int main(int argc, char* argv[])
                 fflush(stdout);
             }
         }
+        // iteration ends.
     }
-
-    // generation ends.
 
     // Benchmark and Finalize
     /* Stop timer */

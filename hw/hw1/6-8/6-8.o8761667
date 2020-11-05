@@ -1,0 +1,45 @@
+/home/hwww1116/parallel-computing/hw/hw1/6-8
+Thu Nov  5 22:26:54 CST 2020
+Processer number 2
+
+t = 10000
+n-byte, n = 8
+Execution time 0.012052
+Avg latency + (n / bandwith) = 0.0000006026
+Processer number 2
+
+t = 10000
+n-byte, n = 100
+Execution time 0.017204
+Avg latency + (n / bandwith) = 0.0000008602
+Processer number 2
+
+t = 10000
+n-byte, n = 1000
+Execution time 0.022750
+Avg latency + (n / bandwith) = 0.0000011375
+Processer number 2
+
+t = 10000
+n-byte, n = 10000
+Execution time 0.064838
+Avg latency + (n / bandwith) = 0.0000032419
+Processer number 2
+
+t = 10000
+n-byte, n = 100000
+Execution time 0.429577
+Avg latency + (n / bandwith) = 0.0000214789
+Processer number 2
+
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 144209 RUNNING AT cn0321
+=   EXIT CODE: 14
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+   Intel(R) MPI Library troubleshooting guide:
+      https://software.intel.com/node/561764
+===================================================================================
