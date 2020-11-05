@@ -1,7 +1,7 @@
 /* This program uses Simpson's Rule to compute pi. */
 #include "mpi.h"
-#include <stdbool.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 #define fff fflush(stdout)
 const int ROOT = 0;
@@ -37,26 +37,27 @@ int main(int argc, char* argv[])
     elapsed_time = -MPI_Wtime();
     // Start Here
 
-    int n = 1e6;
+    int n = 1e3;
     int count = 0;
     int global_count = 0;
+    bool prenum_is_prime = true;
 
     int block_size = n / p;
     int start_num = id * n / p + 1;
     int end_num = (id + 1) * n / p + 1;
-    bool prenum_is_prime = is_prime(start_num - 2);
 
     for (int num = start_num; num < end_num; num += 2) {
         bool num_is_prime = is_prime(num);
         if (prenum_is_prime && num_is_prime) {
-            // printf("%d %d\n", num - 2, num);
-            count += 1;
+            printf("%d %d", num - 2, num);
         }
-        prenum_is_prime = num_is_prime;
     }
 
     MPI_Reduce(&count, &global_count, 1, MPI_INT, MPI_SUM, ROOT,
         MPI_COMM_WORLD);
+
+    printf("%d) count : %13.11f\n", id, count);
+    fflush(stdout);
 
     // Benchmark and Finalize
     /* Stop timer */
@@ -65,8 +66,6 @@ int main(int argc, char* argv[])
     fflush(stdout);
     MPI_Finalize();
 
-    printf("%d) count : %d\n", id, count);
-    fflush(stdout);
     // Print Result
     if (id == ROOT) {
         printf("answer : %d\n", global_count);

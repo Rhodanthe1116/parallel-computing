@@ -2,6 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "(mpirun) Launch",
             "type": "cppdbg",
             "request": "launch",
@@ -9,7 +16,9 @@
             "args": [
                 "-np",
                 "2",
-                "${fileDirname}/${fileBasenameNoExtension}.out"
+                "${fileDirname}/${fileBasenameNoExtension}.out",
+                "5",
+                "7"
             ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

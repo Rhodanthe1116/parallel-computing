@@ -1,0 +1,157 @@
+
+n = 10, m = 10
+Oringinal array.
+1 0 1 0 1 0 1 1 1 0 
+0 1 1 0 1 0 1 0 0 1 
+0 1 1 0 1 0 1 1 0 1 
+1 0 1 0 1 0 1 0 1 0 
+1 1 0 1 0 1 1 1 1 1 
+1 0 1 1 1 1 0 0 1 0 
+0 1 0 0 0 0 0 1 0 1 
+1 0 1 1 1 1 0 0 1 0 
+0 1 1 1 1 1 0 1 0 1 
+1 1 0 1 0 1 0 0 1 1 
+id 0: height = 3, m = 10
+id 1: height = 3, m = 10
+PID 1 received!
+Start computing.......
+
+iteration 0
+id 2: height = 4, m = 10
+PID 2 received!
+Start computing.......
+
+iteration 0
+Communacating...
+Sended to PID 1!
+Sended to PID 2!
+PID 0 received!
+Start computing.......
+
+iteration 0
+Communacating...
+Communacating...
+Returning result..........
+
+iteration 1
+Communacating...
+Returning result..........
+
+iteration 2
+Returning result..........
+
+
+Generation 1 result!!!!!!!!!!!!!!!:
+0 0 1 0 0 0 1 1 1 0 Returning result..........
+
+iteration 1
+Communacating...
+
+1 0 Communacating...
+0 0 1 0 0 0 0 1 
+1 0 0 0 1 0 1 0 0 1 
+1 0 0 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+1 0 0 1 0 1 0 0 0 0 
+1 0 0 0 0 0 1 1 0 1 
+1 0 0 0 0 1 0 1 0 1 
+0 0 0 0 0 0 0 1 0 1 
+1 1 0 1 0 1 1 0 1 1 
+
+
+iteration 1
+Communacating...
+Returning result..........
+
+
+Generation 2 result!!!!!!!!!!!!!!!:
+0 0 0 0 0 Returning result..........
+
+iteration 2
+Communacating...
+Returning result..........
+
+iteration 3
+Communacating...
+0 0 1 1 0 
+0 1 0 1 0 0 1 0 0 1 
+1 1 0 1 1 0 0 0 0 0 
+1 1 0 0 0 1 0 0 0 0 
+1 1 0 0 1 0 0 0 0 0 
+1 1 0 0 0 0 1 0 1 0 
+1 1 0 0 1 1 0 1 0 0 
+0 0 0 0 0 0 0 1 0 1 
+1 1 0 0 1 1 0 1 0 1 
+0 0 0 0 0 0 1 1 1 1 
+
+
+iteration 2
+Communacating...
+Returning result..........
+
+
+Generation 3 result!!!!!!!!!!!!!!!:
+0 0 Returning result..........
+
+iteration 4
+Communacating...
+Returning result..........
+
+iteration 3
+Communacating...
+0 0 0 0 0 1 1 0 
+1 1 0 1 1 0 0 1 1 0 
+0 0 0 1 1 1 0 0 0 0 
+0 0 0 1 0 1 0 0 0 0 
+0 0 1 0 0 1 0 0 0 0 
+0 0 1 0 1 0 1 1 0 0 
+1 1 0 0 0 1 0 1 0 0 
+0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 1 0 0 0 1 
+0 0 0 0 0 1 1 1 0 1 
+
+
+iteration 3
+Communacating...
+Returning result..........
+
+iteration 4
+Communacating...
+Returning result..........
+
+
+Generation 4 result!!!!!!!!!!!!!!!:
+0 0 0 0 0 0 0 1 Returning result..........
+
+1 0 
+0 0 1 1 0 1 1 1 1 0 
+0 0 2) Execution time 0.002543
+0 0 0 1 1 0 0 0 
+0 0 1 1 0 1 1 0 0 0 
+0 0 1 0 0 1 0 0 0 0 
+0 0 1 1 1 0 0 1 0 0 
+0 1 0 0 0 1 0 1 1 0 
+0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 1 0 0 
+0 0 0 0 0 1 1 0 1 0 
+
+
+iteration 4
+Communacating...
+Returning result..........
+
+
+Returning result..........
+
+1) Execution time 0.002958
+Generation 5 result!!!!!!!!!!!!!!!:
+0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 1 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 0 0 
+0 1 0 0 0 1 0 0 0 0 
+0 1 1 1 1 1 0 1 1 0 
+0 0 1 1 1 0 1 1 1 0 
+0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 1 0 1 1 0 
+0 0 0 0 0 1 1 1 0 0 

@@ -1,0 +1,8 @@
+/home/hwww1116/parallel-computing/hw/hw1
+Mon Oct 19 15:39:17 CST 2020
+Processer number 2
+
+t = 10000
+n-byte, n = 8
+Execution time 0.014597
+Avg latency + (n / bandwith) = 0.0000007299

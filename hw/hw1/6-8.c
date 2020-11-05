@@ -13,7 +13,7 @@
 #include <assert.h>
 #include <stdio.h>
 
-#define datatype MPI_LONG_DOUBLE
+#define DATATYPE MPI_DOUBLE
 
 int main(int argc, char* argv[])
 {
@@ -37,26 +37,25 @@ int main(int argc, char* argv[])
     /* Start timer */
     elapsed_time = -MPI_Wtime();
 
-    int n = 1e2;
-    int tag = 0;
-    int sent;
-    int received;
+    int t = 1e2;
+    int DUMMY_TAG = 0;
+    double sent;
+    double received;
+    int size = sizeof(sent) / 4;
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < t; i++) {
         sent = i;
         if (id == 0) {
             int destId = 1;
-
-            MPI_Send(&sent, 1, datatype, destId, tag, MPI_COMM_WORLD);
-            MPI_Recv(&received, 1, datatype, destId, tag, MPI_COMM_WORLD, &status);
+            
+            MPI_Send(&sent, size, DATATYPE, destId, DUMMY_TAG, MPI_COMM_WORLD);
+            MPI_Recv(&received, size, DATATYPE, destId, DUMMY_TAG, MPI_COMM_WORLD, &status);
         }
         if (id == 1) {
             int sourceId = 0;
 
-            MPI_Recv(&received, 1, datatype, sourceId, tag, MPI_COMM_WORLD, &status);
-            // printf("Received %d\n", received);
-            // fflush(stdout);
-            MPI_Send(&received, 1, datatype, sourceId, tag, MPI_COMM_WORLD);
+            MPI_Recv(&received, size, DATATYPE, sourceId, DUMMY_TAG, MPI_COMM_WORLD, &status);
+            MPI_Send(&received, size, DATATYPE, sourceId, DUMMY_TAG, MPI_COMM_WORLD);
         }
     }
     /* Stop timer */
@@ -64,13 +63,13 @@ int main(int argc, char* argv[])
 
     // meta
     if (id == 0) {
-        printf("n = %d\n", n);
+        printf("t = %d\n", t);
         fflush(stdout);
-        printf("bandwith = %d\n", sizeof(sent));
+        printf("n-byte, n = %d\n", sizeof(sent));
         fflush(stdout);
         printf("Execution time %8.6f\n", elapsed_time);
         fflush(stdout);
-        printf("Avg latency + (n / bandwith) = %8.10f\n", elapsed_time / (2 * n));
+        printf("Avg latency + (n / bandwith) = %8.10f\n", elapsed_time / (2 * t));
         fflush(stdout);
     }
 

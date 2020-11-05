@@ -1,9 +1,9 @@
 /* This program uses Simpson's Rule to compute pi. */
 #include "mpi.h"
+#include <assert.h>
 #include <stdbool.h>
 #include <stdio.h>
 
-#define fff fflush(stdout)
 const int ROOT = 0;
 
 bool is_prime(int n)
@@ -33,11 +33,15 @@ int main(int argc, char* argv[])
         printf("Processer number %d\n\n", p);
         fflush(stdout);
     }
+    
+    assert(argc >= 2);
+
     /* Start timer */
     elapsed_time = -MPI_Wtime();
     // Start Here
 
-    int n = 1e6;
+    int n = atoi(argv[1]);
+    int d = atoi(argv[2]);
     int count = 0;
     int global_count = 0;
 
@@ -45,6 +49,12 @@ int main(int argc, char* argv[])
     int start_num = id * n / p + 1;
     int end_num = (id + 1) * n / p + 1;
     bool prenum_is_prime = is_prime(start_num - 2);
+
+    if (id == 0) {
+        printf("Boardcast n, d\n");
+        printf("n = %d, d = %d \n", n, d);
+        fflush(stdout);
+    }
 
     for (int num = start_num; num < end_num; num += 2) {
         bool num_is_prime = is_prime(num);
@@ -67,6 +77,7 @@ int main(int argc, char* argv[])
 
     printf("%d) count : %d\n", id, count);
     fflush(stdout);
+    
     // Print Result
     if (id == ROOT) {
         printf("answer : %d\n", global_count);
