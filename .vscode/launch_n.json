@@ -2,19 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "gdb",
+            "name": "Python: Current File",
+            "type": "python",
             "request": "launch",
-            "name": "Launch Program",
-            "target": "./bin/executable",
-            "cwd": "${workspaceRoot}",
-            "valuesFormatting": "parseText"
+            "program": "${file}",
+            "console": "integratedTerminal"
         },
-
         {
             "name": "(mpirun) Launch",
-            "type": "shell",
+            "type": "cppdbg",
             "request": "launch",
-            "program": "/usr/bin/mpirun",
+            "program": "/usr/mpi/intel/openmpi-2.1.2-hfi/bin/mpirun",
             "args": [
                 "-np",
                 "2",
@@ -27,13 +25,6 @@
             "environment": [],
             "externalConsole": false,
             "preLaunchTask": "mpicc build active file"
-        },
-        {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
         }
     ]
 }

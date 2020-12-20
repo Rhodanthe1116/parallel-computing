@@ -1,0 +1,10 @@
+{
+    "clangd.fallbackFlags": [
+        "-isystem /usr/lib/x86_64-linux-gnu/openmpi/include/",
+        "-include /usr/lib/x86_64-linux-gnu/openmpi/include/"
+    ],
+    "clangd.arguments": [
+        "-isystem /usr/lib/x86_64-linux-gnu/openmpi/include/",
+        "-include /usr/lib/x86_64-linux-gnu/openmpi/include/"
+    ]
+}
