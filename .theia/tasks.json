@@ -27,7 +27,7 @@
                 "${fileDirname}/${fileBasenameNoExtension}.out"
             ],
             "options": {
-                "cwd": "/usr/bin"
+                "cwd": "${fileDirname}"
             },
             "group": {
                 "kind": "build",

@@ -4,3 +4,7 @@ image:
 tasks:
   - init: 'echo "TODO: Replace with init/build command"'
     command: 'echo "TODO: Replace with command to start project"'
+vscode:
+  extensions:
+    - webfreak.debug@0.25.0:F9uLpAOde6r0l7rgMC8LTQ==
+    - mitaki28.vscode-clang@0.2.3:a5z3DnVxXl8LmAXswnYRtg==

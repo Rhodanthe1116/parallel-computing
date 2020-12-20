@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+        
         {
             "type": "gdb",
             "request": "launch",
@@ -12,19 +13,17 @@
 
         {
             "name": "(mpirun) Launch",
-            "type": "shell",
+            "type": "clangd",
             "request": "launch",
             "program": "/usr/bin/mpirun",
             "args": [
                 "-np",
                 "2",
                 "${fileDirname}/${fileBasenameNoExtension}.out",
-                "10",
-                "10"
+                "5",
+                "7"
             ],
-            "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
-            "environment": [],
             "externalConsole": false,
             "preLaunchTask": "mpicc build active file"
         },
