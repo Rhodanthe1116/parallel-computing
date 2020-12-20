@@ -4,7 +4,9 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/mpi/intel/openmpi-2.1.2-hfi/include"
+                "/usr/include",
+                "/usr/lib/x86_64-linux-gnu/openmpi/include/"
+
             ],
             "defines": [],
             "compilerPath": "/usr/mpi/intel/openmpi-2.1.2-hfi/bin/mpicc",
