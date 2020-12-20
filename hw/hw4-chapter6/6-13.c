@@ -10,10 +10,11 @@
 #define BLOCK_OWNER(index, p, n) (((p)*(index)+1)-1)/(n))
 #define fff fflush(stdout);
 
-const int MAX_HEIGHT = 100;
-const int MAX_WIDTH = 100;
 const int ROOT = 0;
-const int HANDLE_INPUT_TAG = 0;
+const int HANDLE_INPUT = 0;
+const int INT_COUNT = 1;
+const int DOUBLE_COUNT = 2;
+
 void assertm(bool ok, char msg[])
 {
     if (!ok) {
@@ -75,6 +76,7 @@ int cal_neighber(int i, int j, int n, int m, int** arr)
 int main(int argc, char* argv[])
 {
     double elapsed_time; /* Time to find, count solutions */
+    double max_elapsed_time = 0;
     int id; /* Process rank */
     int p; /* Number of processes */
     MPI_Status status;
@@ -89,15 +91,15 @@ int main(int argc, char* argv[])
         printf("Processer number: %d\n\n", p), fff;
     }
     /* Avoid TLE */
-    alarm(2);
+    // alarm(2);
 
     /* Start timer */
     elapsed_time = -MPI_Wtime();
 
     /* Start Here */
 
-    int a[MAX_HEIGHT][MAX_WIDTH]; /* Input array */
     int n, m; /* Dimension of array */
+    int** a; /* Input array */
     int iterations, print_per_gen;
     int partition_height;
 
@@ -106,11 +108,10 @@ int main(int argc, char* argv[])
     }
     iterations = atoi(argv[1]);
     print_per_gen = atoi(argv[2]);
-    
 
     if (id == ROOT) {
-        FILE* f = fopen("./life.txt", "r");
-        assertm(f != NULL, "{lease prepare ./life.txt\n");
+        FILE* f = fopen("./life_input.txt", "r");
+        assertm(f != NULL, "Please prepare ./life_input.txt\n");
 
         if (fscanf(f, "%d%d", &n, &m) != 2) {
             printf("Please input n, m (array dimension)\n");
@@ -118,6 +119,7 @@ int main(int argc, char* argv[])
         }
         printf("n = %d, m = %d\n", n, m);
 
+        a = alloc_2d_int(n, m);
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (fscanf(f, "%d", &a[i][j]) != 1) {
@@ -128,15 +130,15 @@ int main(int argc, char* argv[])
         }
         fclose(f);
 
-        printf("Oringinal array.\n"), fff;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                printf("%d ", a[i][j]);
-                fflush(stdout);
-            }
-            printf("\n");
-            fflush(stdout);
-        }
+        // printf("Oringinal array.\n"), fff;
+        // for (int i = 0; i < n; i++) {
+        //     for (int j = 0; j < m; j++) {
+        //         printf("%d ", a[i][j]);
+        //         fflush(stdout);
+        //     }
+        //     printf("\n");
+        //     fflush(stdout);
+        // }
     }
     /*
     if partition_height = 2
@@ -150,13 +152,12 @@ int main(int argc, char* argv[])
     ------
     */
 
-    int count = 1;
-    MPI_Bcast(&n, count, MPI_INT, ROOT, MPI_COMM_WORLD);
-    MPI_Bcast(&m, count, MPI_INT, ROOT, MPI_COMM_WORLD);
+    MPI_Bcast(&n, INT_COUNT, MPI_INT, ROOT, MPI_COMM_WORLD);
+    MPI_Bcast(&m, INT_COUNT, MPI_INT, ROOT, MPI_COMM_WORLD);
     partition_height = BLOCK_SIZE(id, p, n);
     /* Please give me local index... */
     int** partition = alloc_2d_int(partition_height, m);
-    printf("id %d: height = %d, m = %d\n", id, partition_height, m);
+    // printf("id %d: height = %d, m = %d\n", id, partition_height, m);
     if (id == ROOT) {
 
         for (int pi = 0; pi < p; pi++) {
@@ -176,17 +177,17 @@ int main(int argc, char* argv[])
             if (pi == ROOT) {
                 partition = others_partition;
             } else if (pi != ROOT) {
-                MPI_Send(&(others_partition[0][0]), others_height * m, MPI_INT, pi, HANDLE_INPUT_TAG, MPI_COMM_WORLD);
+                MPI_Send(&(others_partition[0][0]), others_height * m, MPI_INT, pi, HANDLE_INPUT, MPI_COMM_WORLD);
             }
-            printf("Sended to PID %d!\n", pi);
-            fflush(stdout);
+            // printf("Sended to PID %d!\n", pi);
+            // fflush(stdout);
         }
     }
     if (id != ROOT) {
-        MPI_Recv(&(partition[0][0]), partition_height * m, MPI_INT, ROOT, HANDLE_INPUT_TAG, MPI_COMM_WORLD, &status);
+        MPI_Recv(&(partition[0][0]), partition_height * m, MPI_INT, ROOT, HANDLE_INPUT, MPI_COMM_WORLD, &status);
     }
-    printf("PID %d received!\n", id);
-    fflush(stdout);
+    // printf("PID %d received!\n", id);
+    // fflush(stdout);
 
     // printf("Start computing.......\n\n");
 
@@ -285,22 +286,27 @@ int main(int argc, char* argv[])
         // printf("Returning result..........\n\n");
         fflush(stdout);
         const int RETURN = 2;
-        if (id != ROOT) {
-            MPI_Send(&(partition[0][0]), partition_height * m, MPI_INT, 0, RETURN, MPI_COMM_WORLD);
-        }
+        if ((iteration + 1) % print_per_gen == 0) {
+            if (id != ROOT) {
+                MPI_Send(&(partition[0][0]), partition_height * m, MPI_INT, 0,
+                    RETURN, MPI_COMM_WORLD);
+            }
 
-        if (id == ROOT) {
-            if (iteration % print_per_gen == 0) {
+            if (id == ROOT) {
                 printf("\nGeneration %d result!!!!!!!!!!!!!!!:\n", iteration + 1);
                 fflush(stdout);
+
                 for (int pi = 0; pi < p; pi++) {
                     int others_height = BLOCK_SIZE(pi, p, n);
                     int** others_partition = alloc_2d_int(others_height, m);
+
                     if (pi == ROOT) {
                         others_partition = partition;
                     } else if (pi != ROOT) {
-                        MPI_Recv(&(others_partition[0][0]), others_height * m, MPI_INT, pi, RETURN, MPI_COMM_WORLD, &status);
+                        MPI_Recv(&(others_partition[0][0]), others_height * m,
+                            MPI_INT, pi, RETURN, MPI_COMM_WORLD, &status);
                     }
+
                     for (int i = 0; i < others_height; i++) {
                         for (int j = 0; j < m; j++) {
                             printf("%d ", others_partition[i][j]);
@@ -310,9 +316,9 @@ int main(int argc, char* argv[])
                         fflush(stdout);
                     }
                 }
-                printf("\n\n");
-                fflush(stdout);
             }
+            printf("\n");
+            fflush(stdout);
         }
         // iteration ends.
     }
@@ -321,12 +327,31 @@ int main(int argc, char* argv[])
     /* Stop timer */
     elapsed_time += MPI_Wtime();
 
+    MPI_Reduce(&elapsed_time, &max_elapsed_time, DOUBLE_COUNT, MPI_DOUBLE, MPI_MAX, ROOT,
+        MPI_COMM_WORLD);
+
     MPI_Finalize();
+
+    // Print Result
+
+    // printf("id %d: Execution time %8.6f\n", id, elapsed_time);
+    // fflush(stdout);
 
     // Print Result
     if (id == ROOT) {
         printf("%d) Execution time %8.6f\n", id, elapsed_time);
         fflush(stdout);
+
+        printf("Process number: %d\t, Max time: %8.6f\n", p, max_elapsed_time);
+        fflush(stdout);
+
+        printf("------------------------------------------\n");
+        fflush(stdout);
+
+        FILE* fp = fopen("./time.txt", "a");
+        assertm(fp != NULL, "no time.txt\n");
+        fprintf(fp, "Process number: %d\t, Max time: %8.6f\n", p, max_elapsed_time);
+        fclose(fp);
     }
 
     return 0;

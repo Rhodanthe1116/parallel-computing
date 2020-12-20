@@ -1,0 +1,4 @@
+./6-13.c: In function ‘main’:
+./6-13.c:94:5: warning: implicit declaration of function ‘alarm’ [-Wimplicit-function-declaration]
+     alarm(2);
+     ^

@@ -1,0 +1,256 @@
+/home/hwww1116/parallel-computing/hw/hw4-chapter6
+Mon Nov 23 16:19:56 CST 2020
+Processer number: 1
+
+n = 10, m = 10
+Oringinal array.
+0 1 0 0 0 1 0 0 1 1 
+0 0 0 0 1 1 1 1 0 0 
+0 0 0 1 0 1 1 1 0 1 
+0 1 0 1 0 0 0 0 0 1 
+0 0 1 1 1 0 1 1 1 1 
+1 1 1 1 0 1 0 1 0 1 
+0 0 1 0 1 1 0 1 0 1 
+1 0 0 1 0 0 1 1 0 1 
+0 1 1 0 0 1 0 1 0 0 
+1 1 1 1 0 0 1 1 0 0 
+id 0: height = 10, m = 10
+Sended to PID 0!
+PID 0 received!
+
+Generation 5 result!!!!!!!!!!!!!!!:
+0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 0 0 1 0 0 0 
+0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+
+
+Generation 10 result!!!!!!!!!!!!!!!:
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+0 0 0 1 1 0 1 0 0 0 
+0 0 1 0 0 0 1 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+
+id 0: Execution time 0.000000
+0) Execution time 0.000000
+Process number: 1	, Max time: 0.000685
+------------------------------------------
+Processer number: 2
+
+n = 10, m = 10
+Oringinal array.
+0 1 0 0 0 1 0 0 1 1 
+0 0 0 0 1 1 1 1 0 0 
+0 0 0 1 0 1 1 1 0 1 
+0 1 0 1 0 0 0 0 0 1 
+0 0 1 1 1 0 1 1 1 1 
+1 1 1 1 0 1 0 1 0 1 
+0 0 1 0 1 1 0 1 0 1 
+1 0 0 1 0 0 1 1 0 1 
+0 1 1 0 0 1 0 1 0 0 
+1 1 1 1 0 0 1 1 0 0 
+id 0: height = 5, m = 10
+Sended to PID 0!
+id 1: height = 5, m = 10
+Sended to PID 1!
+PID 0 received!
+PID 1 received!
+
+Generation 5 result!!!!!!!!!!!!!!!:
+0 0 0 0 0 0 
+0 1 1 0 
+0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 0 0 1 0 0 0 
+0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+
+
+Generation 10 result!!!!!!!!!!!!!!!:
+0 0 0 0 0 0 
+0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+0 0 0 1 1 0 1 0 0 0 
+0 0 1 0 0 0 1 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+
+id 1: Execution time 0.000673
+id 0: Execution time 0.000000
+0) Execution time 0.000000
+Process number: 2	, Max time: 0.000732
+------------------------------------------
+Processer number: 4
+
+n = 10, m = 10
+Oringinal array.
+0 1 0 0 0 1 0 0 1 1 
+0 0 0 0 1 1 1 1 0 0 
+0 0 0 1 0 1 1 1 0 1 
+0 1 0 1 0 0 0 0 0 1 
+0 0 1 1 1 0 1 1 1 1 
+1 1 1 1 0 1 0 1 0 1 
+0 0 1 0 1 1 0 1 0 1 
+1 0 0 1 0 0 1 1 0 1 
+0 1 1 0 0 1 0 1 0 0 
+1 1 1 1 0 0 1 1 0 0 
+id 0: height = 2, m = 10
+Sended to PID 0!
+Sended to PID 1!
+Sended to PID 2!
+id 1: height = 3, m = 10
+PID 1 received!
+id 2: height = 2, m = 10
+PID 2 received!
+Sended to PID 3!
+PID 0 received!
+id 3: height = 3, m = 10
+PID 3 received!
+
+Generation 5 result!!!!!!!!!!!!!!!:
+0 0 0 0 0 0 0 1 1 
+
+
+0 
+0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 0 0 1 0 0 0 
+0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+
+
+Generation 10 result!!!!!!!!!!!!!!!:
+0 0 0 0 0 0 
+
+
+0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+0 0 0 1 1 0 1 0 0 0 
+0 0 1 0 0 0 1 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+
+id 0: Execution time 0.000000
+0) Execution time 0.000000
+Process number: 4	, Max time: 0.000770
+------------------------------------------
+id 1: Execution time 0.000707
+id 2: Execution time 0.000706
+id 3: Execution time 0.000706
+Processer number: 8
+
+n = 10, m = 10
+Oringinal array.
+0 1 0 0 0 1 0 0 1 1 
+0 0 0 0 1 1 1 1 0 0 
+0 0 0 1 0 1 1 1 0 1 
+0 1 0 1 0 0 0 0 0 1 
+0 0 1 1 1 0 1 1 1 1 
+1 1 1 1 0 1 0 1 0 1 
+0 0 1 0 1 1 0 1 0 1 
+1 0 0 1 0 0 1 1 0 1 
+0 1 1 0 0 1 0 1 0 0 
+1 1 1 1 0 0 1 1 0 0 
+id 0: height = 1, m = 10
+Sended to PID 0!
+Sended to PID 1!
+id 1: height = 1, m = 10
+PID 1 received!
+id 2: height = 1, m = 10
+PID 2 received!
+id 3: height = 2, m = 10
+PID 3 received!
+Sended to PID 2!
+Sended to PID 3!
+Sended to PID 4!
+Sended to PID 5!
+Sended to PID 6!
+Sended to PID 7!
+PID 0 received!
+id 4: height = 1, m = 10
+PID 4 received!
+id 5: height = 1, m = 10
+PID 5 received!
+id 6: height = 1, m = 10
+PID 6 received!
+id 7: height = 2, m = 10
+PID 7 received!
+
+Generation 5 result!!!!!!!!!!!!!!!:
+0 0 0 0 0 0 0 1 1 0 
+
+
+0 0 0 0 0 0 1 0 1 1 
+0 0 
+
+
+
+
+0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 1 0 0 0 0 
+
+
+0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 0 0 1 0 0 0 
+0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+
+
+Generation 10 result!!!!!!!!!!!!!!!:
+0 0 0 0 0 0 0 0 
+
+
+
+
+0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+0 0 0 1 1 0 1 0 0 0 
+0 0 1 0 0 0 1 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+
+id 4: Execution time 0.001155
+id 5: Execution time 0.001154
+id 7: Execution time 0.001101
+id 2: Execution time 0.001154
+id 0: Execution time 0.000000
+0) Execution time 0.000000
+Process number: 8	, Max time: 0.001213
+------------------------------------------
+id 3: Execution time 0.001155
+id 1: Execution time 0.001153
+id 6: Execution time 0.001102

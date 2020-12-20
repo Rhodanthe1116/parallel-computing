@@ -17,8 +17,8 @@
                 "-np",
                 "2",
                 "${fileDirname}/${fileBasenameNoExtension}.out",
-                "5",
-                "7"
+                "10",
+                "10"
             ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

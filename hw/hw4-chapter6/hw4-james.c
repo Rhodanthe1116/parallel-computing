@@ -40,7 +40,7 @@ int main(int argc, char* argv[])
 
     if (id == 0) {
         FILE* f;
-        if ((f = fopen("life.txt", "r")) == NULL)
+        if ((f = fopen("life_input.txt", "r")) == NULL)
             exit(1);
 
         if (fscanf(f, "%d%d", &m, &n) != 2)
@@ -192,7 +192,7 @@ int main(int argc, char* argv[])
             }
             MPI_Send(&(partition[0][0]), partitionWidth * n, MPI_INT, 0, 2, MPI_COMM_WORLD);
         } else {
-            if (gen % printPerGen == 0) {
+            if ((gen+1) % printPerGen == 0) {
                 if (id == 0) {
                     printf("\nGeneration %d result:\n", gen + 1);
                     fflush(stdout);

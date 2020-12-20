@@ -1,0 +1,52 @@
+
+Process number: 1	, Max time: 0.055137
+Process number: 2	, Max time: 0.064864
+Process number: 4	, Max time: 0.048379
+Process number: 8	, Max time: 0.111434
+Process number: 16	, Max time: 0.112121
+Process number: 32	, Max time: 0.080746
+Process number: 64	, Max time: 0.136895
+Process number: 128	, Max time: 0.197377
+Process number: 1	, Max time: 0.891225
+Process number: 2	, Max time: 0.772453
+Process number: 4	, Max time: 0.596278
+Process number: 8	, Max time: 1.123880
+Process number: 16	, Max time: 1.093888
+Process number: 32	, Max time: 1.033112
+Process number: 64	, Max time: 1.673827
+Process number: 1	, Max time: 0.473298
+Process number: 2	, Max time: 0.363510
+Process number: 4	, Max time: 0.348843
+Process number: 8	, Max time: 0.293238
+Process number: 16	, Max time: 0.474534
+Process number: 32	, Max time: 0.688885
+Process number: 64	, Max time: 0.789463
+Process number: 128	, Max time: 1.275097
+
+
+Process number: 1	, Max time: 0.022765
+Process number: 2	, Max time: 0.017946
+Process number: 4	, Max time: 0.016216
+Process number: 8	, Max time: 0.014980
+Process number: 16	, Max time: 0.025354
+Process number: 32	, Max time: 0.022060
+Process number: 64	, Max time: 0.027259
+
+// 6-13.100x100wo
+Process number: 1	, Max time: 0.013094
+Process number: 2	, Max time: 0.011344
+Process number: 4	, Max time: 0.008394
+Process number: 8	, Max time: 0.009076
+Process number: 16	, Max time: 0.007998
+Process number: 32	, Max time: 0.021480
+Process number: 64	, Max time: 0.064555
+
+// 500x500i3
+Process number: 1	, Max time: 0.609148
+Process number: 2	, Max time: 0.373604
+Process number: 4	, Max time: 0.534184
+Process number: 8	, Max time: 0.537124
+Process number: 16	, Max time: 0.478920
+Process number: 32	, Max time: 0.313211
+Process number: 64	, Max time: 0.592594
+Process number: 128	, Max time: 0.694450
