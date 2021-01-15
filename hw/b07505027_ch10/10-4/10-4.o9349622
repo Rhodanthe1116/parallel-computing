@@ -1,0 +1,50 @@
+/home/hwww1116/parallel-computing/hw/b07505027_ch10/10-4
+n^3:                100^3 = 1000000      
+remain volumn:      7.154992      
+original volumn:    8.000000      
+remain / original:  894374 / 1000000 = 0.89437
+
+Process number: 1	 Max time: 0.138480
+------------------------------------------
+n^3:                100^3 = 1000000      
+remain volumn:      7.153808      
+original volumn:    8.000000      
+remain / original:  894226 / 1000000 = 0.89423
+
+Process number: 2	 Max time: 0.069388
+------------------------------------------
+n^3:                100^3 = 1000000      
+remain volumn:      7.150400      
+original volumn:    8.000000      
+remain / original:  893800 / 1000000 = 0.89380
+
+Process number: 4	 Max time: 0.056418
+------------------------------------------
+n^3:                100^3 = 1000000      
+remain volumn:      7.154944      
+original volumn:    8.000000      
+remain / original:  894368 / 1000000 = 0.89437
+
+Process number: 8	 Max time: 0.025463
+------------------------------------------
+n^3:                100^3 = 1000000      
+remain volumn:      7.159552      
+original volumn:    8.000000      
+remain / original:  894944 / 1000000 = 0.89494
+
+Process number: 16	 Max time: 0.020974
+------------------------------------------
+n^3:                100^3 = 1000000      
+remain volumn:      7.166208      
+original volumn:    8.000000      
+remain / original:  895776 / 1000000 = 0.89578
+
+Process number: 32	 Max time: 0.016998
+------------------------------------------
+n^3:                100^3 = 1000000      
+remain volumn:      7.156736      
+original volumn:    8.000000      
+remain / original:  894592 / 1000000 = 0.89459
+
+Process number: 64	 Max time: 0.015276
+------------------------------------------

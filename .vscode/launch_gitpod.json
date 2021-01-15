@@ -1,0 +1,39 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "launch",
+            "name": "Launch Program",
+            "target": "./bin/executable",
+            "cwd": "${workspaceRoot}",
+            "valuesFormatting": "parseText"
+        },
+
+        {
+            "name": "(mpirun) Launch",
+            "type": "shell",
+            "request": "launch",
+            "program": "/usr/bin/mpirun",
+            "args": [
+                "-np",
+                "2",
+                "${fileDirname}/${fileBasenameNoExtension}.out",
+                "10",
+                "10"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "preLaunchTask": "mpicc build active file"
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

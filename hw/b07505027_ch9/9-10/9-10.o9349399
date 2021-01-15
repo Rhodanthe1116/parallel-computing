@@ -1,0 +1,77 @@
+/home/hwww1116/parallel-computing/hw/b07505027_ch9/9-10
+Verified n range: 1 ~ 0
+0) Execution time 0.000007
+Process number: 1	, Max time: 0.000007
+------------------------------------------
+n = 2, the 1 perfect number is: 6
+n = 3, the 2 perfect number is: 28
+n = 5, the 3 perfect number is: 496
+n = 7, the 4 perfect number is: 8128
+n = 13, the 5 perfect number is: 33550336
+n = 17, the 6 perfect number is: 8589869056
+n = 19, the 7 perfect number is: 137438691328
+n = 31, the 8 perfect number is: 2305843008139952128
+Verified n range: 1 ~ 32
+0) Execution time 0.001197
+Process number: 2	, Max time: 0.001197
+------------------------------------------
+n = 2, the 1 perfect number is: 6
+n = 3, the 2 perfect number is: 28
+n = 5, the 3 perfect number is: 496
+n = 7, the 4 perfect number is: 8128
+n = 13, the 5 perfect number is: 33550336
+n = 17, the 6 perfect number is: 8589869056
+n = 19, the 7 perfect number is: 137438691328
+n = 31, the 8 perfect number is: 2305843008139952128
+Verified n range: 1 ~ 486
+0) Execution time 0.000677
+Process number: 4	, Max time: 0.000677
+------------------------------------------
+n = 2, the 1 perfect number is: 6
+n = 3, the 2 perfect number is: 28
+n = 5, the 3 perfect number is: 496
+n = 7, the 4 perfect number is: 8128
+n = 13, the 5 perfect number is: 33550336
+n = 17, the 6 perfect number is: 8589869056
+n = 19, the 7 perfect number is: 137438691328
+n = 31, the 8 perfect number is: 2305843008139952128
+Verified n range: 1 ~ 682
+0) Execution time 0.000668
+Process number: 8	, Max time: 0.000668
+------------------------------------------
+n = 2, the 1 perfect number is: 6
+n = 3, the 2 perfect number is: 28
+n = 17, the 3 perfect number is: 8589869056
+n = 13, the 4 perfect number is: 33550336
+n = 19, the 5 perfect number is: 137438691328
+n = 7, the 6 perfect number is: 8128
+n = 5, the 7 perfect number is: 496
+n = 31, the 8 perfect number is: 2305843008139952128
+Verified n range: 1 ~ 1038
+0) Execution time 0.000836
+Process number: 16	, Max time: 0.000836
+------------------------------------------
+n = 2, the 1 perfect number is: 6
+n = 3, the 2 perfect number is: 28
+n = 5, the 3 perfect number is: 496
+n = 13, the 4 perfect number is: 33550336
+n = 17, the 5 perfect number is: 8589869056
+n = 7, the 6 perfect number is: 8128
+n = 19, the 7 perfect number is: 137438691328
+n = 31, the 8 perfect number is: 2305843008139952128
+Verified n range: 1 ~ 1360
+0) Execution time 0.000714
+Process number: 32	, Max time: 0.000714
+------------------------------------------
+n = 2, the 1 perfect number is: 6
+n = 7, the 2 perfect number is: 8128
+n = 13, the 3 perfect number is: 33550336
+n = 3, the 4 perfect number is: 28
+n = 17, the 5 perfect number is: 8589869056
+n = 5, the 6 perfect number is: 496
+n = 19, the 7 perfect number is: 137438691328
+n = 31, the 8 perfect number is: 2305843008139952128
+Verified n range: 1 ~ 2364705
+0) Execution time 2.850854
+Process number: 64	, Max time: 2.850854
+------------------------------------------

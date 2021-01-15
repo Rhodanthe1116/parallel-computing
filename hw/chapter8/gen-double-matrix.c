@@ -16,7 +16,7 @@ main (int argc, char * argv[]) {
       for (j = 0; j < n; j++) 
          *(ptr++) = (double) i * (double) j / ((double) n * (double) n);
    }
-   foutptr = fopen (argv[2], "w+");
+   foutptr = fopen (argv[2], "w");
    fwrite (&n, sizeof(int), 1, foutptr);
    fwrite (&n, sizeof(int), 1, foutptr);
    fwrite (a, sizeof(double), n*n, foutptr);

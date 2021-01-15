@@ -1,0 +1,15 @@
+In file included from ./8-10.c:27:0:
+././MyMPI.c: In function ‘read_checkerboard_matrix’:
+././MyMPI.c:287:19: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+                   memcpy (laddr, raddr,
+                   ^
+././MyMPI.c:287:19: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+././MyMPI.c: In function ‘print_checkerboard_matrix’:
+././MyMPI.c:691:19: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+                   memcpy (laddr, a[j], els * datum_size);
+                   ^
+./8-10.c: In function ‘main’:
+./8-10.c:110:5: warning: implicit declaration of function ‘alarm’ [-Wimplicit-function-declaration]
+     alarm(4);
+     ^
+/var/spool/pbs/mom_priv/jobs/9324755.srvc1.SC: line 20: 230554 Segmentation fault      ./gen-double-matrix.out $N A

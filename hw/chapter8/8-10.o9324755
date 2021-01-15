@@ -1,0 +1,77 @@
+/home/hwww1116/parallel-computing/hw/chapter8
+Mon Jan 11 20:52:02 CST 2021
+argv[0] is './gen-vector.out'
+argv[1] is '100000'
+argv[2] is 'b'
+Program started.
+===== args =====
+Processer number: 1
+matrix A path: A
+vector b path: b
+===== args =====
+m = 10000
+n = 10000
+MV5) N = 10000, Processes = 1, Time =     0.412639 sec, Mflop = 484.69
+Program started.
+===== args =====
+Processer number: 2
+matrix A path: A
+vector b path: b
+===== args =====
+m = 10000
+n = 10000
+MV5) N = 10000, Processes = 2, Time =     0.206933 sec, Mflop = 966.50
+Program started.
+===== args =====
+Processer number: 4
+matrix A path: A
+vector b path: b
+===== args =====
+m = 10000
+n = 10000
+MV5) N = 10000, Processes = 4, Time =     0.103620 sec, Mflop = 1930.13
+Program started.
+===== args =====
+Processer number: 8
+matrix A path: A
+vector b path: b
+===== args =====
+m = 10000
+n = 10000
+MV5) N = 10000, Processes = 8, Time =     0.052082 sec, Mflop = 3840.09
+Program started.
+===== args =====
+Processer number: 16
+matrix A path: A
+vector b path: b
+===== args =====
+m = 10000
+n = 10000
+MV5) N = 10000, Processes = 16, Time =     0.026257 sec, Mflop = 7617.01
+Program started.
+===== args =====
+Processer number: 32
+matrix A path: A
+vector b path: b
+===== args =====
+m = 10000
+n = 10000
+MV5) N = 10000, Processes = 32, Time =     0.013516 sec, Mflop = 14797.33
+Program started.
+===== args =====
+Processer number: 64
+matrix A path: A
+vector b path: b
+===== args =====
+m = 10000
+n = 10000
+MV5) N = 10000, Processes = 64, Time =     0.014465 sec, Mflop = 13826.39
+Program started.
+===== args =====
+Processer number: 128
+matrix A path: A
+vector b path: b
+===== args =====
+m = 10000
+n = 10000
+MV5) N = 10000, Processes = 128, Time =     0.015848 sec, Mflop = 12619.76
